@@ -1,0 +1,100 @@
+.HomeVideoSection {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.homeVideoContainer {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    /* background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, #000000e6 0%, #0000007c 40%, #00000067 60%, rgba(0, 0, 0, 1) 100%); */
+}
+
+.spanTxt {
+    color: #B0FBC5;
+    font-size: 14px;
+}
+
+.homeVideoContainer p {
+    font-size: 14px;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.homeVideoContainer h1 {
+    padding: 2rem 0;
+    border-top: 1px solid #c3c3c373;
+    border-bottom: 1px solid #c3c3c373;
+    font-size: 2rem;
+    color: #ffff;
+    font-weight: 400;
+}
+
+.HomeBannerForm {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.enquire,
+.enquire:hover,
+.enquire:focus-visible,
+.enquire:focus,
+.enquire:visited,
+.enquire:active {
+    margin-top: 1.9rem;
+    background-color: #B0FBC5;
+    color: #282828;
+    border-radius: 0;
+    font-family: 'BEBAS NEUE';
+    padding: 0 1.4rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.04rem;
+}
+
+.backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.animeTxt {
+    -webkit-font-smoothing: antialiased;
+}
+
+.animatedTxt {
+    display: inline-block;
+    margin: 0 8px;
+    width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .homeVideoContainer h1 {
+        padding: 1rem 0;
+        border-top: 1px solid #EEEEEECC;
+        border-bottom: 1px solid #EEEEEECC;
+        font-size: 1.5rem;
+        color: #ffff;
+        font-weight: 500;
+    }
+
+    .homeVideoContainer{
+        display: flex;
+    }
+
+    .animatedTxt {
+        margin: 0 5px;
+    }
+}

@@ -1,0 +1,228 @@
+.location_content {
+  width: 55%;
+}
+
+.location_title {
+  color: #282828;
+  font-family: Amatic SC;
+  font-size: 2.5em;
+  width: 80%;
+  position: relative;
+  font-weight: 700;
+}
+
+.location_title::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 36%;
+  height: 1px;
+  background-color: #e7e7e7;
+}
+
+.location_desc {
+  padding-top: 2em;
+  width: 80%;
+  margin-bottom: 2em;
+  font-size: 13.5px;
+}
+
+
+.location_item {
+  color: #222;
+  font-family: "Formular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5em;
+  border: 1px solid #d8d8d8;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+
+.location_item.active {
+  color: #fff;
+  background: #252423;
+}
+
+.location_item>img {
+  margin-right: 0.5em;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.location_item span {
+  line-height: 13px;
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.location_map {
+  width: 45%;
+  z-index: 3;
+  padding-right: 2em;
+  /* box-shadow: 0px 4px 4px 0px #00000040; */
+}
+
+.location_lists_overall_container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.location_lists {
+  display: flex;
+  width: max-content;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.location_list_item {
+  font-size: 13.5px;
+  margin-bottom: 10px;
+}
+
+.location_lists::-webkit-scrollbar {
+  display: none;
+}
+
+.location_item_lists {
+  display: block;
+}
+
+.mob_location_item_lists {
+  display: none;
+}
+
+.aside {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 200px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  bottom: 0;
+}
+
+.aside_title {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: Helvetica;
+  font-size: 7.5rem;
+  color: #ebebeb;
+  font-weight: 700;
+  padding: 0.25em 0em;
+}
+
+.CenterLocationIcon {
+  width: 60px;
+}
+
+.locationMapCntr {
+  height: 100%;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.location_address h4 {
+
+  font-family: Amatic SC;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.location_address p {
+  width: 19%;
+  line-height: 30px;
+}
+
+/* .blinkingImage {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+} */
+@media screen and (max-width: 425px) {
+  .location_content {
+    width: 100%;
+  }
+
+  .location_desc {
+    width: 100%;
+    z-index: 3;
+    position: relative;
+  }
+
+  .location_lists {
+    display: flex;
+    overflow: scroll;
+    gap: 10px;
+    width: 100%;
+    z-index: 3;
+    position: relative;
+  }
+
+  .location_lists::-webkit-scrollbar {
+    display: none;
+  }
+
+  .location_item_lists {
+    display: none;
+  }
+
+  .mob_location_item_lists {
+    display: flex;
+    padding: 1.5em 1em;
+    flex-direction: column;
+    gap: 0.5em;
+    background: #fff;
+  }
+
+  .mob_location_item_lists>.location_list_item::before {
+    content: url("/assets/icons/SmallRightArrow.svg");
+    margin-right: 0.5em;
+  }
+
+  .location_item {
+    background-color: #fff;
+  }
+
+  .location_map {
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.5em;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .location_title::after {
+    width: 100%;
+  }
+
+  .aside_title {
+    display: none;
+  }
+
+  .location_item {
+    margin-right: 0;
+  }
+
+  .locationMapCntr {
+    height: 25rem;
+  }
+
+  .location_address p {
+    width: 85%;
+    line-height: 30px;
+  }
+}

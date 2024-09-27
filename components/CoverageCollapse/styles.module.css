@@ -1,0 +1,70 @@
+.accordian_header {
+  font-family: "Bebas Neue";
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+.accordian_spanBox {
+  font-family: "Formular";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 10px;
+}
+.accordian_category {
+  font-family: "Avenir-medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #191717;
+  margin-bottom: 0px;
+}
+.accordian_content {
+  font-family: "Formular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  margin-bottom: 0px;
+}
+.explore_button {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #222222;
+  padding: 0px 10px;
+  font-family: "Bebas Neue";
+}
+
+@media only screen and (max-width: 600px) {
+  .accordian_header {
+    font-size: 24px;
+    display: flex;
+    align-items: end;
+  }
+  .accordian_spanBox {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+  .accordian_content {
+    font-family: "Formular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    margin-bottom: 0px;
+  }
+}

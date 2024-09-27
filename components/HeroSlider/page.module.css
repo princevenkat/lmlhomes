@@ -1,0 +1,164 @@
+.BannerContentHolder{
+    position: absolute;
+    bottom: 1.5vh;
+    left: 70px;
+    width: 100%;
+    z-index: 99;
+    height: 100%;
+}
+
+.BannerContent1 {
+    padding-bottom: 3rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.BannerContent1 hr {
+    color: #fff;
+    background-color: #fff;
+    width: 58vw;
+    height: 1px;
+}
+
+.BannerContent1 a {
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.BannerContent1 a:hover {
+    border: 1px solid #fff;
+}
+
+.BannerContent1 p{
+    color: #fff;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.hero::before{
+    content: '';
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 11.3rem;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+/* .hero::after{
+    content: '';
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15.3rem;
+    z-index: 1;
+    transform: rotate(180deg);
+    pointer-events: none;
+} */
+
+
+.hero img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.thumbnailSlider{
+    position: absolute;
+    bottom: 10.4vh;
+    right: 70px;
+    width: fit-content;
+    z-index: 2;
+    text-align: right;
+    max-width: 11rem;
+}
+
+
+.enquire,
+.enquire:hover,
+.enquire:focus-visible,
+.enquire:focus,
+.enquire:visited,
+.enquire:active
+{
+    margin-top: 1.9rem;
+    background-color: #B0FBC5;
+    color: #282828;
+    border-radius: 0;
+    font-family: 'BEBAS NEUE';
+    padding: 0 1.4rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.04rem;
+}
+
+.HomeBannerForm{
+    position: relative;
+}
+
+
+.contentContainer{
+    position: relative;
+}
+
+.contentContainer::after{
+    content: '';
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15.3rem;
+    z-index: 1;
+    transform: rotate(180deg);
+    pointer-events: none;
+}
+
+/* new  */
+.hero1{
+    background-image: url('/assets/images/banners/Iconia.jpg');
+    height: inherit;
+}
+.hero2{
+    background-image: url('/assets/images/banners/home-banner.png');
+    height: inherit;
+}
+
+.mainhero{
+    background-image: url('/assets/images/banners/Iconia.jpg');
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .BannerContentHolder{
+        bottom: 0;
+        left: 0;
+    }
+
+    .BannerContent1 {
+        padding: 3rem 1rem;
+    }
+
+    .thumbnailSlider{
+        position: relative;
+        bottom: 10.4vh;
+        right: 70px;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        text-align: right;
+        max-width: 11rem;
+    }
+
+}

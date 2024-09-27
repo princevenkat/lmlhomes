@@ -1,0 +1,145 @@
+/* .projectBox:hover .projectCol {
+    box-shadow: 0px 1.2144821882247925px 12.144822120666504px 8.501375198364258px rgba(186, 186, 186, 0.25);
+} */
+
+.projectImage img {
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.projectContent {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 1rem 1.2rem;
+
+}
+
+.projectContent h3 {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    color: #008088;
+    margin-bottom: 0;
+}
+
+.projectContent h4 {
+    color: #008088;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.projectContent p,
+.projectContent span {
+    color: #B5B5B5;
+}
+
+.projectContent p {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectContent span {
+    font-size: .8rem;
+}
+
+.projectLocation {
+    border-top: 1px solid #E8E8E8;
+    padding: 1rem 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.projectLocation p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+.projectLocation svg {
+    color: #D7D7D7;
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
+
+
+.projectCol {
+    border-right: 1.214px solid #E8E8E8;
+    border-bottom: 1.214px solid #E8E8E8;
+    border-left: 1.214px solid #E8E8E8;
+    background: #FFF;
+    transition: all .3s ease-in-out;
+}
+
+/* .projectCol:hover {
+    cursor: pointer;
+    box-shadow: 0px 1.2144821882247925px 12.144822120666504px 8.501375198364258px rgba(186, 186, 186, 0.25);
+} */
+
+.projectBox {
+    margin: 2rem 0rem;
+    /* cursor: pointer; */
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.projectImage {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .projectBox:hover .projectImage::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: contain;
+    background-image: linear-gradient(180deg, rgba(0, 128, 136, 0.00) 0%, #008088 100%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+} */
+
+.projectImage {
+    position: relative;
+}
+
+.cardOverlay {
+    background-image: linear-gradient(180deg, rgba(0, 128, 136, 0.00) 0%, #008088 100%);
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .5s ease;
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.cardOverlay span {
+    color: #FFF;
+    font-size: 13px;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.projectBox:hover .cardOverlay {
+    height: 100%;
+    opacity: 1;
+}
+
+.projectEyeIcon {
+    width: 20px !important;
+    height: 10px !important;
+    object-fit: contain;
+}

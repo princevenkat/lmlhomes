@@ -1,0 +1,282 @@
+.hero {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(/assets/images/banners/joint-ventures.jpg);
+    height: calc(100vh - 86px);
+    width: 100%;
+    display: flex;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h2 {
+    color: #fff;
+}
+
+.firstSection {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.firstSection::after {
+    content: 'JOINT VENTURES';
+    position: absolute;
+    right: -13rem;
+    bottom: 0;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 160px;
+    color: #f8f8f8;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 8rem;
+    letter-spacing: 6px;
+}
+
+.heading1 {
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.heading2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.h2 {
+    letter-spacing: 0.4rem;
+    margin-bottom: 0;
+    font-size: 2.2rem;
+    padding-bottom: 5vh;
+}
+
+.jointIcoRow {
+    display: flex;
+    align-items: self-start;
+    margin: 3rem 0;
+}
+
+.jointIconBox {
+    text-align: left;
+    margin-right: 3rem;
+}
+
+.jointIconBox img {
+    height: 40px;
+    object-fit: contain;
+}
+
+.listSection ul {
+    padding-left: 1rem;
+}
+
+.listSection li {
+    font-size: var(--fs14);
+    list-style: disc;
+}
+
+.formHeading {
+    font-size: 18px;
+    font-weight: 500;
+    width: fit-content;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 3rem;
+}
+
+.formContainer {
+    border: 0.5px solid #E3E3E3;
+    padding: 0 2rem;
+    margin-left: 6rem;
+    margin-right: 2rem;
+}
+
+.formContainer form {
+    padding: 2rem 0 2rem;
+}
+
+.inputDiv input {
+    padding: 5px 10px;
+    border: 0.5px solid #ECECEC;
+    background: #FAFAFA;
+    border-radius: 0;
+    width: 100%;
+}
+
+.inputDiv input::placeholder {
+    color: #C3C3C3;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.inputDiv input:focus-visible {
+    outline: unset;
+}
+
+.formContainer label {
+    font-size: var(--fs12);
+    color: #2CA44E;
+    font-weight: 600;
+}
+
+.submitBtn input {
+    padding: 6px 25px;
+    border: 0;
+    background-color: #2CA44E;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.carouselSection {
+    background: #F9F9F9;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.carouselSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.carouselImgContainer {
+    margin-left: 4rem;
+}
+
+.section3 {
+    padding: 3rem 0;
+}
+
+.VenturesBnrCntr {
+    margin-left: 5rem;
+}
+
+.VenturesBnrCntr img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ventureClientImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 1rem 0;
+    border-radius: 4rem;
+}
+
+.section3 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: fit-content;
+}
+
+.section3 h4::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    left: -1rem;
+    top: 0;
+    /* background-image: url(/assets/icons/qoute-start.png); */
+    background-repeat: no-repeat;
+    background-size: 10px;
+}
+
+.section3 h4::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    right: 2rem;
+    top: 0;
+    /* background-image: url(/assets/icons/qoute-end.png); */
+    background-repeat: no-repeat;
+    background-size: 10px;
+}
+
+.swiper {
+    padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        background-image: url(/assets/images/banners/channel-partners.jpg);
+        height: calc(100vh - 86px);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .heading1 {
+        font-size: 24px;
+        font-weight: 500;
+        width: 50%;
+    }
+
+    .firstSection p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 16px;
+    }
+
+    .firstSection::after {
+        content: unset;
+    }
+
+    .listSection ul {
+        padding-right: 1rem;
+    }
+
+    .listSection li {
+        font-size: 16px;
+    }
+
+    .heading2 {
+        font-size: 24px;
+        font-weight: 500;
+        margin-right: 1rem;
+    }
+
+    .formHeading {
+        font-size: 24px;
+        font-family: 'Formular';
+        font-weight: 500;
+        width: fit-content;
+        margin-left: 1rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        line-height: 31.17px;
+    }
+
+    .formContainer {
+        border: 0.5px solid #E3E3E3;
+        padding: 0 1rem;
+        margin: 0;
+    }
+
+    .jointIcoRow {
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+
+    .jointIconBox {
+        margin-right: 0;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        width: 50%;
+    }
+
+    .firstSection p {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+}

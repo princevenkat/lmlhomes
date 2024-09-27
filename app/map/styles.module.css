@@ -1,0 +1,111 @@
+.pageColor {
+  background: #f6faf3;
+  padding: 2rem 0px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.activeTabBigText {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  display: block;
+  opacity: 0.5;
+}
+.tabs {
+  display: inline-flex;
+  align-items: center;
+  height: 35px;
+  border-radius: 6px;
+  background: #d7ee9c;
+}
+
+.activeTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 6px;
+  background: #434343;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+.inActiveTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #9eb85d;
+}
+.activeTabBigText {
+  font-family: "Bebas Neue";
+  font-size: 90px;
+  color: #d5e1b5;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.pageTitle {
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0.14em;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-bottom: 10px;
+}
+.map_box {
+  height: 35vw;
+  border-radius: 20px;
+  border: 4px solid #d5e1b5;
+}
+
+.maps {
+  height: 100%;
+  border-radius: 17px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .activeTabBigText {
+    top: 0;
+    left: 20px;
+    right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .activeTab {
+    font-size: 10px;
+  }
+  .inActiveTab {
+    font-size: 10px;
+  }
+  .map_box {
+    margin: 20px 0px;
+    height: 100vw;
+    border-radius: 20px;
+    border: 0px;
+  }
+  .maps {
+    border-radius: 0px;
+  }
+  .pageTitle {
+    margin-top: 4em;
+  }
+  .tabs {
+    display: flex;
+  }
+}

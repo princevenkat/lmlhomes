@@ -1,0 +1,32 @@
+.image {
+  /* width: 500px;
+  height: 500px; */
+  /* scale: 0.5; */
+}
+
+.wrap {
+  position: relative;
+}
+
+.mapTable .tableHeading {
+  background-color: rgb(255, 255, 255);
+}
+
+.mapTable th {
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  font-size: 15px;
+  background-color: #292929;
+  color: #fff;
+}
+
+.mapTable td {
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  font-size: 15px;
+}
+
+.mapImg {
+  width: 100%;
+  height: auto;
+}

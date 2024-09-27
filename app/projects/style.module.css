@@ -1,0 +1,102 @@
+.activeTabBigText {
+  font-family: "Bebas Neue";
+  text-transform: uppercase;
+  font-size: 5rem;
+  line-height: 8rem;
+  color: #acacac30;
+  font-weight: 500;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 8rem;
+  right: 0rem;
+  display: block;
+  opacity: 0.5;
+}
+
+.pageTitle {
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0.14em;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.tabs {
+  display: inline-flex;
+  align-items: center;
+  /* height: 30px; */
+  border-radius: 6px;
+  background: #d7ee9c;
+  position: relative;
+}
+
+.activeTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 6px;
+  background: #434343;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.inActiveTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  color: #9eb85d;
+}
+
+.completedBgColor {
+  background-color: #f6faf3;
+}
+
+.completedBgColor .activeTabBigText {
+  color: #d5e1b5;
+}
+
+@media only screen and (max-width: 600px) {
+  .activeTabBigText {
+    display: none;
+  }
+
+  .tabs {
+    display: block;
+    background-color: unset;
+    /* margin-bottom: 3rem; */
+  }
+
+  .inActiveTab {
+    background: #d7ee9c;
+    width: 190px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    color: #222;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .activeTab,
+  .inActiveTab {
+    margin: 0.8rem 0;
+  }
+}

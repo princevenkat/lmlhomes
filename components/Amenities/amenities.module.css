@@ -1,0 +1,97 @@
+.amenities_content {
+  padding: 4em 0em;
+  min-height: 80vh;
+  padding-bottom: 3em;
+  background-color: #fff;
+}
+
+.amenities_title {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #222;
+  font-family: Formular;
+  font-size: 16px;
+  padding: 0.5em 3.5em;
+}
+
+.amenities_desc {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 4em;
+  color: #222;
+  font-family: Formular;
+  margin-bottom: 2em;
+  font-size: 13.5px;
+}
+
+.amenities_desc p {
+  margin-bottom: 0;
+  width: 50%;
+}
+
+.navigators,
+.mob_navigators {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mob_navigators {
+  display: none;
+}
+
+.navigators_link>img {
+  width: 35px;
+}
+
+.amenities_box {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.amenities_box img {
+  width: 100%;
+}
+
+.overlay_layer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%);
+}
+
+.overlay_content {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  z-index: 100;
+  color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .amenities_title {
+    padding: 0.5em 1.5em;
+  }
+
+  .amenities_desc {
+    padding: 0.5em 2em;
+  }
+
+  .amenities_desc p {
+    width: 100%;
+  }
+
+  .navigators {
+    display: none;
+  }
+
+  .mob_navigators {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5em 0.5em;
+  }
+
+
+}

@@ -1,0 +1,87 @@
+.marker {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  
+  .locationCard {
+    height: auto;
+    width: 100px;
+    background: white;
+    position: absolute;
+    transform: translate(23%, -95%);
+    border-radius: 10px;
+    padding: 4px 0;
+  }
+  
+  .location_image_box {
+    width: 100%;
+    height: 63px;
+    /* border-radius: 10px 10px 0px 0px; */
+  }
+  
+  .location_image_box_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 7px 0px 0px;
+    /* // object-fit: contain; */
+  }
+  .card_location_name {
+    font-family: "Bebas Neue";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 1.5px;
+  }
+  .card_location {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    margin-bottom: 0px;
+    text-align: left;
+    color: black;
+  }
+  .cardButton {
+    border: 0.5px solid #222222b2;
+    width: 80px;
+    border-radius: 5px;
+    background: transparent;
+    font-weight: 400;
+    font-family: "Formular";
+    height: 25px;
+    text-align: left;
+    padding-left: 5px;
+  }
+  .locationCardPdng{
+    padding-top: 4px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .locationCard {
+      height: auto;
+      width: auto;
+    }
+  
+    .card_location_name {
+      font-size: 13px;
+    }
+    .card_location {
+      /* // font-family: Bebas Neue; */
+      font-size: 10px;
+    }
+    .cardButton {
+      border: 0.5px solid #222222b2;
+      width: 80px;
+      border-radius: 5px;
+      background: transparent;
+      font-weight: 500;
+      height: 30px;
+    }
+  }
+  
