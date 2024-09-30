@@ -4,7 +4,7 @@ import Head from 'next/head'; // Import Head from Next.js
 export default function ArshiyaSeo() {
     return (
         <div>
-            <Head> {/* Using Next.js Head component */}
+            <Head> 
                 <meta charSet="utf-8" />
                 <title>Best Apartments in Chennai | Luxury Apartments | 2,3,4 BHK Flat for Sale in Kattupakkam</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />

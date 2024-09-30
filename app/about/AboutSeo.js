@@ -1,9 +1,10 @@
 import React from 'react'
+import Head from 'next/head';
 
 export default function AboutSeo() {
     return (
         <div>
-            <head>
+            <Head>
                 <title>Apartments for Sale in Tambaram, Kattupakkam, Neelankarai, OMR. Price Starts @ ₹ xx</title>
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,7 +13,7 @@ export default function AboutSeo() {
 
                 <meta name="google-site-verification" content="497t_edJwTw9NIh5IdFYVtK8OdzoOZFKE1itffqd64w" />
 
-            </head>
+            </Head>
         </div>
     )
 }
