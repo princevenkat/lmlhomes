@@ -10,7 +10,7 @@ export default function JointVentureSeo() {
                 <meta name="keywords" content="Joint ventures partner in chennai" />
                 <meta name="description" content="Have joint venture partner in chennai with LML homes. Deal with land and property proprietors to make esteem acknowledging resources." />
 
-                <meta name="google-site-verification" content="6W6xnO0K4ykz8tNAwpdezn0TBdb7iO7bBRLi4LVfKLQ" />
+                <meta name="google-site-verification" content="497t_edJwTw9NIh5IdFYVtK8OdzoOZFKE1itffqd64w" />
             </head>
         </div>
     )

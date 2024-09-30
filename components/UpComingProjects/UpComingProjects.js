@@ -24,7 +24,7 @@ export default function UpComingProjects() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="keywords" content="Upcoming projects of LML Homes,Upcoming luxury projects in chennai,New apartment in chennai" />
                 <meta name="description" content="Upcoming projects of LML Homes are LML Nirmalayam Behind Aravind Eye Hospital, 80 new apartments in Noombal - Chennai.If you want more information visit the official website or contact: 04442083999." />
-                <meta name="google-site-verification" content="6W6xnO0K4ykz8tNAwpdezn0TBdb7iO7bBRLi4LVfKLQ" />
+                <meta name="google-site-verification" content="497t_edJwTw9NIh5IdFYVtK8OdzoOZFKE1itffqd64w" />
             </Head>
 
 

@@ -19,7 +19,7 @@ export default function PrivacyPolicySeo() {
       />
       <meta
         name="google-site-verification"
-        content="6W6xnO0K4ykz8tNAwpdezn0TBdb7iO7bBRLi4LVfKLQ"
+        content="497t_edJwTw9NIh5IdFYVtK8OdzoOZFKE1itffqd64w"
       />
     </head>
   );
