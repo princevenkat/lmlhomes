@@ -14,6 +14,9 @@ import Specifications from '@/components/Specifications/index'
 import { usePathname } from 'next/navigation'
 import { overAllData } from "@/utils/constants";
 import PrakritiSeo from './PrakritiSeo';
+import TheleagueoneSeo from './TheleagueoneSeo';
+import ArshiyaSeo from './ArshiyaSeo';
+import IconicSeo from './IconicSeo';
 
 export default function HomeSections() {
 
@@ -100,6 +103,11 @@ export default function HomeSections() {
 
 
       {currPathname == '/prakriti' ? <PrakritiSeo /> : ''}
+      {currPathname == '/league-one' ? <TheleagueoneSeo/> : ''}
+      {currPathname == '/arshiya' ? <ArshiyaSeo/> : ''}
+      {currPathname == '/iconia' ? <IconicSeo/> : ''}
+
+
 
       <div className={styles.stickyNav}>
 
