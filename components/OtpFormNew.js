@@ -107,10 +107,10 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
                         ) : (
                             <>
 
-                                <p className="verifyTxt">Verify Your Phone Number *</p>
+                                <p className="verifyTxt">Verify Your Phone Number</p>
 
                                 <PhoneInput country={"in"} value={phoneNumber} onChange={setPhoneNumber} />
-
+<p style={{fontSize: '11px'}}><img src='https://www.lmlhomes.in/assets/images/tick-mark.jpg' height={12} /> I authorise LML Homes LLP & its representatives to contact me with updates and notifications via Email / SMS /WhatsApp / Call. This will override DND/NDNC. I accept the <a href='https://www.lmlhomes.in/privacy-policy' target='_blank'>privacy policy</a></p>
                                 <button
                                     onClick={handleSendCode}
                                     id="send-code-button"
