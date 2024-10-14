@@ -149,4 +149,10 @@
         margin-bottom: 1rem;
         width: 75% !important;
     }
+    .agree {
+        font-size: 12px;
+    }
+    .agree img {
+        height:14px;
+    }
 }
