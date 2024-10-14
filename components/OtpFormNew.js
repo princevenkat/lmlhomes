@@ -97,7 +97,7 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
                                     autoFocus
                                     className="opt-container"
                                 />
-<p><img src="https://www.lmlhomes.in/assets/images/tick-mark.jpg" /> I authorise LML Homes LLP & its representatives to contact me with updates and notifications via Email / SMS /WhatsApp / Call. This will override DND/NDNC. I accept the <a href="https://www.lmlhomes.in/privacy-policy" target="_blank">privacy policy</a></p>
+
                                 <button onClick={handleVerifyCode} className="OtpHandleBTn" >
                                     {loading && (<CgSpinner size={20} className="mt-1 animate-spin" />)}
                                     <span>Verify OTP</span>
@@ -110,7 +110,7 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
                                 <p className="verifyTxt">Verify Your Phone Number</p>
 
                                 <PhoneInput country={"in"} value={phoneNumber} onChange={setPhoneNumber} />
-
+<p style={{fontSize: '10px'}}><img src="https://www.lmlhomes.in/assets/images/tick-mark.jpg" /> I authorise LML Homes LLP & its representatives to contact me with updates and notifications via Email / SMS /WhatsApp / Call. This will override DND/NDNC. I accept the <a href="https://www.lmlhomes.in/privacy-policy" target="_blank">privacy policy</a></p>
                                 <button
                                     onClick={handleSendCode}
                                     id="send-code-button"
