@@ -117,7 +117,7 @@ export default function Contact() {
                                             value={message}
                                             onChange={event => setMessage(event.target.value)} />
                                     </div>
-<p  style={{ font-size:12px }}><img src='https://www.lmlhomes.in/assets/images/tick-mark.jpg'  style={{ height: 12px }} /> I authorise LML Homes LLP & its representatives to contact me with updates and notifications via Email / SMS /WhatsApp / Call. This will override DND/NDNC. I accept the <a href='https://www.lmlhomes.in/privacy-policy' target='_blank'>privacy policy</a></p>
+<p  style={{ font-size: '12px' }}><img src='https://www.lmlhomes.in/assets/images/tick-mark.jpg'  style={{ height: '12px' }} /> I authorise LML Homes LLP & its representatives to contact me with updates and notifications via Email / SMS /WhatsApp / Call. This will override DND/NDNC. I accept the <a href='https://www.lmlhomes.in/privacy-policy' target='_blank'>privacy policy</a></p>
                                     <div className={styles.submitBtn}>
                                         <input type='submit' placeholder='SUBMIT' value={loading ? " Loading..." : " Submit "} />
                                     </div>
