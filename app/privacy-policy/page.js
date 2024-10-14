@@ -50,7 +50,7 @@ export default function PrivacyPolicyPage() {
                 Improve our services and offerings
                 <br />
                 Comply with legal requirements
-                <br />
+                <br /><br />
 <b>When you voluntarily send us an email or fill out a form, we will keep a record of this information in order to respond to you. We only collect information from you when you register on our site or complete a form. When filling out a form on our site, you may be asked to provide your name, email address, or phone number. However, you may visit our site anonymously. If you submit your personal information and contact details, we reserve the right to call, SMS, email, or message you via WhatsApp about our products and offers, even if your number has DND (Do Not Disturb) activated.</b>
               </p>
             </div>
