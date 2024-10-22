@@ -61,9 +61,9 @@ export default function ProjectTestimonial({ projectDetailPages }) {
               {projectDetailPages?.testimonial.map((item) => {
                 return (
                   <SwiperSlide key={item.name}>
+                    {item.property === "LML League One" ? ( 
                     <div className="testimonialBox projectTestimonial" key={item.name}>
-                      {pathname === "/league-one" ? (
-                        <iframe
+                      <iframe
                           width="100%"
                           height="100%"
                           src={`https://www.youtube.com/embed/s5L1p_4k6s0?si=wc3IPZKGf5ZctQrM`}
@@ -71,10 +71,23 @@ export default function ProjectTestimonial({ projectDetailPages }) {
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           allowFullScreen
                         />
-                      ) : (
-                        <p>{item.description}</p>
-                      )}
+                        <div className="testimonialTxtCntr">
+                        <div>
+                          <h6>{item.name}</h6>
+                          <h4>
+                            <span className="fw600">Property</span> - {item.property}
+                          </h4>
+                        </div>
 
+                        <div>
+                          <img src={item.image} />
+                        </div>
+                      </div>
+                    </div>
+                    ) : (
+                     
+                    <div className="testimonialBox projectTestimonial" key={item.name}>
+                      <p>{item.description}</p>
                       <div className="testimonialTxtCntr">
                         <div>
                           <h6>{item.name}</h6>
@@ -89,6 +102,7 @@ export default function ProjectTestimonial({ projectDetailPages }) {
                         </div>
                       </div>
                     </div>
+                     )}
                   </SwiperSlide>
                 );
               })}
