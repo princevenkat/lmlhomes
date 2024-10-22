@@ -736,7 +736,7 @@ const overAllData = {
             description:
               "We own a 3 BHK lifestyle apartment at Atita, a luxury project by LML Homes at Perungudi. The Apartment is worth every penny and the construction quality is good. The ethical work culture of LML Homes and the timely delivery by the LML Team headed by Mr, Mahesh Kothari has impressed us immensely. I will surely recommend prospective home buyers to buy homes from LML Homes",
             image: "/assets/images/testimonial-4.png",
-            alt: 'Mr. Mohandass testimony',
+            alt: "Mr. Mohandass testimony",
           },
           {
             name: "Mehar Nisha",
@@ -753,7 +753,7 @@ const overAllData = {
             description:
               "I am so glad to buy a house with LML Raga. I am an Architect who takes a lot of time in minute details before finalizing a house. But, the decision to buy this house with LML Raga was finalized just 2 days after seeing the property. I must appreciate the efficiency of your staff too. Thank you for making this transition seamless. I highly recommend LML Raga.",
             image: "/assets/images/testimonial-1.png",
-            alt: 'Mrs. Vanitha testimony',
+            alt: "Mrs. Vanitha testimony",
           },
           {
             name: "Mr. Suman,",
@@ -762,7 +762,7 @@ const overAllData = {
             description:
               "Thanks much to LML Homes for helping me out to get a nice flat with expected Vaastu. I got this information from 99acres and the sales team shared the details and clarified my doubts very patiently. Thanks again to LML Homes for getting me nice flat near to my office MEPZ.",
             image: "/assets/images/testimonial-3.png",
-            alt: 'Mr. Suman testimony',
+            alt: "Mr. Suman testimony",
           },
           {
             name: "Ms. K. Preethi",
@@ -771,7 +771,7 @@ const overAllData = {
             description:
               'I would like to express my thanks for good communication and coordination for the registration. The site is pretty awesome and good and I am happy to have a sweet home from "LML Homes". The location of property is the very plus point, have ease of access to all the routes in Chennai. I recommend "LML Homes" based on kind attitude, communication and coordination from LML Team.',
             image: "/assets/images/testimonial-5.png",
-            alt: 'Ms. K. Preethi testimony',
+            alt: "Ms. K. Preethi testimony",
           },
         ],
         specifications: [
@@ -1414,7 +1414,7 @@ const overAllData = {
             description:
               "We own a 3 BHK lifestyle apartment at Atita, a luxury project by LML Homes at Perungudi. The Apartment is worth every penny and the construction quality is good. The ethical work culture of LML Homes and the timely delivery by the LML Team headed by Mr, Mahesh Kothari has impressed us immensely. I will surely recommend prospective home buyers to buy homes from LML Homes",
             image: "/assets/images/testimonial-4.png",
-            alt: 'Mr. Mohandass testimony',
+            alt: "Mr. Mohandass testimony",
           },
           {
             name: "Mehar Nisha",
@@ -1431,7 +1431,7 @@ const overAllData = {
             description:
               "I am so glad to buy a house with LML Raga. I am an Architect who takes a lot of time in minute details before finalizing a house. But, the decision to buy this house with LML Raga was finalized just 2 days after seeing the property. I must appreciate the efficiency of your staff too. Thank you for making this transition seamless. I highly recommend LML Raga.",
             image: "/assets/images/testimonial-1.png",
-            alt: 'Mrs. Vanitha testimony',
+            alt: "Mrs. Vanitha testimony",
           },
           {
             name: "Mr. Suman,",
@@ -1440,7 +1440,7 @@ const overAllData = {
             description:
               "Thanks much to LML Homes for helping me out to get a nice flat with expected Vaastu. I got this information from 99acres and the sales team shared the details and clarified my doubts very patiently. Thanks again to LML Homes for getting me nice flat near to my office MEPZ.",
             image: "/assets/images/testimonial-3.png",
-            alt: 'Mr. Suman testimony',
+            alt: "Mr. Suman testimony",
           },
           {
             name: "Ms. K. Preethi",
@@ -1449,7 +1449,7 @@ const overAllData = {
             description:
               'I would like to express my thanks for good communication and coordination for the registration. The site is pretty awesome and good and I am happy to have a sweet home from "LML Homes". The location of property is the very plus point, have ease of access to all the routes in Chennai. I recommend "LML Homes" based on kind attitude, communication and coordination from LML Team.',
             image: "/assets/images/testimonial-5.png",
-            alt: 'Ms. K. Preethi testimony',
+            alt: "Ms. K. Preethi testimony",
           },
         ],
         specifications: [
@@ -2132,7 +2132,7 @@ const overAllData = {
             description:
               "We own a 3 BHK lifestyle apartment at Atita, a luxury project by LML Homes at Perungudi. The Apartment is worth every penny and the construction quality is good. The ethical work culture of LML Homes and the timely delivery by the LML Team headed by Mr, Mahesh Kothari has impressed us immensely. I will surely recommend prospective home buyers to buy homes from LML Homes",
             image: "/assets/images/testimonial-4.png",
-            alt: 'Mr. Mohandass testimony',
+            alt: "Mr. Mohandass testimony",
           },
           {
             name: "Mehar Nisha",
@@ -2149,7 +2149,7 @@ const overAllData = {
             description:
               "I am so glad to buy a house with LML Raga. I am an Architect who takes a lot of time in minute details before finalizing a house. But, the decision to buy this house with LML Raga was finalized just 2 days after seeing the property. I must appreciate the efficiency of your staff too. Thank you for making this transition seamless. I highly recommend LML Raga.",
             image: "/assets/images/testimonial-1.png",
-            alt: 'Mrs. Vanitha testimony',
+            alt: "Mrs. Vanitha testimony",
           },
           {
             name: "Mr. Suman,",
@@ -2158,7 +2158,7 @@ const overAllData = {
             description:
               "Thanks much to LML Homes for helping me out to get a nice flat with expected Vaastu. I got this information from 99acres and the sales team shared the details and clarified my doubts very patiently. Thanks again to LML Homes for getting me nice flat near to my office MEPZ.",
             image: "/assets/images/testimonial-3.png",
-            alt: 'Mr. Suman testimony',
+            alt: "Mr. Suman testimony",
           },
           {
             name: "Ms. K. Preethi",
@@ -2167,7 +2167,7 @@ const overAllData = {
             description:
               'I would like to express my thanks for good communication and coordination for the registration. The site is pretty awesome and good and I am happy to have a sweet home from "LML Homes". The location of property is the very plus point, have ease of access to all the routes in Chennai. I recommend "LML Homes" based on kind attitude, communication and coordination from LML Team.',
             image: "/assets/images/testimonial-5.png",
-            alt: 'Ms. K. Preethi testimony',
+            alt: "Ms. K. Preethi testimony",
           },
         ],
         specifications: [
@@ -2268,7 +2268,7 @@ const overAllData = {
       },
       detail: {
         bannerImage: "league-one-banner.jpg",
-        logo: "league one logo.png",
+        // logo: "league one logo.png",
         heading: "LML The League One, Kaatupakkam",
         keyLocation: "",
         detailDescription:
@@ -2316,7 +2316,7 @@ const overAllData = {
           },
           {
             icon: "proj-high-3.svg",
-            label: "993 - 1426 sq.ft",
+            label: "9000+ sq.ft",
           },
           {
             icon: "proj-high-6.svg",
@@ -2326,10 +2326,14 @@ const overAllData = {
             icon: "proj-high-2.svg",
             label: "1.22 Acres",
           },
+          {
+            icon: "clubhouse.png",
+            label: "Club House",
+          },
         ],
         walkthrough: {
-          // video: "https://www.youtube.com/embed/rdaD3bhM6os?si=dkVrXX7ybsq9Dd2G",
-          video: "",
+          video: "https://www.youtube.com/embed/rdaD3bhM6os?si=dkVrXX7ybsq9Dd2G",
+          // video: "",
           description:
             "At LML The League One, every day offers a new opportunity to immerse yourself in an extravagant lifestyle.",
           question: "WHY LML The League One?",
@@ -2395,18 +2399,20 @@ const overAllData = {
           description:
             "This gated community apartment is the perfect place to find a home that's conveniently close to all the key infrastructures you need. Now, reach educational institutes, hospitals, and malls that are just a 5-minute drive away.",
           CenterLocation: {
-            lat: 13.050571663166105,
-            lng: 80.12730457888271,
+            // lat: 13.050571663166105,
+            lat: 13.048234,
+            // lng: 80.12730457888271,
+            lng: 80.122341,
           },
           centerLocationMarker: "league one logo.png",
-          centerLocationLink: "https://maps.app.goo.gl/JBDZ42Um9qz8DMpM7",
+          centerLocationLink: "https://maps.app.goo.gl/UCd1DhVheHaaSoHN6",
           locations: [
             {
-              name: "Commute",
+              name: "Connectivity",
               icon: "commute.svg",
               locationList: [
                 {
-                  name: "400 m to proposed railway station",
+                  name: "Proposed metro - 2 mins",
                   location: {
                     lat: 13.038111906199216,
                     lng: 80.15685989716447,
@@ -2414,7 +2420,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "5 mins from Porur",
+                  name: "Porur - 5 mins",
                   location: {
                     lat: 13.047435601226757,
                     lng: 80.14046585321519,
@@ -2422,7 +2428,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "5 mins from NH48",
+                  name: "Iyyappanthangal Junction – 3mins",
                   location: {
                     lat: 13.040776035973392,
                     lng: 80.10989828906754,
@@ -2430,7 +2436,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "7.4 kms from Porur toll plaza",
+                  name: "Vanagaram Junction – 5mins",
                   location: {
                     lat: 13.040776035973392,
                     lng: 80.10989828906754,
@@ -2438,7 +2444,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "5.4 kms from Poonamallee Bus Depot",
+                  name: "Airport – 20 mins",
                   location: {
                     lat: 13.040776035973392,
                     lng: 80.10989828906754,
@@ -2446,7 +2452,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "5 kms from Maduravoyal Junction",
+                  name: "Poonamallee bus Terminus – 5mins",
                   location: {
                     lat: 13.040776035973392,
                     lng: 80.10989828906754,
@@ -2454,7 +2460,31 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "",
+                  name: "Thiruverkadu Junction – 5mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Guindy railway Station – 15mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Koyambedu – 10mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "15 mins to IT corridor, DLF, L&T, RMZ, CommerZone",
                   location: {
                     lat: 13.050571663166105,
                     lng: 80.12730457888271,
@@ -2464,11 +2494,11 @@ const overAllData = {
               ],
             },
             {
-              name: "Education",
+              name: "Schools",
               icon: "education.svg",
               locationList: [
                 {
-                  name: "Panimalar Engineering College - 9.2 kms",
+                  name: "Velammal School - 5 mins",
                   location: {
                     lat: 13.053015266720706,
                     lng: 80.13194783182286,
@@ -2476,7 +2506,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Saveetha Dental College - 3.9 kms",
+                  name: "Sindhi School - 5 mins",
                   location: {
                     lat: 13.047980660826648,
                     lng: 80.12680478536993,
@@ -2484,7 +2514,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Sri Ramachandra Medical College - 3.3 kms",
+                  name: "Maharishi Vidya Mandir, Mangadu - 10 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2492,7 +2522,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "ACS Medical College - 1.8 kms",
+                  name: "Little Millenium School - 2 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2500,7 +2530,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Narayana E Techno School - 4.1 kms",
+                  name: "Rishi International School - 2 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2508,7 +2538,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Velammal Vidyalaya - 2.9 kms",
+                  name: "Adithya International School - 2 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2516,7 +2546,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Sindhi College - 2.1 kms",
+                  name: "St Johns School - 5 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2524,7 +2554,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Sindhi School - 1.9 kms",
+                  name: "Christ Matric High Sec School - 5 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2532,7 +2562,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Vedanta Academy CBSE School - 3.9 kms",
+                  name: "Sana Model School - 0 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2540,7 +2570,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Schram Academy, Ayanambakkam - 4.7 kms",
+                  name: "Narayana E-Techno - 5 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2548,7 +2578,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "1 min from Sana Model School",
+                  name: "Adithya Vidyashram - 10 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2556,7 +2586,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "1 min from Aditya International School",
+                  name: "Sudharsan Vidyashram - 10 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2564,7 +2594,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Maharishi Vidya Mandir, Mangadu - 2.8 kms",
+                  name: "Chaitanya School - 5 mins",
                   location: {
                     lat: 13.051099754391325,
                     lng: 80.12389255597654,
@@ -2572,7 +2602,23 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "",
+                  name: "Pupil School - 10 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Vedanta School - 10 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "The Schram Academy - 15 mins",
                   location: {
                     lat: 13.050571663166105,
                     lng: 80.12730457888271,
@@ -2582,11 +2628,11 @@ const overAllData = {
               ],
             },
             {
-              name: "HealthCare",
+              name: "Colleges",
               icon: "healthcare.svg",
               locationList: [
                 {
-                  name: "Aravind Eye Hospital - 1.1 kms",
+                  name: "ACS Medical College - 10 mins",
                   location: {
                     lat: 13.053669957560038,
                     lng: 80.1238745825864,
@@ -2594,7 +2640,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "ACS Medical College Hospital - 1.8 kms",
+                  name: "Saveetha Dental College - 10 mins",
                   location: {
                     lat: 13.06415556083337,
                     lng: 80.13609279153108,
@@ -2602,7 +2648,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Be well hospitals - 3.2 kms",
+                  name: "Sindhi College - 5 mins",
                   location: {
                     lat: 13.039937372904518,
                     lng: 80.13565865254215,
@@ -2610,7 +2656,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Mehta Hospitals - 2.6 kms",
+                  name: "Apollo Nursing College - 10 mins",
                   location: {
                     lat: 13.039937372904518,
                     lng: 80.13565865254215,
@@ -2618,7 +2664,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "SIMS, Vadapalani - 11.2 kms",
+                  name: "Meenakshi Dental College - 10 mins",
                   location: {
                     lat: 13.039937372904518,
                     lng: 80.13565865254215,
@@ -2626,7 +2672,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Ramachandra Hospital - 3.5 kms",
+                  name: "Saveetha B School - 5 mins",
                   location: {
                     lat: 13.039937372904518,
                     lng: 80.13565865254215,
@@ -2634,7 +2680,55 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "",
+                  name: "SA Engineering College - 10 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "MGR University - 15 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "DMI College of Engineering - 15 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Kings Engineering College - 15 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "St.Peters Engineering College - 15 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Rajalakshmi B School - 15 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Panimalar Engineering College - 15 mins",
                   location: {
                     lat: 13.050571663166105,
                     lng: 80.12730457888271,
@@ -2644,11 +2738,11 @@ const overAllData = {
               ],
             },
             {
-              name: "Retail",
+              name: "Hospitals",
               icon: "retail.svg",
               locationList: [
                 {
-                  name: "D Mart - 400m",
+                  name: "Aravind Eye Hospital - 5 mins",
                   location: {
                     lat: 13.0486999597234,
                     lng: 80.11862683314995,
@@ -2656,7 +2750,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Reliance Digital - 2.1 kms",
+                  name: "Ramachandra Hospital - 10 mins",
                   location: {
                     lat: 13.04418589870694,
                     lng: 80.11347320137753,
@@ -2664,7 +2758,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Reliance Mall - 2.5 kms",
+                  name: "Dr. Mehta Hospital - 5 mins",
                   location: {
                     lat: 13.044444234252813,
                     lng: 80.13068165845044,
@@ -2672,7 +2766,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "Saravana Stores - 5.5 kms",
+                  name: "Saveetha Dental Hospital - 5 mins",
                   location: {
                     lat: 13.044444234252813,
                     lng: 80.13068165845044,
@@ -2680,7 +2774,15 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "",
+                  name: "Apollo Hospital - 10 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Be Well Hospital - 15 mins",
                   location: {
                     lat: 13.050571663166105,
                     lng: 80.12730457888271,
@@ -2690,11 +2792,11 @@ const overAllData = {
               ],
             },
             {
-              name: "Commercial Hubs",
+              name: "Convenience Hotspots",
               icon: "commercial-hub.svg",
               locationList: [
                 {
-                  name: "GK Cinemas - 5.1 kms",
+                  name: "SB Cinemas - 5 mins",
                   location: {
                     lat: 13.058450725258574,
                     lng: 80.11816018499428,
@@ -2702,7 +2804,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "SB Cinemas - 1.2 kms",
+                  name: "D Mart - 5 mins",
                   location: {
                     lat: 13.064228011765714,
                     lng: 80.08649601188743,
@@ -2710,7 +2812,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "AGS Cinemas - 6.5 kms",
+                  name: "Reliance Mall - 10 mins",
                   location: {
                     lat: 13.063075257944421,
                     lng: 80.19444453593566,
@@ -2718,7 +2820,7 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "EVP Cinemas - 8.9 kms",
+                  name: "Reliance Fresh - 5 mins",
                   location: {
                     lat: 13.063075257944421,
                     lng: 80.19444453593566,
@@ -2726,7 +2828,87 @@ const overAllData = {
                   },
                 },
                 {
-                  name: "",
+                  name: "Pazhamudhir Cholai - 5 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Saravana Stores - 15 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Nilgiris - 5 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "GRACE Supermarket - 5 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Vigneshwara Theatre - 10 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Inox Theatre - 15 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "GK Cinemas - 10 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Saravana Stores - 5.5kms",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "SAGS Maduravoyal - 0 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "EVP Cinemas - 15 mins",
+                  location: {
+                    lat: 13.050571663166105,
+                    lng: 80.12730457888271,
+                    markerIcon: "league one logo.png",
+                  },
+                },
+                {
+                  name: "Queensland - 15 mins",
                   location: {
                     lat: 13.050571663166105,
                     lng: 80.12730457888271,
@@ -2913,7 +3095,7 @@ const overAllData = {
             description:
               "We own a 3 BHK lifestyle apartment at Atita, a luxury project by LML Homes at Perungudi. The Apartment is worth every penny and the construction quality is good. The ethical work culture of LML Homes and the timely delivery by the LML Team headed by Mr, Mahesh Kothari has impressed us immensely. I will surely recommend prospective home buyers to buy homes from LML Homes",
             image: "/assets/images/testimonial-4.png",
-            alt: 'Mr. Mohandass testimony',
+            alt: "Mr. Mohandass testimony",
           },
           {
             name: "Mehar Nisha",
@@ -2930,7 +3112,7 @@ const overAllData = {
             description:
               "I am so glad to buy a house with LML Raga. I am an Architect who takes a lot of time in minute details before finalizing a house. But, the decision to buy this house with LML Raga was finalized just 2 days after seeing the property. I must appreciate the efficiency of your staff too. Thank you for making this transition seamless. I highly recommend LML Raga.",
             image: "/assets/images/testimonial-1.png",
-            alt: 'Mrs. Vanitha testimony',
+            alt: "Mrs. Vanitha testimony",
           },
           {
             name: "Mr. Suman,",
@@ -2939,7 +3121,7 @@ const overAllData = {
             description:
               "Thanks much to LML Homes for helping me out to get a nice flat with expected Vaastu. I got this information from 99acres and the sales team shared the details and clarified my doubts very patiently. Thanks again to LML Homes for getting me nice flat near to my office MEPZ.",
             image: "/assets/images/testimonial-3.png",
-            alt: 'Mr. Suman testimony',
+            alt: "Mr. Suman testimony",
           },
           {
             name: "Ms. K. Preethi",
@@ -2948,58 +3130,61 @@ const overAllData = {
             description:
               'I would like to express my thanks for good communication and coordination for the registration. The site is pretty awesome and good and I am happy to have a sweet home from "LML Homes". The location of property is the very plus point, have ease of access to all the routes in Chennai. I recommend "LML Homes" based on kind attitude, communication and coordination from LML Team.',
             image: "/assets/images/testimonial-5.png",
-            alt: 'Ms. K. Preethi testimony',
+            alt: "Ms. K. Preethi testimony",
           },
         ],
         specifications: [
           {
             name: "structure",
-            image: "construction.jpg",
+            image: "structure.jpg",
             specifications: [
               {
-                pointOne: "RCC framed structure with foundation designed to withstand Seismic loads.",
-                pointTwo: "Walls with solid blocks/AAC blocks in cement mortar.",
+                pointOne:
+                  "RCC framed structure with pile foundation designed to withstand seismic loads as per structural design, conforming to BIS.",
+                // pointTwo: "Anti termite treatments wherever applicable during construction stage",
               },
             ],
           },
           {
             name: "Flooring",
-            image: "floor.jpg",
+            image: "Floor.jpg",
             specifications: [
               {
-                pointOne: "Living, dining and bedroom area will be finished with good quality 2x2 Vitrified tiles of builder's choice with necessary skirting.",
+                pointOne:
+                  "Living, dining, and bedroom areas finished with high-quality 2x2 vitrified tiles of the builder's choice, including necessary skirting.",
                 // pointTwo: "Staircase shall be finished with Kota/granite stone as per Architect’s design. Additional cost to be paid for Lofts in Bedroom and Kitchen Lofts will be free of cost.",
               },
             ],
           },
           {
             name: "Plumbing & Sanitary",
-            image: "pluming.jpg",
+            image: "Pluming.jpg",
             specifications: [
               {
-                pointOne: "Anti-skid ceramic flooring and full-height tiles, as per builder's choice.",
-                pointTwo: "Concealed plumbing, white Essco fixtures, geyser provision.",
+                pointOne: "Concealed/open plumbing line from UG sump provided.",
+                pointTwo: "Provision in plumbing for connecting one geyser in each toilet.",
               },
             ],
           },
           {
             name: "Doors",
-            image: "door.jpg",
+            image: "Door.jpg",
             specifications: [
               {
-                pointOne: "[3'6\" x 7'6\"] Hardwood frame, 35mm engineered solid core.",
-                pointTwo: "UV polished natural wood veneer on both sides.",
-                pointThree: "SS fittings with Godrej digital lock/equivalent.",
+                pointOne:
+                  "Main Door – (3’6” x 8’0”) 8 Feet Height, frame made of engineered wood with both side veneered flush door (38mm) with necessary SS finished door fittings along with Godrej digital lock / equivalent.",
+                // pointTwo: "UV polished natural wood veneer on both sides.",
+                // pointThree: "SS fittings with Godrej digital lock/equivalent.",
               },
             ],
           },
           {
             name: "Windows & Ventilators",
-            image: "window.jpg",
+            image: "Window.jpg",
             specifications: [
               {
-                pointOne: 
-                  "Window and Ventilator will be of UPVC/Aluminum with clear glass pane will be provided. Window Grills will not be provided.",
+                pointOne: "Windows and ventilators made of UPVC/aluminium with clear glass panes.",
+                pointTwo: "Window Grills will not be provided",
               },
             ],
           },
@@ -3008,38 +3193,39 @@ const overAllData = {
             image: "Kitchen.jpg",
             specifications: [
               {
-                pointOne: 
-                  "Kitchen Platform will be polished granite with a single bowl of stainless steel sink and glazed tiles of 2' feet above the kitchen platform, 3' feet dado in the utility area.",
+                pointOne:
+                  "Kitchen platform finished with polished granite and fitted with a single bowl stainless steel sink.",
+                pointTwo: "One side Loft will be provided.",
               },
             ],
           },
           {
             name: "Painting",
-            image: "painting.jpg",
+            image: "Painting.jpg",
             specifications: [
               {
-                pointOne: 
-                  "Living, dining and bedrooms walls will be finished with two coat putty with one coat primer only. All wooden frames, shutters will be finished with enamel paint.",
+                pointOne: "Living, dining, and bedroom walls finished with two coats of putty and one coat of primer.",
+                pointTwo: "Toilet ceiling – Grid type False ceiling",
               },
             ],
           },
           {
             name: "Electrical",
-            image: "electricity.jpg",
+            image: "Electricity.jpg",
             specifications: [
               {
-                pointOne: "Concealed copper wiring suitable for three-phase supply, will be of ISI quality.",
-                pointTwo: "Switches & sockets with adequate points for light, fan and power supply will be provided.",
+                pointOne: "Concealed copper wiring suitable for three-phase supply, ISI quality.",
+                pointTwo: "Power backup - up to 400w for 2 BHK and 500w for 3 BHK unit.",
               },
             ],
           },
           {
             name: "Water",
-            image: "water-supply.jpg",
+            image: "Water.jpg",
             specifications: [
               {
-                pointOne: "Borewell and RCC sump of adequate capacity.",
-                pointTwo: "Overhead tank provided for water supply.",
+                pointOne: "Rain Water Harvest – Rain water Harvesting site as per site condition.",
+                pointTwo: "Water treatment plant.",
               },
             ],
           },
