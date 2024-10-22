@@ -80,7 +80,7 @@ const projectData = {
           },
         ],
         walkthrough: {
-          video: "https://www.youtube.com/watch?v=rdaD3bhM6os",
+          video: "https://www.youtube.com/watch?v=s5L1p_4k6s0",
           description:
             "At LML The League One, every day offers a new opportunity to immerse yourself in an extravagant lifestyle.",
           question: "WHY LML PRARITI?",
