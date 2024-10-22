@@ -61,7 +61,7 @@ export default function ProjectTestimonial({ projectDetailPages }) {
               {projectDetailPages?.testimonial.map((item) => {
                 return (
                   <SwiperSlide key={item.name}>
-                    {item.property == "LML League One" && pathname === "/league-one" ? ( 
+                    { (item.property === "LML League One" && pathname === "/league-one") ? ( 
                     <div className="testimonialBox projectTestimonial" key={item.name}>
                       <iframe
                           width="100%"
