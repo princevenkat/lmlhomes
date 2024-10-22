@@ -66,7 +66,7 @@ export default function ProjectTestimonial({ projectDetailPages }) {
                         <iframe
                           width="100%"
                           height="100%"
-                          src={`https://www.youtube.com/embed/rdaD3bhM6os?si=dkVrXX7ybsq9Dd2G`}
+                          src={`https://www.youtube.com/embed/s5L1p_4k6s0?si=wc3IPZKGf5ZctQrM`}
                           title="YouTube video player"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           allowFullScreen
