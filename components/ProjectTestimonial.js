@@ -66,7 +66,7 @@ export default function ProjectTestimonial({ projectDetailPages }) {
                       <iframe
                           width="100%"
                           height="100%"
-                          src={`https://www.youtube.com/embed/s5L1p_4k6s0?si=wc3IPZKGf5ZctQrM`}
+                          src={item.video}
                           title="YouTube video player"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           allowFullScreen
@@ -77,10 +77,6 @@ export default function ProjectTestimonial({ projectDetailPages }) {
                           <h4>
                             <span className="fw600">Property</span> - {item.property}
                           </h4>
-                        </div>
-
-                        <div>
-                          <img src={item.image} />
                         </div>
                       </div>
                     </div>
