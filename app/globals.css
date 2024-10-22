@@ -1,36 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
 
 @font-face {
-  font-family: 'Formular';
-  src: url('/fonts/formular-light.ttf');
+  font-family: "Formular";
+  src: url("/fonts/formular-light.ttf");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Formular';
-  src: url('/fonts/formularnew.ttf');
+  font-family: "Formular";
+  src: url("/fonts/formularnew.ttf");
   font-weight: 400;
 }
 
-
 @font-face {
-  font-family: 'Formular';
-  src: url('/fonts/formular-medium.ttf');
+  font-family: "Formular";
+  src: url("/fonts/formular-medium.ttf");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Formular';
-  src: url('/fonts/formular-bold.ttf');
+  font-family: "Formular";
+  src: url("/fonts/formular-bold.ttf");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Helvetica';
-  src: url('/fonts/Helvetica-neue.ttf');
+  font-family: "Helvetica";
+  src: url("/fonts/Helvetica-neue.ttf");
 }
-
 
 :root {
   --fs12: 12px;
@@ -38,7 +36,7 @@
   --fs14: 14px;
   --fs15: 15px;
   --fs18: 18px;
-  --lightGrey: #B4B4B4;
+  --lightGrey: #b4b4b4;
 }
 
 * {
@@ -88,7 +86,7 @@ p {
 }
 
 .beba {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
 }
 
 .txtGrey {
@@ -105,7 +103,7 @@ p {
   bottom: -0.4rem;
   display: block;
   height: 0.2rem;
-  background-color: #F69C75;
+  background-color: #f69c75;
   width: 100%;
 }
 
@@ -173,7 +171,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -204,7 +202,7 @@ input[type=number] {
 }
 
 .Header li {
-  color: #FFF;
+  color: #fff;
 }
 
 #slider a {
@@ -216,12 +214,12 @@ input[type=number] {
 }
 
 .dropdown-item::after {
-  content: '';
+  content: "";
   width: 90%;
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #DBDBDB;
+  background: #dbdbdb;
   height: 1px;
   margin-left: 6%;
 }
@@ -234,8 +232,6 @@ input[type=number] {
 .nav-item.dropdown .dropdown-item:last-child::after {
   all: unset;
 }
-
-
 
 .projectCarouselImg {
   width: 100%;
@@ -251,23 +247,23 @@ input[type=number] {
 }
 
 .projectCarouselImg.leagueone {
-  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 50%), url(/assets/images/project-leagueone.png);
+  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%), url(/assets/images/project-leagueone.png);
 }
 
 .projectCarouselImg.prakriti {
-  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 50%), url(/assets/images/project-prakriti.png);
+  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%), url(/assets/images/project-prakriti.png);
 }
 
 .projectCarouselImg.arshiya {
-  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 50%), url(/assets/images/project-arshiya.jpg);
+  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%), url(/assets/images/project-arshiya.jpg);
 }
 
 .projectCarouselImg.iconia {
-  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 50%), url(/assets/images/project-iconia.jpg);
+  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%), url(/assets/images/project-iconia.jpg);
 }
 
 .projectCarouselImg::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 55px;
@@ -296,7 +292,7 @@ input[type=number] {
 
 .projectCarouselImg h2 {
   color: #fff;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-weight: 500;
   font-size: 2rem;
   width: fit-content;
@@ -354,7 +350,7 @@ input[type=number] {
 }
 
 .Footer h6 {
-  color: #C3C3C3;
+  color: #c3c3c3;
   font-size: 14px;
 }
 
@@ -370,7 +366,6 @@ input[type=number] {
   font-weight: 600;
 }
 
-
 .testimonailSection {
   background-color: #f2f2f2;
   padding: 5rem 0;
@@ -381,7 +376,7 @@ input[type=number] {
   width: 100%;
   margin-bottom: 3rem;
   padding-bottom: 6px;
-  border-bottom: 1px solid #C3C3C3;
+  border-bottom: 1px solid #c3c3c3;
   font-weight: 600;
   font-size: 15px;
 }
@@ -391,7 +386,7 @@ input[type=number] {
 }
 
 .testimonailSection .container::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   top: 0;
@@ -403,10 +398,9 @@ input[type=number] {
   background-size: contain;
 }
 
-
 .testimonialBox {
   border-radius: 4px;
-  border: 1px solid #DCDCDC;
+  border: 1px solid #dcdcdc;
   padding: 1rem;
   margin-bottom: 4rem;
   min-height: 35rem;
@@ -432,7 +426,7 @@ input[type=number] {
 .testimonialBox h4 {
   font-size: 12px;
   font-weight: 300;
-  color: #A8A8A8;
+  color: #a8a8a8;
   margin-top: 10px;
 }
 
@@ -474,13 +468,13 @@ input[type=number] {
 }
 
 .OrangeLine::after {
-  content: '';
+  content: "";
   position: absolute;
   right: -1rem;
   bottom: 50%;
   width: 2px;
   height: -webkit-fill-available;
-  background-color: #F69C75;
+  background-color: #f69c75;
 }
 
 .excellenceBox img {
@@ -525,7 +519,7 @@ input[type=number] {
 
 .BlogGridBox h2,
 .BlogGridBox a {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-weight: 500;
   font-size: 1.5rem;
   color: #222;
@@ -554,7 +548,7 @@ input[type=number] {
   margin-right: 1rem;
   font-weight: 600;
   font-size: 15px;
-  border-bottom: 1px solid #C3C3C3;
+  border-bottom: 1px solid #c3c3c3;
   margin-bottom: 1.2rem;
   padding-bottom: 0.5rem;
 }
@@ -578,7 +572,7 @@ input[type=number] {
   max-width: 100%;
   height: 3.5rem;
   overflow-x: hidden;
-  background-color: #F2F480;
+  background-color: #f2f480;
 }
 
 .runningTxt {
@@ -594,12 +588,12 @@ input[type=number] {
 }
 
 .copyRightTxt {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .disclaimerTxt,
 .devTxt {
-  font-size: .6rem !important;
+  font-size: 0.6rem !important;
 }
 
 .devTxt {
@@ -616,7 +610,6 @@ input[type=number] {
   }
 }
 
-
 .testimonailSection .swiper-button-next,
 .testimonailSection .swiper-button-prev,
 .jointVentureSlider .swiper-button-next,
@@ -628,7 +621,6 @@ input[type=number] {
 .testimonailSection .swiper-button-next,
 .jointVentureSlider .swiper-button-next {
   right: 0.3rem;
-
 }
 
 .testimonailSection .swiper-button-prev,
@@ -646,15 +638,14 @@ input[type=number] {
   object-fit: contain;
 }
 
-
 .testimonailSection .swiper-button-next:after,
 .jointVentureSlider .swiper-button-next:after {
-  content: '';
+  content: "";
 }
 
 .testimonailSection .swiper-button-prev:after,
 .jointVentureSlider .swiper-button-prev:after {
-  content: '';
+  content: "";
 }
 
 .projectCarouselContainer {
@@ -677,10 +668,9 @@ input[type=number] {
   margin-top: -32px;
 }
 
-
 .Prjctaccordion h3 {
   width: fit-content;
-  border-bottom: 1px solid #BFBFBF;
+  border-bottom: 1px solid #bfbfbf;
   color: #222 !important;
 }
 
@@ -701,7 +691,7 @@ input[type=number] {
 }
 
 .Prjctaccordion li::before {
-  content: '>';
+  content: ">";
   position: absolute;
   left: 0;
   top: 0;
@@ -711,7 +701,7 @@ input[type=number] {
   color: #222 !important;
 }
 
-.form-check-input[type=checkbox] {
+.form-check-input[type="checkbox"] {
   border-radius: 0 !important;
 }
 
@@ -720,10 +710,9 @@ input[type=number] {
 }
 
 .form-check-input:checked {
-  border-color: #FFF !important;
-  background-color: #2CA44E !important;
+  border-color: #fff !important;
+  background-color: #2ca44e !important;
 }
-
 
 .jointVentureSliderDiv {
   display: flex;
@@ -731,8 +720,6 @@ input[type=number] {
   justify-content: space-between;
   height: 100%;
 }
-
-
 
 .blogImgDiv {
   height: calc(100vh - 86px);
@@ -742,30 +729,34 @@ input[type=number] {
 }
 
 .blogImgDiv.svnRsnsForRptBldr {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(/assets/blogs/7-reasons-why-buy-your-apartment.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+    url(/assets/blogs/7-reasons-why-buy-your-apartment.jpg);
 }
 
 .blogImgDiv.dosAndDonts {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(/assets/blogs/dos-and-Donts-while-living-im-apartment.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+    url(/assets/blogs/dos-and-Donts-while-living-im-apartment.jpg);
 }
 
 .blogImgDiv.chsngRytColor {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(/assets/blogs/importance-of-color-choosing.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+    url(/assets/blogs/importance-of-color-choosing.jpg);
 }
 
 .blogImgDiv.keepEsntlRdy {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(/assets/blogs/keep-these-essential-things-ready-for-your-first-apartment.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+    url(/assets/blogs/keep-these-essential-things-ready-for-your-first-apartment.jpg);
 }
 
 .blogImgDiv.undrCnstrtProp {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(/assets/blogs/benefits-construction-properties.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+    url(/assets/blogs/benefits-construction-properties.jpg);
 }
 
 .blogImgDiv.tipsForByngHome {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(/assets/blogs/tips-for-buying-home.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+    url(/assets/blogs/tips-for-buying-home.jpg);
 }
-
-
 
 .blogContent {
   padding: 3rem 0;
@@ -781,28 +772,27 @@ input[type=number] {
 }
 
 .blogContentBox {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .blogContentBox h4 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
 }
 
 .slick-current .sliderDiv {
-  background-color: #F2F480;
+  background-color: #f2f480;
   position: relative;
 }
 
 .slick-current .sliderDiv::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
   width: 7px;
-  background-color: #F69C75;
+  background-color: #f69c75;
 }
-
 
 .slick-current .sliderDiv p {
   color: #222;
@@ -818,13 +808,11 @@ input[type=number] {
   width: fit-content !important;
 }
 
-
 .sliderDiv h1 {
   font-size: 1rem;
   line-height: 1rem;
   color: #fff;
 }
-
 
 .sliderDiv p {
   font-size: 0.7rem;
@@ -833,7 +821,7 @@ input[type=number] {
 }
 
 #thumbnail_slider::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 4px;
@@ -847,15 +835,15 @@ input[type=number] {
   cursor: pointer;
 }
 
-
 .homeBannerSlider.hero1 {
-  background: linear-gradient(180deg, #222222f0 8%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 106%), url(/assets/images/home-banner.png);
+  background: linear-gradient(180deg, #222222f0 8%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 106%),
+    url(/assets/images/home-banner.png);
 }
 
 .homeBannerSlider.hero2 {
-  background: linear-gradient(180deg, #222222f0 8%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 106%), url(/assets/images/partners.png);
+  background: linear-gradient(180deg, #222222f0 8%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 106%),
+    url(/assets/images/partners.png);
 }
-
 
 .project-overview-section {
   display: flex;
@@ -867,9 +855,11 @@ input[type=number] {
 .walk-through-section {
   display: flex;
   flex-direction: row;
-  padding: 2em 3em;
   gap: 0.5em;
-  background: #EBFDFF;
+}
+.league-one-section {
+  padding: 2em 3em;
+  background: #ebfdff;
 }
 
 .location-section {
@@ -878,13 +868,13 @@ input[type=number] {
   flex-direction: row;
   padding: 4em 3em 3em 3em;
   gap: 0.5em;
-  background: #F9F9FA;
+  background: #f9f9fa;
   min-height: 90vh;
 }
 
 .dropdown-item:active {
   background-color: #008089 !important;
-  color: #FFF !important;
+  color: #fff !important;
 }
 
 .awards.aside {
@@ -901,14 +891,12 @@ input[type=number] {
 .awards .asideTitle {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   font-size: 8rem;
   color: rgba(172, 172, 172, 0.19);
   font-weight: 700;
   padding: 0.25em 0em;
 }
-
-
 
 .burger {
   display: flex;
@@ -926,7 +914,7 @@ input[type=number] {
 
 .burger:before,
 .burger:after {
-  content: '';
+  content: "";
   width: 35px;
   height: 2px;
   position: absolute;
@@ -1009,7 +997,6 @@ input[type=number] {
   font-weight: 400;
   font-size: 15px;
   margin: 2px 0;
-
 }
 
 .MobHeaderUl li {
@@ -1029,7 +1016,7 @@ input[type=number] {
 }
 
 .BlogsGridSection h3 {
-  border-bottom: 1px solid #0080883D !important;
+  border-bottom: 1px solid #0080883d !important;
 }
 
 .testimonialTxtCntr {
@@ -1063,7 +1050,6 @@ input[type=number] {
   /* top: unset;
   bottom: 0; */
   color: #757575;
-
 }
 
 /*.projectPageGallery .swiper-button-next img,
@@ -1100,12 +1086,12 @@ input[type=number] {
 }
 
 .OtpHandleBTn {
-  background-color: #ADE4EB;
+  background-color: #ade4eb;
   border: 0;
   padding: 6px 10px;
   margin: 1rem 0;
   font-size: 18px;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   border-radius: 2px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
@@ -1124,7 +1110,7 @@ input[type=number] {
 
 .verifyTxt {
   color: #fff !important;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-size: 2rem !important;
 }
 
@@ -1235,8 +1221,6 @@ input[type=number] {
   width: 50px;
 }
 
-
-
 @keyframes spin {
   100% {
     transform: rotate(360deg);
@@ -1244,7 +1228,6 @@ input[type=number] {
 }
 
 @media screen and (max-width: 768px) {
-
   .project-overview-section,
   .walk-through-section,
   .location-section {
@@ -1257,7 +1240,6 @@ input[type=number] {
 }
 
 @media screen and (max-width: 425px) {
-
   .project-overview-section,
   .walk-through-section,
   .location-section {
@@ -1274,7 +1256,6 @@ input[type=number] {
     overflow: hidden;
   }
 }
-
 
 .homeEnquireIcon {
   position: fixed;
@@ -1293,3 +1274,76 @@ input[type=number] {
   width: 4rem;
   height: 4rem;
 }
+
+/* League One Amenties  */
+.league-one-amenities-image-container {
+  position: relative;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.league-one-amenities-image-container img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+.league-one-amenities-image-container img:hover {
+  transform: scale(1.05);
+}
+.league-one-amenities-image-container-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.liststlep h3,
+.general-amenities h3,
+.wellness-zone h3 {
+  color: #222222;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+.general-amenities .bdr,
+.wellness-zone .bdr {
+  border-bottom: 1px solid white;
+}
+.main-amenities ul,
+.general-amenities ul,
+.wellness-zone ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.main-amenities li,
+.general-amenities li,
+.wellness-zone li {
+  list-style: disc !important;
+}
+/* End League One Amenties  */
+/*  League One Home Slider  */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff !important;
+}
+.league-one-desk-banr {
+  display: none;
+}
+.league-one-mob-banr {
+  display: block;
+}
+@media (min-width: 420px) {
+  .league-one-desk-banr {
+    display: block;
+  }
+  .league-one-mob-banr {
+    display: none;
+  }
+}
+/* End League Home Slider  */
