@@ -78,7 +78,7 @@ const overAllData = {
           },
         ],
         walkthrough: {
-          video: "https://www.youtube.com/embed/rdaD3bhM6os",
+          video: "https://www.youtube.com/embed/s5L1p_4k6s0?si=wc3IPZKGf5ZctQrM",
           description:
             "At LML Prakriti, every day offers a new opportunity to immerse yourself in an extravagant lifestyle.",
           question: "WHY LML PRAKRITI?",
