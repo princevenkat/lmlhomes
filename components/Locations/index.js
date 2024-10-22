@@ -4,8 +4,10 @@ import { useState } from "react";
 import { useEffect } from "react";
 import GoogleMapReact from "google-map-react";
 import MapsMarker from "@/components/MapMarker";
+import { usePathname } from "next/navigation";
 
 export default function Locations({ projectDetailPages }) {
+  const pathname = usePathname();
   const [selectedLocationName, setSelectedLocationName] = useState(
     projectDetailPages?.locationInfo?.locations?.[0]?.name
   );
@@ -66,29 +68,41 @@ export default function Locations({ projectDetailPages }) {
       </div>
       <div className={styles.location_map}>
         <div className={styles.locationMapCntr}>
-          <GoogleMapReact
-            bootstrapURLKeys={{
-              key: "AIzaSyCPQm-Gl4aIgNuj5v8l_J34EEDfGJtZCbU",
-            }}
-            center={locationDetails}
-            defaultZoom={13}
-          >
-            {locationList.map((x, index) => (
-              <MapsMarker lat={x?.location?.lat} lng={x?.location?.lng} key={index}>
-                <img
-                  src={`/assets/icons/${x?.location?.markerIcon}`}
-                  className={
-                    x?.location?.markerIcon == "logo-1.svg" ||
-                    x.location.markerIcon == "Iconia-logo.svg" ||
-                    x.location.markerIcon == "Arshiya-logo.svg" ||
-                    x.location.markerIcon == "league one logo.png"
-                      ? "markerIco"
-                      : ""
-                  }
-                />
-              </MapsMarker>
-            ))}
-          </GoogleMapReact>
+          {pathname === "/league-one" ? (
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7773.605185732119!2d80.122341!3d13.048234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52613cab0dd419%3A0xab27a283e153f63d!2sLML%20League%20One!5e0!3m2!1sen!2sin!4v1728580847744!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          ) : (
+            <GoogleMapReact
+              bootstrapURLKeys={{
+                key: "AIzaSyCPQm-Gl4aIgNuj5v8l_J34EEDfGJtZCbU",
+              }}
+              center={locationDetails}
+              defaultZoom={13}
+            >
+              {locationList.map((x, index) => (
+                <MapsMarker lat={x?.location?.lat} lng={x?.location?.lng} key={index}>
+                  <img
+                    src={`/assets/icons/${x?.location?.markerIcon}`}
+                    className={
+                      x?.location?.markerIcon == "logo-1.svg" ||
+                      x.location.markerIcon == "Iconia-logo.svg" ||
+                      x.location.markerIcon == "Arshiya-logo.svg" ||
+                      x.location.markerIcon == "league one logo.png"
+                        ? "markerIco"
+                        : ""
+                    }
+                  />
+                </MapsMarker>
+              ))}
+            </GoogleMapReact>
+          )}
         </div>
         <div className={styles.mob_location_item_lists}>
           {locationList?.map((list, index) => (
