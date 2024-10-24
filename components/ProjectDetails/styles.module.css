@@ -129,7 +129,7 @@
 }
 
 .galleryAftrImg::after {
-  content: '';
+  content: "";
   position: absolute;
   background-image: url(/assets/images/gallery.png);
   background-repeat: no-repeat;
@@ -142,7 +142,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .tab,
   .activeTab,
   .parentTab,
@@ -189,5 +188,42 @@
     top: 0;
     right: 0;
     z-index: -1;
+  }
+}
+
+.ImageItem {
+  cursor: pointer;
+}
+.ImageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.ImageItem:hover .ImageOverlay {
+  opacity: 1;
+}
+.GalleryDesktopView {
+  display: none;
+}
+
+.projectPageGallery .swiper-pagination {
+  position: relative !important;
+}
+.GalleryMobileView .swiper-pagination {
+  position: relative !important;
+}
+
+@media (min-width: 768px) {
+  .GalleryDesktopView {
+    display: block;
+  }
+  .GalleryMobileView {
+    display: none;
   }
 }
