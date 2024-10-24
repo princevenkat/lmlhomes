@@ -47,7 +47,7 @@ export default function WalkThroughVideo({ projectDetailPages }) {
                     <iframe
                       width="100%"
                       height="100%"
-                      src={`${projectDetailPages?.walkthrough?.video}`}
+                      src={`https://www.youtube.com/embed/s5VNb25HpKU?si=U6asuo7bUVmNavvJ`}
                       title="YouTube video player"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
