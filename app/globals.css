@@ -857,10 +857,6 @@ input[type="number"] {
   flex-direction: row;
   gap: 0.5em;
 }
-.league-one-section {
-  padding: 2em 3em;
-  background: #ebfdff;
-}
 
 .location-section {
   display: flex;
@@ -1347,3 +1343,13 @@ input[type="number"] {
   }
 }
 /* End League Home Slider  */
+.league-one-section {
+  padding: 2em 1em;
+}
+
+@media (min-width: 640px) {
+  .league-one-section {
+    padding: 2em 3em;
+    background: #ebfdff;
+  }
+}
