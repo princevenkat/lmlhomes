@@ -12,19 +12,14 @@ export default function Footer() {
                 <Row>
                     <Col lg={3}>
                         <div className='footerCol1'>
-                            <h6>Contact Us</h6>
-                            <h5>LUCKY MERCANTILE PRIVATE LIMITED</h5>
-                           <p><b>Head Office: </b> <br/>
-                                                17, VAIKUNDA VAITHYAR STREET, SOWCARPET, Chennai, Tamil
-Nadu, 600079</p>
-                                                 
+                            <h6>Contact Us</h6>                                               
                                                 <p><b>Corporate Office: </b> <br/>
                                                 No.271 (Old No. 182) Mc Nichols Road,
                                                 Poonamalle High Road, Kilpauk,
                                                 Chennai - 600 010.
                                             </p>
                             <p className='mb-1'><FontAwesomeIcon icon={faEnvelope} />&nbsp; <a href='mailto:enquiry@lmlhomes.in'> enquiry@lmlhomes.in</a></p>
-                            <p className='mb-1'><FontAwesomeIcon icon={faPhone} />&nbsp; <a href='tel:8760088999'>For Sales enquiry +91 8760088999</a></p>
+                            <p className='mb-1'><FontAwesomeIcon icon={faPhone} />&nbsp; <a href='tel:8760088999'>For Sales enquiry +91 87600 88999</a></p>
                             <p className='mb-1'><FontAwesomeIcon icon={faPhone} />&nbsp; <a href='tel:8760088999'>For General enquiry 044-42083999</a></p>
                         </div>
                     </Col>
@@ -62,7 +57,7 @@ Nadu, 600079</p>
 
                 <Row className='footerRow2'>
                     <Col lg={10}>
-                        <p className='copyRightTxt'>© Copyright 2024 - LUCKY MERCANTILE PRIVATE LIMITED  |  All rights reserved</p>
+                        <p className='copyRightTxt'>© Copyright 2024 - LML Homes |  All rights reserved</p>
 
                         <p className='disclaimerTxt'> Disclaimer: All statements, pictures, models, drawings,
                             illustrations, photographs and other renderings are artistic
@@ -76,8 +71,6 @@ Nadu, 600079</p>
                             of the building complex. The terms of duly executed Sale and construction
                             Agreement shall be final and would be binding on all parties.
                         </p>
-
-                        <a href='https://benfy.co/' target='_blank' rel='noopener noreferrer'><h6 className='devTxt'>Developed by Benfy.</h6></a>
                     </Col>
                 </Row>
 
