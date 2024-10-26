@@ -2,6 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
     return (
@@ -21,8 +23,9 @@ Nadu, 600079</p>
                                                 Poonamalle High Road, Kilpauk,
                                                 Chennai - 600 010.
                                             </p>
-                            <p className='mb-1'><a href='mailto:enquiry@lmlhomes.in'>E - enquiry@lmlhomes.in</a></p>
-                            <p className='mb-1'><a href='tel:8760088999'>M - +91 8760088999</a></p>
+                            <p className='mb-1'><FontAwesomeIcon icon={faEnvelope} />&nbsp; <a href='mailto:enquiry@lmlhomes.in'> enquiry@lmlhomes.in</a></p>
+                            <p className='mb-1'><FontAwesomeIcon icon={faPhone} />&nbsp; <a href='tel:8760088999'>For Sales enquiry +91 8760088999</a></p>
+                            <p className='mb-1'><FontAwesomeIcon icon={faPhone} />&nbsp; <a href='tel:8760088999'>For General enquiry 044-42083999</a></p>
                         </div>
                     </Col>
                     <Col lg={3}>
