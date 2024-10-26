@@ -149,7 +149,7 @@ Nadu, 600079</p>
 
                                         <div className={styles.contacTxtDiv + ' ' + styles.contacTxtDivMbl}>
                                             <p>Mobile No:</p>
-                                            <a href='tel:+918760088999'>+918760088999</a>
+                                            <a href='tel:+918760088999'>+91 87600 88999</a>
                                         </div>
                                     </div>
 
