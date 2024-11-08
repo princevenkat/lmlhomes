@@ -21,15 +21,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <Script
-          id="google-analytics"
+          id="google-tag-manager"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
-            __html: `
-              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${process.env.GTAG_ID}');`,
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${process.env.GTAG_ID}');`,
           }}
         />
 
@@ -53,13 +48,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <body suppressHydrationWarning={true}>
         <noscript>
-  <iframe
-    src={`https://www.googletagmanager.com/ns.html?id=${process.env.GTAG_ID}`}
-    height="0"
-    width="0"
-    style={{ display: "none", visibility: "hidden" }}
-  />
-</noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${process.env.GTAG_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
 
         <Script
           src="https://code.jquery.com/jquery-3.7.0.js"
