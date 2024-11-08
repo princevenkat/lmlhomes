@@ -20,43 +20,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        {/* Google Tag Manager - Head */}
-        {/* <Script
-          id="gtm-head"
+        <Script
+          id="google-analytics"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-T5S96K9K');`,
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${process.env.GTAG_ID}');`,
           }}
         />
-<Script/> */}
-<Script
-  id="google-tag-manager-config"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-Q0KSRWM631');
-    `,
-  }}
-/>
-{/* <Script
-  id="google-tag-manager-config"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-DYY096BPP5');
-    `,
-  }}
-/> */}
 
         <link
           rel="stylesheet"
@@ -77,13 +52,16 @@ export default function RootLayout({ children }) {
       </Head>
 
       <body suppressHydrationWarning={true}>
-        {/* Google Tag Manager (noscript)
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5S96K9K"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        /> */}
+        <noscript>
+          <iframe
+            src={
+              "https://www.googletagmanager.com/ns.html?id=${process.env.GTAG_ID}"
+            }
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
 
         <Script
           src="https://code.jquery.com/jquery-3.7.0.js"
