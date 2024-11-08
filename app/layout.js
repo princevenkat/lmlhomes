@@ -53,15 +53,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <body suppressHydrationWarning={true}>
         <noscript>
-          <iframe
-            src={
-              "https://www.googletagmanager.com/ns.html?id=${process.env.GTAG_ID}"
-            }
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
+  <iframe
+    src={`https://www.googletagmanager.com/ns.html?id=${process.env.GTAG_ID}`}
+    height="0"
+    width="0"
+    style={{ display: "none", visibility: "hidden" }}
+  />
+</noscript>
 
         <Script
           src="https://code.jquery.com/jquery-3.7.0.js"
