@@ -66,11 +66,13 @@
 }
 
 .liststyle {
-    padding: 0px 20px;
+    padding: 0 16px;
     font-size: 16px;
     line-height: 28px;
     list-style: disc !important;
     text-align: left !important;
+    overflow-y: auto;
+    max-height: 250px;
 }
 
 .liststyle li {
