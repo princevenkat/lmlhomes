@@ -3124,7 +3124,8 @@ const overAllData = {
               {
                 pointOne:
                   "RCC framed structure with pile foundation designed to withstand seismic loads as per structural design, conforming to BIS.",
-                // pointTwo: "Anti termite treatments wherever applicable during construction stage",
+                 pointTwo: "Walls constructed using solid blocks/AAC blocks in cement mortar/adhesive with adequate reinforcement at required levels.",
+                 pointThree: "Anti termite treatments wherever applicable during construction stage",
               },
             ],
           },
@@ -3145,7 +3146,12 @@ const overAllData = {
             specifications: [
               {
                 pointOne: "Concealed/open plumbing line from UG sump provided.",
-                pointTwo: "Provision in plumbing for connecting one geyser in each toilet.",
+                pointTwo: "All closets and washbasins will be white by Jaguar/equivalent or as per the builder's choice, with concealed flush tanks.",
+                pointThree: "Provision in plumbing for connecting one geyser in each toilet.",
+                pointFour: "Single lever HI – FLOW concealed diverter of by Jaguar / equivalent makes of Hot and cold mixer with overhead shower will be provided in the toilets.",
+                pointFive: "Hand shower - provided in all bathrooms.",
+                pointSix: "All C.P fittings will be of by Jaguar/equivalent or as per the builder's choice",
+                pointSevan: "Toilet closets will be EWC floor/wall mount by Jaguar/equivalent with high quality concealed flush tank cistern of Jaguar/equivalent as per the builder's choice.",
               },
             ],
           },
