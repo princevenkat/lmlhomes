@@ -3225,7 +3225,7 @@ const overAllData = {
           },
           {
             name: "Common Features",
-            image: "Water.jpg",
+            image: "Common.jpg",
             specifications: [
               {
                 pointOne: "Video Intercom System (accessed entry) for each unit from Stilt floor lobby in respective blocks",
@@ -3244,7 +3244,7 @@ const overAllData = {
           },
           {
             name: "Outdoor Features",
-            image: "Electricity.jpg",
+            image: "Outdoor-1.jpg",
             specifications: [
               {
                 pointOne: "Borewell and RCC common sump of adequate capacity.",
