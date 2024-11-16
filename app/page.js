@@ -240,9 +240,9 @@ export default function Home() {
 
                       </div>
 
-                      <Link href='/league-one' alt="Explore League One Property">
+                      <Link href='/league-one' aria-label="Explore League One Property">
                         <div className={styles.explorePrptyBtn}>
-                          <a>EXPLORE PROPERTY</a>
+                          EXPLORE PROPERTY
                           <HiOutlineArrowLongRight />
                         </div>
                       </Link>
@@ -312,9 +312,9 @@ export default function Home() {
 
                       </div>
 
-                      <Link href='/prakriti' alt="Explore Prakriti Property">
+                      <Link href='/prakriti' aria-label="Explore Prakriti Property">
                         <div className={styles.explorePrptyBtn}>
-                          <a>EXPLORE PROPERTY</a>
+                          EXPLORE PROPERTY
                           <HiOutlineArrowLongRight />
                         </div>
                       </Link>
@@ -380,9 +380,9 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <Link href='/arshiya'alt="Explore Arshiya Property">
+                      <Link href='/arshiya'aria-label="Explore Arshiya Property">
                         <div className={styles.explorePrptyBtn}>
-                          <a>EXPLORE PROPERTY</a>
+                          EXPLORE PROPERTY
                           <HiOutlineArrowLongRight />
                         </div>
                       </Link>
@@ -446,9 +446,9 @@ export default function Home() {
                       </div>
 
 
-                      <Link href='/iconia' alt="Explore Iconia Property">
+                      <Link href='/iconia' aria-label="Explore Iconia Property">
                         <div className={styles.explorePrptyBtn}>
-                          <a>EXPLORE PROPERTY</a>
+                          EXPLORE PROPERTY
                           <HiOutlineArrowLongRight />
                         </div>
                       </Link>

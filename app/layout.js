@@ -20,7 +20,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        
+      <title>LML Homes, Your Trusted Partner for Quality Apartments in Chennai</title>
+
+    {/* Meta description */}
+      <meta
+          name="description"
+          content="LML Homes offers premium real estate solutions in Chennai. Explore modern, luxurious apartments and properties that fit your lifestyle and budget."
+        />
 
         <link
           rel="stylesheet"
