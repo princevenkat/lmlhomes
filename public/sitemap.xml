@@ -16,17 +16,17 @@
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.lmlhomes.in/about/management</loc>
+<loc>https://www.lmlhomes.in/about/management</loc>        <!-- Not indexed -->
 <lastmod>2024-11-16T04:32:32+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.lmlhomes.in/about/awards</loc>
+<loc>https://www.lmlhomes.in/about/awards</loc>         <!-- Not indexed -->
 <lastmod>2024-11-16T04:32:32+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.lmlhomes.in/partners</loc>
+<loc>https://www.lmlhomes.in/partners</loc>       
 <lastmod>2024-11-16T04:32:32+00:00</lastmod>
 <priority>0.80</priority>
 </url>
@@ -46,12 +46,12 @@
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.lmlhomes.in/privacy-policy</loc>
+<loc>https://www.lmlhomes.in/privacy-policy</loc>  <!-- Not indexed -->
 <lastmod>2024-11-16T04:32:32+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.lmlhomes.in/contact</loc>
+<loc>https://www.lmlhomes.in/contact</loc>       <!-- Not indexed -->
 <lastmod>2024-11-16T04:32:32+00:00</lastmod>
 <priority>0.80</priority>
 </url>
