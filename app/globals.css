@@ -46,7 +46,7 @@
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  display: inline-masonry;
 }
 
 body {

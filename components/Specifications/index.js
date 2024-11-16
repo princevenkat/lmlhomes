@@ -34,6 +34,18 @@ export default function Specifications({ projectDetailPages }) {
                                                             {point.pointOne ? <li>{point.pointOne}</li> : ''}
                                                             {point.pointTwo ? <li>{point.pointTwo}</li> : ''}
                                                             {point.pointThree ? <li>{point.pointThree}</li> : ''}
+                                                            {point.pointFour ? <li>{point.pointFour}</li> : ''}
+                                                            {point.pointFive ? <li>{point.pointFive}</li> : ''}
+                                                            {point.pointSix ? <li>{point.pointSix}</li> : ''}
+                                                            {point.pointSeven ? <li>{point.pointSeven}</li> : ''}
+                                                            {point.pointEight ? <li>{point.pointEight}</li> : ''}
+                                                            {point.pointNine ? <li>{point.pointNine}</li> : ''}
+                                                            {point.pointTen ? <li>{point.pointTen}</li> : ''}
+                                                            {point.pointEleven ? <li>{point.pointEleven}</li> : ''}
+                                                            {point.pointTwelve ? <li>{point.pointTwelve}</li> : ''}
+                                                            {point.pointThirteen ? <li>{point.pointThirteen}</li> : ''}
+                                                            {point.pointFourteen ? <li>{point.pointFourteen}</li> : ''}
+                                                            {point.pointFifteen ? <li>{point.pointFifteen}</li> : ''}
                                                         </>
                                                     )
                                                 })}

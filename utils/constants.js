@@ -3124,7 +3124,8 @@ const overAllData = {
               {
                 pointOne:
                   "RCC framed structure with pile foundation designed to withstand seismic loads as per structural design, conforming to BIS.",
-                // pointTwo: "Anti termite treatments wherever applicable during construction stage",
+                 pointTwo: "Walls constructed using solid blocks/AAC blocks in cement mortar/adhesive with adequate reinforcement at required levels.",
+                 pointThree: "Anti termite treatments wherever applicable during construction stage",
               },
             ],
           },
@@ -3135,7 +3136,7 @@ const overAllData = {
               {
                 pointOne:
                   "Living, dining, and bedroom areas finished with high-quality 2x2 vitrified tiles of the builder's choice, including necessary skirting.",
-                // pointTwo: "Staircase shall be finished with Kota/granite stone as per Architect’s design. Additional cost to be paid for Lofts in Bedroom and Kitchen Lofts will be free of cost.",
+                 pointTwo: "Toilets, Balcony’s, And utility Area – antiskid ceramic tiles with spacers.",
               },
             ],
           },
@@ -3145,7 +3146,12 @@ const overAllData = {
             specifications: [
               {
                 pointOne: "Concealed/open plumbing line from UG sump provided.",
-                pointTwo: "Provision in plumbing for connecting one geyser in each toilet.",
+                pointTwo: "All closets and washbasins will be white by Jaguar/equivalent or as per the builder's choice, with concealed flush tanks.",
+                pointThree: "Provision in plumbing for connecting one geyser in each toilet.",
+                pointFour: "Single lever HI – FLOW concealed diverter of by Jaguar / equivalent makes of Hot and cold mixer with overhead shower will be provided in the toilets.",
+                pointFive: "Hand shower - provided in all bathrooms.",
+                pointSix: "All C.P fittings will be of by Jaguar/equivalent or as per the builder's choice",
+                pointSeven: "Toilet closets will be EWC floor/wall mount by Jaguar/equivalent with high quality concealed flush tank cistern of Jaguar/equivalent as per the builder's choice.",
               },
             ],
           },
@@ -3156,8 +3162,8 @@ const overAllData = {
               {
                 pointOne:
                   "Main Door – (3’6” x 8’0”) 8 Feet Height, frame made of engineered wood with both side veneered flush door (38mm) with necessary SS finished door fittings along with Godrej digital lock / equivalent.",
-                // pointTwo: "UV polished natural wood veneer on both sides.",
-                // pointThree: "SS fittings with Godrej digital lock/equivalent.",
+                 pointTwo: "Bedroom Doors – (3” x 7’0”) 7 Feet Height, frame made of engineered wood with both sides laminated flush door (32mm) with necessary hardware of Godrej / equivalent.",
+                 pointThree: "Toilet Doors – (2’6” x 7’0”) 7 Feet Height, frame made of engineered wood with both sides laminated flush door (30mm) with necessary hardware of Godrej / equivalent.",
               },
             ],
           },
@@ -3178,7 +3184,8 @@ const overAllData = {
               {
                 pointOne:
                   "Kitchen platform finished with polished granite and fitted with a single bowl stainless steel sink.",
-                pointTwo: "One side Loft will be provided.",
+                pointTwo: "Glazed tile dado of 2 feet above the kitchen platform and 3 feet dado in the utility area (if provided).",
+                pointThree: "One side Loft will be provided.",
               },
             ],
           },
@@ -3188,7 +3195,9 @@ const overAllData = {
             specifications: [
               {
                 pointOne: "Living, dining, and bedroom walls finished with two coats of putty and one coat of primer.",
-                pointTwo: "Toilet ceiling – Grid type False ceiling",
+                pointTwo: "Ceiling – 2 coats of smooth putty and 1 coat of primer",
+                pointThree: "Bathroom walls covered with ceramic tiles up to ceiling height, as per the builder's choice.",
+                pointFour: "Toilet ceiling – Grid type False ceiling",
               },
             ],
           },
@@ -3198,17 +3207,56 @@ const overAllData = {
             specifications: [
               {
                 pointOne: "Concealed copper wiring suitable for three-phase supply, ISI quality.",
-                pointTwo: "Power backup - up to 400w for 2 BHK and 500w for 3 BHK unit.",
+                pointTwo: "Switches and sockets with adequate points for lights, fans, and power supply",
+                pointThree: "USB charging port in switch boards will be provide in living and in bedrooms.",
+                pointFour: "Television points provision in Living room & in master bedroom.",
+                pointFive: "Telephone point provision in living room & master bedroom",
+                pointSix: "Data point provision in living room & all bedrooms.",
+                pointSeven: "Provision for split air conditioner in living room and in all bedrooms.",
+                pointEight: "Geyser point will be provided in all the bathrooms.",
+                pointNine: "Exhaust fan point will be provided in all bathrooms.",
+                pointTen: "Electrical Point for chimney and water purifier.",
+                pointEleven: "One calling bell point provided",
+                pointTwelve: "Separate meter for common area lighting and pumps.",
+                pointThirteen: "Three-phase supply with auto phase changer and trip switch for each flat/apartment.",
+                pointFourteen: "Power backup - up to 400w for 2 BHK and 500w for 3 BHK unit.",
               },
             ],
           },
           {
-            name: "Water",
-            image: "Water.jpg",
+            name: "Common Features",
+            image: "Common.jpg",
             specifications: [
               {
-                pointOne: "Rain Water Harvest – Rain water Harvesting site as per site condition.",
-                pointTwo: "Water treatment plant.",
+                pointOne: "Video Intercom System (accessed entry) for each unit from Stilt floor lobby in respective blocks",
+                pointTwo: "Fully automatic elevators.",
+                pointThree: "100% power backup for the multi-purpose hall, lifts, WTP, STP, and selective common area lighting, with additional backup for other common areas in club house (excluding air conditioning).",
+                pointFour: "Lift Fascia – Grantie/equivalent cladding at all levels.",
+                pointFive: "Lobby – Granite flooring on Ground floor and tile flooring on other levels.",
+                pointSix: "Corridor – vitrified tile floorings at all levels.",
+                pointSeven: "Staircase floor – Granite Floorings at all levels",
+                pointEight: "Staircase hand rail – SS hand rail at all levels",
+                pointNine: "Terrace Floor – Press Tile flooring / cool roof tile.",
+                pointTen: "Terrace Door – Good quality door frame with FRP shutter painted on both sides",
+                pointEleven: "Name Board – apartment owner’s name will be provided in the ground floor.",
+              },
+            ],
+          },
+          {
+            name: "Outdoor Features",
+            image: "Outdoor-1.jpg",
+            specifications: [
+              {
+                pointOne: "Borewell and RCC common sump of adequate capacity.",
+                pointTwo: "Overhead tank provided for water supply for each block.",
+                pointThree: "Rain Water Harvest – Rain water Harvesting site as per site condition.",
+                pointFour: "Sewage treatment plant.",
+                pointFive: "Water treatment plant.",
+                pointSix: "CCTV surveillance across the community.",
+                pointSeven: "Car Parking – Grano / tile floorings and driveway(external) – premium quality interlocking pavers / tile flooring as per architect design",
+                pointEight: "Security - Security booth will be provided at the entrance gate only with MYGATE App.",
+                pointNine: "Exterior Wall – Exterior walls of the building finished with 1 coat of primer & 2 coat of exterior emulsion paint with colour as per architect design.",
+                pointTen: "Compound wall on all sides of the property as per architect design",
               },
             ],
           },
