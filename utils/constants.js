@@ -3144,7 +3144,7 @@ const overAllData = {
           },
           {
             name: "Plumbing & Sanitary",
-            image: "Pluming.jpg",
+            image: "Pluming-l1.jpg",
             specifications: [
               {
                 pointOne: "Concealed/open plumbing line from UG sump provided.",
@@ -3171,7 +3171,7 @@ const overAllData = {
           },
           {
             name: "Windows & Ventilators",
-            image: "Window.jpg",
+            image: "Window_.jpg",
             specifications: [
               {
                 pointOne: "Windows and ventilators made of UPVC/aluminium with clear glass panes.",
@@ -3227,7 +3227,7 @@ const overAllData = {
           },
           {
             name: "Common Features",
-            image: "Common.jpg",
+            image: "Common-features.jpg",
             specifications: [
               {
                 pointOne: "Video Intercom System (accessed entry) for each unit from Stilt floor lobby in respective blocks",
@@ -3246,7 +3246,7 @@ const overAllData = {
           },
           {
             name: "Outdoor Features",
-            image: "Outdoor-1.jpg",
+            image: "Car-parking.jpg",
             specifications: [
               {
                 pointOne: "Borewell and RCC common sump of adequate capacity.",
