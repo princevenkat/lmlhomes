@@ -82,9 +82,9 @@ export default function Management() {
 
                                             <Col lg={9} sm={12}>
                                                 <div className={styles.managementTxtCntr}>
-                                                    <h3>Mr. Mahesh Kothari</h3>
+                                                    <h3>Mr. Mahesh Kumar Kothari</h3>
                                                     <span>MANAGING DIRECTOR, LML HOMES</span>
-                                                    <p>Mr. Mahesh Kothari is the Managing Director of LML Homes. He is exclusively in charge of the day to day functioning of the company. His stewardship at the helm of the management has resulted in the timely completion of every project of LML Homes. He is always committed to raise the standards of quality, pursues uncompromising business ethics and transparency in all spheres of business. It is this commitment from the top management that inspires everyone at LML Homes to scale up and deliver the best.</p>
+                                                    <p>Mr. Mahesh Kumar Kothari is the Managing Director of LML Homes. He is exclusively in charge of the day to day functioning of the company. His stewardship at the helm of the management has resulted in the timely completion of every project of LML Homes. He is always committed to raise the standards of quality, pursues uncompromising business ethics and transparency in all spheres of business. It is this commitment from the top management that inspires everyone at LML Homes to scale up and deliver the best.</p>
                                                 </div>
                                             </Col>
                                         </div>
@@ -100,9 +100,9 @@ export default function Management() {
 
                                             <Col lg={9} sm={12}>
                                                 <div className={styles.managementTxtCntr}>
-                                                    <h3>Mr. Surender Kothari</h3>
+                                                    <h3>Mr. Surendar Kothari</h3>
                                                     <span>EXECUTIVE DIRECTOR, LML HOMES</span>
-                                                    <p>Mr. Surender Kothari, the Executive Director of Finance of LML Homes, he is associated with all financial decisions of the company. In charge of the Accounting Department Mr. Surender oversee the day-to-day site operations of the company including materials purchase, man management and schedule planning. A graduate in Business Administration he has rich experience in business management. His shrewd planning and budgeting ensure seamless flow of work to successfully complete the projects on time.</p>
+                                                    <p>Mr. Surendar Kothari, the Executive Director of Finance of LML Homes, he is associated with all financial decisions of the company. In charge of the Accounting Department Mr. Surender oversee the day-to-day site operations of the company including materials purchase, man management and schedule planning. A graduate in Business Administration he has rich experience in business management. His shrewd planning and budgeting ensure seamless flow of work to successfully complete the projects on time.</p>
                                                 </div>
                                             </Col>
                                         </div>
