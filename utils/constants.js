@@ -2282,7 +2282,7 @@ const overAllData = {
           info: "2&3 BHK",
           subContent: "Excluding Reg & Gst",
         },
-        pdf: "assets/pdfs/the-league-one-brochure.pdf",
+        pdf: "assets/pdfs/theleagueone.pdf",
         enquire: {
           whatsApp: "+918898989898",
           phone: "+918898989898",
