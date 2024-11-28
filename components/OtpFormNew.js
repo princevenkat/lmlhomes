@@ -39,24 +39,55 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
             });
     };
 
-    const handleVerifyCode = () => {
+    const handleVerifyCode = async () => {
         setLoading(true);
-        // console.log(verificationId + 'VerifyId' , verificationCode + ' verifyCode');
-        const credential = firebase.auth.PhoneAuthProvider.credential(verificationId.verificationId, otpVerificationCode);
-        // console.log(credential , 'credentialinVerifyCode');
-        firebase.auth().signInWithCredential(credential)
-            .then((userCredential) => {
-                // console.log(userCredential, 'User credential and successful authentication');
-                setLoading(false);
-                setUser(userCredential)
-                onFormSubmit()
-            })
-            .catch((error) => {
-                console.error(error, 'while handleVerifyCode ');
-                setLoading(false);
+    
+        try {
+            const credential = firebase.auth.PhoneAuthProvider.credential(
+                verificationId.verificationId,
+                otpVerificationCode
+            );
+    
+            const userCredential = await firebase.auth().signInWithCredential(credential);
+            setUser(userCredential);
+    
+            // Prepare lead data for Sell.do
+            const leadData = {
+                srid: "6747fc5b5d8def91cacec673", // Campaign ID from Sell.do
+                api_key: "46996f24a4ce88a72127a43311967190", // API Key
+                lead: {
+                    // name: "Anonymous", // Update this if you have a name input
+                    mobile: phoneNumber,
+                    country_code: "+91", // Adjust based on the phone number input
+                    // email: "", // Optional, if available
+                    source: "OTP Form", // Optional, for tracking
+                },
+            };
+    
+            // Send lead data to Sell.do
+            const response = await fetch("https://api.sell.do/v2/leads", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(leadData),
             });
+    
+            const result = await response.json();
+    
+            if (response.ok) {
+                toast.success("Lead captured successfully!");
+            } else {
+                toast.error(`Failed to capture lead: ${result.message || "Unknown error"}`);
+            }
+        } catch (error) {
+            console.error(error, "while handleVerifyCode");
+            toast.error("Verification or lead submission failed!");
+        } finally {
+            setLoading(false);
+        }
     };
-
+    
 
     return (
         <section className="otpForm-section">
