@@ -13,7 +13,6 @@ export default function LandingPageForm({ closeForm }) {
 
   const pathname = usePathname();
   
-
   useEffect(() => {
     // Set campaignId based on the current page
     if (pathname === "/prakriti") {
@@ -49,8 +48,8 @@ export default function LandingPageForm({ closeForm }) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name,
-          email,
+          name: name,
+          email: email,
           phoneNumber: number,
           note: note || "No Notes Present",
           campaignId,
@@ -72,7 +71,6 @@ export default function LandingPageForm({ closeForm }) {
       setLoading(false);
     }
   };
-  
 
   return (
     <section className={styles.homeEnquiryFormSection}>
@@ -160,29 +158,32 @@ export default function LandingPageForm({ closeForm }) {
               <input
                 type="submit"
                 className={styles.submitBtn}
-                value={loading ? "submitting" : "submit"}
+                value={loading ? "Submitting..." : "Submit"}
+                disabled={loading} // Disable submit button when loading
               />
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="19"
-                viewBox="0 0 25 19"
-                fill="none"
-              >
-                <g clipPath="url(#clip0_581_3821)">
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M4.58764 10.7753L0.046382 18.4763C-0.032711 18.6073 -0.0129378 18.7632 0.0925197 18.8754C0.197977 18.9876 0.356163 19.0251 0.507758 18.9689L24.7696 9.82124C24.9146 9.76512 25.0002 9.64041 25.0002 9.49699C25.0002 9.35357 24.908 9.22886 24.7696 9.17274L0.507758 0.0250512C0.356163 -0.0310696 0.197977 0.00634429 0.0925197 0.118586C-0.0129378 0.230827 -0.032711 0.386718 0.046382 0.517667L4.58764 8.21868L16.0759 9.37228C16.1616 9.37851 16.2275 9.43463 16.2275 9.49699C16.2275 9.55935 16.1616 9.61547 16.0759 9.6217L4.58764 10.7753Z"
-                    fill="#282828"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_581_3821">
-                    <rect width="25" height="19" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
+              {loading && (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="19"
+                  viewBox="0 0 25 19"
+                  fill="none"
+                >
+                  <g clipPath="url(#clip0_581_3821)">
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M4.58764 10.7753L0.046382 18.4763C-0.032711 18.6073 -0.0129378 18.7632 0.0925197 18.8754C0.197977 18.9876 0.356163 19.0251 0.507758 18.9689L24.7696 9.82124C24.9146 9.76512 25.0002 9.64041 25.0002 9.49699C25.0002 9.35357 24.908 9.22886 24.7696 9.17274L0.507758 0.0250512C0.356163 -0.0310696 0.197977 0.00634429 0.0925197 0.118586C-0.0129378 0.230827 -0.032711 0.386718 0.046382 0.517667L4.58764 8.21868L16.0759 9.37228C16.1616 9.37851 16.2275 9.43463 16.2275 9.49699C16.2275 9.55935 16.1616 9.61547 16.0759 9.6217L4.58764 10.7753Z"
+                      fill="#282828"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_581_3821">
+                      <rect width="25" height="19" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              )}
             </div>
           </form>
         </Row>

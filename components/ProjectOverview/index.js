@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import styles from "./projectOverview.module.css";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
@@ -7,6 +8,8 @@ import { usePathname } from "next/navigation";
 export default function ProjectOverview({ projectDetailPages }) {
   const [keyLocation, setKeyLocation] = useState("");
   const pathname = usePathname();
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const [isActive, setIsActive] = useState(false);
   function handleClick() {
@@ -19,11 +22,11 @@ export default function ProjectOverview({ projectDetailPages }) {
   const handleOtpFormSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-  
+
     const name = phoneNumber;
     const email = `${phoneNumber}@dummy.com`;
     const note = "Project Brochure Download";
-  
+
     let campaignId = "";
     if (pathname === "/prakriti") {
       campaignId = process.env.NEXT_PUBLIC_SELLDO_PRAKRITI_CAMPAIGN_ID;
@@ -34,14 +37,14 @@ export default function ProjectOverview({ projectDetailPages }) {
     } else {
       campaignId = process.env.NEXT_PUBLIC_SELLDO_DEFAULT_CAMPAIGN_ID;
     }
-  
+
     try {
       const response = await fetch("/api/submitLead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, phoneNumber, note, campaignId }),
       });
-  
+
       const result = await response.json();
       if (result.success) {
         alert("Successfully submitted");
@@ -89,8 +92,6 @@ export default function ProjectOverview({ projectDetailPages }) {
               </span>
             </div>
 
-            {/* <span className={styles.keyLocation}>{projectDetailPages?.keyLocation || ''}</span> */}
-
             {projectDetailPages?.keyLocation ? (
               <span className={styles.keyLocation}>
                 {projectDetailPages.keyLocation}
@@ -103,8 +104,11 @@ export default function ProjectOverview({ projectDetailPages }) {
 
             {isActive ? (
               <OtpFormNew
+                phoneNumber={phoneNumber}
+                setPhoneNumber={setPhoneNumber}
                 closeForm={handleClose}
                 onFormSubmit={handleOtpFormSubmit}
+                loading={loading}
               />
             ) : (
               <a className={styles.content_button} onClick={handleClick}>
@@ -114,8 +118,6 @@ export default function ProjectOverview({ projectDetailPages }) {
                 </span>
               </a>
             )}
-
-            {/* href={projectDetailPages?.pdf} */}
           </div>
           <div className={styles.offerSection}>
             {pathname === "/league-one" && (
@@ -173,7 +175,6 @@ export default function ProjectOverview({ projectDetailPages }) {
                       src={`/assets/icons/${highlights?.icon}`}
                     />
                     <div className={styles.item_content}>
-                      {/* {highlights?.label} */}
                       <span style={{ display: "block", width: "12rem" }}>
                         {highlights?.label}
                       </span>
