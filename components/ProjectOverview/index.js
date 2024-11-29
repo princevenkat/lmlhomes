@@ -3,6 +3,9 @@ import styles from "./projectOverview.module.css";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import OtpFormNew from "@/components/OtpFormNew";
 import { usePathname } from "next/navigation";
+const cors = require("cors");
+App.use(cors());
+
 
 export default function ProjectOverview({ projectDetailPages }) {
   const [keyLocation, setKeyLocation] = useState("");

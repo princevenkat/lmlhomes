@@ -4,6 +4,9 @@ import Row from "react-bootstrap/Row";
 import styles from "@/app/page.module.css";
 import { usePathname } from "next/navigation";
 
+const cors = require("cors");
+App.use(cors());
+
 export default function LandingPageForm({ closeForm }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -12,6 +15,7 @@ export default function LandingPageForm({ closeForm }) {
   const [campaignId, setCampaignId] = useState(""); // Campaign ID state
 
   const pathname = usePathname();
+  
 
   useEffect(() => {
     // Set campaignId based on the current page
