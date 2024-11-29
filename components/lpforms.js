@@ -43,7 +43,7 @@ export default function LandingPageForm({ closeForm }) {
         setNote('')
 
         // Prepare the URL with the campaign ID and other form data
-        const apiUrl = `https://app.sell.do/api/leads/create?sell_do[form][lead][name]=${encodeURIComponent(name)}&sell_do[form][lead][email]=${encodeURIComponent(email)}&sell_do[form][lead][phone]=${encodeURIComponent(number)}&api_key=${process.env.NEXT_PUBLIC_SELLDO_API_KEY}&sell_do[form][note][content]=${encodeURIComponent(note || 'No Notes Present')}&sell_do[campaign][srd]=${encodeURIComponent(campaignId)}`;
+        const apiUrl = `https://app.sell.do/api/leads/create?sell_do[form][lead][name]=${encodeURIComponent(name)}&sell_do[form][lead][email]=${encodeURIComponent(email)}&sell_do[form][lead][phone]=${encodeURIComponent(number)}&api_key=${process.env.NEXT_SELLDO_API_KEY}&sell_do[form][note][content]=${encodeURIComponent(note || 'No Notes Present')}&sell_do[campaign][srd]=${encodeURIComponent(campaignId)}`;
 
         // Make the API call to submit the form data
         fetch(apiUrl, {
