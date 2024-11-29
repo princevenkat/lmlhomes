@@ -63,7 +63,7 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
                     source: "OTP Form", // Optional, for tracking
                 },
             };
-    
+            console.log(leadData);
             // Send lead data to Sell.do
             const response = await fetch("https://api.sell.do/v2/leads", {
                 method: "POST",
