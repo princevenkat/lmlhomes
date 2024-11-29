@@ -15,8 +15,21 @@ import Footer from "@/components/Footer";
 import Script from "next/script";
 import Head from "next/head";
 import { motion } from "framer-motion";
+import LandingPageForm from "@/components/lpforms";
+import styles from "./projects.module.css";
+import { useState } from 'react';
 
 export default function RootLayout({ children }) {
+
+  const [isActive, setIsActive] = useState(false);
+
+    function handleClick() {
+        setIsActive(!isActive);
+    }
+    function handleClose() {
+        setIsActive(false);
+    }
+
   return (
     <html lang="en">
       <Head>
@@ -105,7 +118,16 @@ export default function RootLayout({ children }) {
 
         <MobHeader />
         <Header />
-        {children}
+        {children}<>
+        <div className={styles.homeEnquire}>
+            {isActive ? (
+              <LandingPageForm closeForm={handleClose} />
+            ) : (
+              <div className={styles.homeEnquireBtn} onClick={handleClick}>
+                ENQUIRE
+              </div>
+            )}
+          </div></>
         <Footer />
       </body>
     </html>
