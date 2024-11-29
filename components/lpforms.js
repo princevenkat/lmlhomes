@@ -4,9 +4,6 @@ import Row from "react-bootstrap/Row";
 import styles from "@/app/page.module.css";
 import { usePathname } from "next/navigation";
 
-const cors = require("cors");
-App.use(cors());
-
 export default function LandingPageForm({ closeForm }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -34,46 +31,48 @@ export default function LandingPageForm({ closeForm }) {
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-
-    // Clear form fields after submission
-    setName("");
-    setEmail("");
-    setNumber("");
-    setNote("");
-
-    // Prepare the URL with the campaign ID and other form data
-    const apiUrl = `https://app.sell.do/api/leads/create?sell_do[form][lead][name]=${encodeURIComponent(
-      name
-    )}&sell_do[form][lead][email]=${encodeURIComponent(
-      email
-    )}&sell_do[form][lead][phone]=${encodeURIComponent(number)}&api_key=${
-      process.env.NEXT_SELLDO_API_KEY
-    }&sell_do[form][note][content]=${encodeURIComponent(
-      note || "No Notes Present"
-    )}&sell_do[campaign][srd]=${encodeURIComponent(campaignId)}`;
-
-    // Make the API call to submit the form data
-    fetch(apiUrl, {
-      method: "POST",
-      mode: "cors",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type",
-      },
-    })
-      .then((res) => {
-        alert("SUCCESSFULLY SUBMITTED");
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.log(err);
-        setLoading(false);
+  
+    try {
+      // Clear form fields
+      setName("");
+      setEmail("");
+      setNumber("");
+      setNote("");
+  
+      // Call the API route
+      const response = await fetch("/api/submitLead", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          phoneNumber: number,
+          note: note || "No Notes Present",
+          campaignId,
+        }),
       });
+  
+      const result = await response.json();
+  
+      if (result.success) {
+        alert("Successfully Submitted");
+      } else {
+        console.error(result.message);
+        alert("Submission failed. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
+  
 
   return (
     <section className={styles.homeEnquiryFormSection}>

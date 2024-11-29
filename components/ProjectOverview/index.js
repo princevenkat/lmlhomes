@@ -3,9 +3,6 @@ import styles from "./projectOverview.module.css";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import OtpFormNew from "@/components/OtpFormNew";
 import { usePathname } from "next/navigation";
-const cors = require("cors");
-App.use(cors());
-
 
 export default function ProjectOverview({ projectDetailPages }) {
   const [keyLocation, setKeyLocation] = useState("");
@@ -19,18 +16,15 @@ export default function ProjectOverview({ projectDetailPages }) {
     setIsActive(false);
   }
 
-  const handleOtpFormSubmit = (e) => {
+  const handleOtpFormSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-
-    // Set default values for name, email, and note
-    const name = phoneNumber; // Using phone number as the name
-    const email = `${phoneNumber}@dummy.com`; // Email set as phoneNumber@dummy.com
-    const note = "Project Brochure Download"; // Default note text
-
-    // Set campaignId based on the current page
+  
+    const name = phoneNumber;
+    const email = `${phoneNumber}@dummy.com`;
+    const note = "Project Brochure Download";
+  
     let campaignId = "";
-
     if (pathname === "/prakriti") {
       campaignId = process.env.NEXT_PUBLIC_SELLDO_PRAKRITI_CAMPAIGN_ID;
     } else if (pathname === "/iconia") {
@@ -40,37 +34,27 @@ export default function ProjectOverview({ projectDetailPages }) {
     } else {
       campaignId = process.env.NEXT_PUBLIC_SELLDO_DEFAULT_CAMPAIGN_ID;
     }
-
-    // Prepare the API URL with the campaign ID and other form data
-    const apiUrl = `https://app.sell.do/api/leads/create?sell_do[form][lead][name]=${encodeURIComponent(
-      name
-    )}&sell_do[form][lead][email]=${encodeURIComponent(
-      email
-    )}&sell_do[form][lead][phone]=${encodeURIComponent(phoneNumber)}&api_key=${
-      process.env.NEXT_SELLDO_API_KEY
-    }&sell_do[form][note][content]=${encodeURIComponent(
-      note
-    )}&sell_do[campaign][srd]=${encodeURIComponent(campaignId)}`;
-
-    // Make the API call to submit the form data
-    fetch(apiUrl, {
-      method: "POST",
-      mode: "cors",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type",
-      },
-    })
-      .then((res) => {
+  
+    try {
+      const response = await fetch("/api/submitLead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, phoneNumber, note, campaignId }),
+      });
+  
+      const result = await response.json();
+      if (result.success) {
         alert("Successfully submitted");
         window.open(projectDetailPages?.pdf, "_blank");
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.log(err);
-        setLoading(false);
-      });
+      } else {
+        alert("Submission failed: " + result.message);
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("There was an error submitting the form.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
