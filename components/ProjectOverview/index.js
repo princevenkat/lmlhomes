@@ -15,9 +15,46 @@ export default function ProjectOverview({ projectDetailPages }) {
   function handleClose() {
     setIsActive(false);
   }
-  function handleOtpFormSubmit() {
-    window.open(projectDetailPages?.pdf, "_blank");
-  }
+
+  const handleOtpFormSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    // Set default values for name, email, and note
+    const name = phoneNumber;  // Using phone number as the name
+    const email = `${phoneNumber}@dummy.com`;  // Email set as phoneNumber@dummy.com
+    const note = "Project Brochure Download";  // Default note text
+
+    // Set campaignId based on the current page
+    let campaignId = '';
+
+    if (pathname === '/prakriti') {
+      campaignId = process.env.NEXT_PUBLIC_SELLDO_PRAKRITI_CAMPAIGN_ID;
+    } else if (pathname === '/iconia') {
+      campaignId = process.env.NEXT_PUBLIC_SELLDO_ICONIA_CAMPAIGN_ID;
+    } else if (pathname === '/arshiya') {
+      campaignId = process.env.NEXT_PUBLIC_SELLDO_ARSHIYA_CAMPAIGN_ID;
+    } else {
+      campaignId = process.env.NEXT_PUBLIC_SELLDO_DEFAULT_CAMPAIGN_ID;
+    }
+
+    // Prepare the API URL with the campaign ID and other form data
+    const apiUrl = `https://app.sell.do/api/leads/create?sell_do[form][lead][name]=${encodeURIComponent(name)}&sell_do[form][lead][email]=${encodeURIComponent(email)}&sell_do[form][lead][phone]=${encodeURIComponent(phoneNumber)}&api_key=${process.env.NEXT_PUBLIC_SELLDO_API_KEY}&sell_do[form][note][content]=${encodeURIComponent(note)}&sell_do[campaign][srd]=${encodeURIComponent(campaignId)}`;
+
+    // Make the API call to submit the form data
+    fetch(apiUrl, {
+      method: 'POST',
+    })
+      .then(res => {
+        alert("Successfully submitted");
+        window.open(projectDetailPages?.pdf, "_blank");
+        setLoading(false);
+      })
+      .catch(err => {
+        console.log(err);
+        setLoading(false);
+      });
+  };
 
   useEffect(() => {
     let keyLoc = projectDetailPages?.heading;

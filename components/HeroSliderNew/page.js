@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import styles from "@/components/HeroSliderNew/style.module.css";
-import HomeBannerForm from '@/components/HomeBannerForm'
 import ReactPlayer from 'react-player'
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -68,9 +67,7 @@ export default function HeroSliderNew() {
                 </h1>
             </div>
 
-            <div className={styles.HomeBannerForm}>
-                {isActive ? <HomeBannerForm closeForm={handleClose} /> : <button className={styles.enquire + ` btn`} onClick={handleClick} >Enquire</button>}
-            </div>
+          
         </section>
     )
 }

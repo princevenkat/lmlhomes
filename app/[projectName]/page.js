@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import styles from "./projects.module.css";
 import useWindowResize from "@/hooks/useWindowResize";
 import HomeSections from "./HomeSections";
-import LandingPageForm from "@/components/LandingPageForm";
+import LandingPageForm from "@/components/lpforms";
 import { usePathname } from "next/navigation";
 import { overAllData } from "@/utils/constants";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -159,36 +159,7 @@ export default function Projects() {
           </div>
           {/* hello */}
           <HomeSections projectDetailPages={projectDetailPages} />
-          <div className={styles.homeEnquire}>
-            {/* {projectDetailPages?.enquire?.phone && (
-              <>
-                <a
-                  className={styles.homeEnquireIcon}
-                  href={`tel:${projectDetailPages?.enquire?.phone}`}
-                >
-                  <img src={`/assets/icons/phone.png`} />
-                </a>
-              </>
-            )}
-            {projectDetailPages?.enquire?.whatsApp && (
-              <>
-                <a
-                  className={styles.homeEnquireIcon}
-                  target="_blank"
-                  href={`https://wa.me/${projectDetailPages?.enquire?.whatsApp}`}
-                >
-                  <img src={`/assets/icons/whatsapp.png`} />
-                </a>
-              </>
-            )} */}
-            {isActive ? (
-              <LandingPageForm closeForm={handleClose} />
-            ) : (
-              <div className={styles.homeEnquireBtn} onClick={handleClick}>
-                ENQUIRE
-              </div>
-            )}
-          </div>
+          
         </>
       ) : (
         <div className={styles.noProject}>
