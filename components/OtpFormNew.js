@@ -131,7 +131,7 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
 
                                 <button onClick={handleVerifyCode} className="OtpHandleBTn" >
                                     {loading && (<CgSpinner size={20} className="mt-1 animate-spin" />)}
-                                    <span>Verify OTP</span>
+                                    <span>Verify OTP.</span>
                                 </button>
 
                             </>
