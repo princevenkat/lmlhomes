@@ -8,13 +8,15 @@ import firebase from '@/components/Firebase/index';
 import { toast, Toaster } from "react-hot-toast";
 
 export default function OtpFormNew({ closeForm, onFormSubmit }) {
-
     const [loading, setLoading] = useState(false);
     const [showOTP, setShowOTP] = useState(false);
     const [user, setUser] = useState(null);
     const [phoneNumber, setPhoneNumber] = useState('');
     const [otpVerificationCode, setOtpVerificationCode] = useState('');
     const [verificationId, setVerificationId] = useState('');
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [notes] = useState('Download Brochure');
 
     const handleSendCode = () => {
         setLoading(true);
@@ -33,25 +35,58 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
                 toast.success("OTP sent successfully!");
             })
             .catch((error) => {
-                console.error(error, 'while handleSendCode ');
+                console.error(error, 'while handleSendCode');
                 setLoading(false);
             });
     };
 
-    const handleVerifyCode = () => {
+    const handleVerifyCode = async () => {
         setLoading(true);
-        const credential = firebase.auth.PhoneAuthProvider.credential(verificationId, otpVerificationCode);
 
-        firebase.auth().signInWithCredential(credential)
-            .then((userCredential) => {
-                setLoading(false);
-                setUser(userCredential);
-                onFormSubmit(); // Trigger form submission after successful OTP verification
-            })
-            .catch((error) => {
-                console.error(error, 'while handleVerifyCode ');
-                setLoading(false);
+        try {
+            const credential = firebase.auth.PhoneAuthProvider.credential(
+                verificationId.verificationId,
+                otpVerificationCode
+            );
+
+            const userCredential = await firebase.auth().signInWithCredential(credential);
+            setUser(userCredential);
+
+            // Prepare lead data for Sell.do
+            const leadData = {
+                srid: "6747fc5b5d8def91cacec673", // Campaign ID from Sell.do
+                api_key: "46996f24a4ce88a72127a43311967190", // API Key
+                lead: {
+                    name, // Name collected from form
+                    email, // Email collected from form
+                    mobile: phoneNumber,
+                    country_code: "+91",
+                    source: "OTP Form",
+                    notes, // Hidden field with default value
+                },
+            };
+
+            const response = await fetch("https://api.sell.do/v2/leads", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(leadData),
             });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                toast.success("Lead captured successfully!");
+            } else {
+                toast.error(`Failed to capture lead: ${result.message || "Unknown error"}`);
+            }
+        } catch (error) {
+            console.error(error, "while handleVerifyCode");
+            toast.error("Verification or lead submission failed!");
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -74,7 +109,7 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
                     <div className="otpContainer">
                         {showOTP ? (
                             <>
-                                <div>
+                                <div className="">
                                     <BsFillShieldLockFill size={30} />
                                 </div>
 
@@ -87,6 +122,7 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
                                     onChange={setOtpVerificationCode}
                                     OTPLength={6}
                                     otpType="number"
+                                    disabled={false}
                                     autoFocus
                                     className="opt-container"
                                 />
@@ -100,13 +136,37 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
                             <>
                                 <p className="verifyTxt">Verify Your Phone Number</p>
 
+                                <input
+                                    type="text"
+                                    placeholder="Enter your Name"
+                                    value={name}
+                                    onChange={(e) => setName(e.target.value)}
+                                    className="form-input"
+                                />
+
+                                <input
+                                    type="email"
+                                    placeholder="Enter your Email"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    className="form-input"
+                                />
+
                                 <PhoneInput country={"in"} value={phoneNumber} onChange={setPhoneNumber} />
-                                <p style={{ fontSize: '11px', color: '#fff', width: '300px', marginTop: '10px' }}>
-                                    <img src='https://www.lmlhomes.in/assets/images/tick-mark.jpg' height={12} /> 
-                                    I authorize LML Homes LLP & its representatives to contact me with updates and notifications via Email / SMS /WhatsApp / Call. This will override DND/NDNC. I accept the 
-                                    <a href='https://www.lmlhomes.in/privacy-policy' target='_blank' style={{ color: '#fff !important' }}>privacy policy</a>
+
+                                <p style={{
+                                    fontSize: '11px',
+                                    color: '#fff',
+                                    width: '300px',
+                                    marginTop: '10px'
+                                }}>
+                                    <img src='https://www.lmlhomes.in/assets/images/tick-mark.jpg' height={12} /> I authorise LML Homes LLP & its representatives to contact me with updates and notifications via Email / SMS /WhatsApp / Call. This will override DND/NDNC. I accept the <a href='https://www.lmlhomes.in/privacy-policy' target='_blank' style={{ color: '#fff !important' }}>privacy policy</a>
                                 </p>
-                                <button onClick={handleSendCode} id="send-code-button" className="OtpHandleBTn">
+
+                                <button
+                                    onClick={handleSendCode}
+                                    id="send-code-button"
+                                    className="OtpHandleBTn">
                                     {loading && (<CgSpinner size={20} className="mt-1 animate-spin" />)}
                                     <span>Send OTP</span>
                                 </button>
@@ -116,5 +176,5 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
                 )}
             </div>
         </section>
-    )
+    );
 }

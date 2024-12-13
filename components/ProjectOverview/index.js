@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./projectOverview.module.css";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import OtpFormNew from "@/components/OtpFormNew";
+import OtpFormNew from "@/components/otpform";
 import { usePathname } from "next/navigation";
 
 export default function ProjectOverview({ projectDetailPages }) {
