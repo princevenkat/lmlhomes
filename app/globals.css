@@ -247,19 +247,23 @@ input[type="number"] {
 }
 
 .projectCarouselImg.leagueone {
-  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%), url(/assets/images/project-leagueone.png);
+  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%),
+    url(/assets/images/project-leagueone.png);
 }
 
 .projectCarouselImg.prakriti {
-  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%), url(/assets/images/project-prakriti.png);
+  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%),
+    url(/assets/images/project-prakriti.png);
 }
 
 .projectCarouselImg.arshiya {
-  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%), url(/assets/images/project-arshiya.jpg);
+  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%),
+    url(/assets/images/project-arshiya.jpg);
 }
 
 .projectCarouselImg.iconia {
-  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%), url(/assets/images/project-iconia.jpg);
+  background-image: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 50%),
+    url(/assets/images/project-iconia.jpg);
 }
 
 .projectCarouselImg::after {
@@ -721,40 +725,230 @@ input[type="number"] {
   height: 100%;
 }
 
+.demo-blog-cointainer{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  justify-content:space-around;
+}
+.left-container{
+  text-align: start;
+    width: 50%;
+  
+}
+@media (max-width: 800px) {
+  .demo-blog-cointainer {
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .left-container{
+    text-align:start;
+      width: 100%; 
+      padding: 30px;
+  }
+
+
+}
+@media (max-width: 820px) {
+  .demo-blog-cointainer {
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .left-container{
+    text-align:start;
+      width: 100%; 
+      padding: 30px;
+  }
+
+}
+.paraDiv{
+  width: 100%;
+}
+
+.blogcontainer {
+  display: flex;
+  width: 100%;
+}
+.blogContent-left {
+  width: 70%;
+  margin-left: 40px;
+}
+.blogContent-right {
+  padding: 30px;
+  width: 30%;
+  right: 0;
+  position: absolute;
+  text-align: center;
+}
+
 .blogImgDiv {
-  height: calc(100vh - 86px);
+  height: 70vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.top-cont {
+  background-color: #d1d0d0;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.bottom-cont {
+  background-color: #d1d0d0;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.bottom-cont2-head {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #a73e02dc;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: -10px;
+  color: #ffff;
+}
+
+@media (max-width: 800px){
+  .bottom-cont2-head {
+    width: 100%;
+  }
+  .bottom-cont2{
+    text-align: center;
+  }
+}
+.bottom-cont2 {
+  text-align: center;
+  background-color:#008089;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+.bottom-cont2-point {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight:bolder;
+  font-size:medium;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.bottom-cont2-point:hover {
+  transform: scale(1.05);
+}
+.right-cont-button {
+  background-color: #008088;
+  color: white;
+  border-radius: 30px;
+  width: 60%;
+  height: 7vh;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+.right-cont-button:hover {
+  background-color: white;
+  color: #008088;
+  transform: scale(1.05);
+}
+.right-b-cont-button {
+  background-color: #008088;
+  color: white;
+  border-radius: 30px;
+  width: 17vw;
+  height: 7vh;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+.right-b-cont-button:hover {
+  background-color: white;
+  color: #008088;
+  transform: scale(1.05);
+}
 
 .blogImgDiv.svnRsnsForRptBldr {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
     url(/assets/blogs/7-reasons-why-buy-your-apartment.jpg);
 }
 
 .blogImgDiv.dosAndDonts {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
     url(/assets/blogs/dos-and-Donts-while-living-im-apartment.jpg);
 }
 
 .blogImgDiv.chsngRytColor {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
     url(/assets/blogs/importance-of-color-choosing.jpg);
 }
 
 .blogImgDiv.keepEsntlRdy {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
-    url(/assets/blogs/keep-these-essential-things-ready-for-your-first-apartment.jpg);
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(/assets/blogs/Dream-house.jpg);
+}
+
+.blogImgDiv.whykatpakamprft {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(/assets/blogs/why-kattupakkam-perfect.webp);
 }
 
 .blogImgDiv.undrCnstrtProp {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
     url(/assets/blogs/benefits-construction-properties.jpg);
 }
 
 .blogImgDiv.tipsForByngHome {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
     url(/assets/blogs/tips-for-buying-home.jpg);
 }
 
@@ -836,12 +1030,24 @@ input[type="number"] {
 }
 
 .homeBannerSlider.hero1 {
-  background: linear-gradient(180deg, #222222f0 8%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 106%),
+  background: linear-gradient(
+      180deg,
+      #222222f0 8%,
+      rgba(0, 0, 0, 0) 30%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 106%
+    ),
     url(/assets/images/home-banner.png);
 }
 
 .homeBannerSlider.hero2 {
-  background: linear-gradient(180deg, #222222f0 8%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 106%),
+  background: linear-gradient(
+      180deg,
+      #222222f0 8%,
+      rgba(0, 0, 0, 0) 30%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 106%
+    ),
     url(/assets/images/partners.png);
 }
 

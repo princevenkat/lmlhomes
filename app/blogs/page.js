@@ -74,6 +74,24 @@ export default function Blogs() {
                 <Container>
                     <h3 className='beba'>Recent articles</h3>
                     <Row>
+                    <Col lg={4}>
+                            <Image src={blog5} alt='' />
+                            <div className='BlogGridBox'>
+                                <p className='mb-0'>Sep 22,2023</p>
+                                <h2 className='py-2'>Keep these essential things ready for your first apartment</h2>
+                                <p>Your first home is always special. For first-timers, there is a list of things to be kept in mind, and this will make things easy, and you can settle into the new home easily,..</p>
+                                <a href='/blogs/Best-Flats-for-Sale-in-Kattupakkam'>READ MORE <HiOutlineArrowLongRight /></a>
+                            </div>
+                        </Col>
+                        <Col lg={4}>
+                            <Image src={blog5} alt='' />
+                            <div className='BlogGridBox'>
+                                <p className='mb-0'>Sep 22,2023</p>
+                                <h2 className='py-2'>Keep these essential things ready for your first apartment</h2>
+                                <p>Your first home is always special. For first-timers, there is a list of things to be kept in mind, and this will make things easy, and you can settle into the new home easily,..</p>
+                                <a href='/blogs/why-is-kattupakkam-the-perfect-place-for-your-dream-home'>READ MORE <HiOutlineArrowLongRight /></a>
+                            </div>
+                        </Col>
 
                         <Col lg={4}>
                             <Image src={blog5} alt='' />
