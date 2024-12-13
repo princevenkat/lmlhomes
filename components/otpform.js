@@ -17,6 +17,22 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [notes] = useState('Download Brochure');
+    const [campaignId, setCampaignId] = useState(""); // Campaign ID state
+
+  const pathname = usePathname();
+  
+  useEffect(() => {
+    // Set campaignId based on the current page
+    if (pathname === "/prakriti") {
+      setCampaignId(process.env.NEXT_PUBLIC_SELLDO_PRAKRITI_CAMPAIGN_ID); // Fetch campaign ID from .env
+    } else if (pathname === "/iconia") {
+      setCampaignId(process.env.NEXT_PUBLIC_SELLDO_ICONIA_CAMPAIGN_ID); // Fetch campaign ID from .env
+    } else if (pathname === "/arshiya") {
+      setCampaignId(process.env.NEXT_PUBLIC_SELLDO_ARSHIYA_CAMPAIGN_ID); // Fetch campaign ID from .env
+    } else {
+      setCampaignId(process.env.NEXT_PUBLIC_SELLDO_DEFAULT_CAMPAIGN_ID); // Default to campaign ID from .env
+    }
+  }, [pathname]);
 
     const handleSendCode = () => {
         setLoading(true);
@@ -53,25 +69,20 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
             setUser(userCredential);
 
             // Prepare lead data for Sell.do
-            const leadData = {
-                srid: "6747fc5b5d8def91cacec673", // Campaign ID from Sell.do
-                api_key: "46996f24a4ce88a72127a43311967190", // API Key
-                lead: {
-                    name, // Name collected from form
-                    email, // Email collected from form
-                    mobile: phoneNumber,
-                    country_code: "+91",
-                    source: "OTP Form",
-                    notes, // Hidden field with default value
-                },
-            };
+            
 
-            const response = await fetch("https://api.sell.do/v2/leads", {
+            const response = await fetch("/api/submitLead", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify(leadData),
+                body: JSON.stringify({
+                    name: name,
+                    email: email,
+                    phoneNumber: phoneNumber,
+                    notes,
+                    campaignId,
+                  }),
             });
 
             const result = await response.json();
