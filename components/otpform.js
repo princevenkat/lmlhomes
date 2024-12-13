@@ -6,6 +6,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import firebase from '@/components/Firebase/index';
 import { toast, Toaster } from "react-hot-toast";
+import { usePathname } from "next/navigation";
 
 export default function OtpFormNew({ closeForm, onFormSubmit }) {
     const [loading, setLoading] = useState(false);
