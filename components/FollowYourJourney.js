@@ -108,7 +108,7 @@ export default function FollowYourJourney() {
                         </div>
                     </Col>
                 </Row>
-                <Row className='align-items-center'>
+                {/* <Row className='align-items-center'>
                     <Col lg={5}>
                         <img src={bigImg ? bigImg : '/assets/images/fyj-big.png'} alt='Follow Your Journey' className='fyjBig deskOnly' />
                     </Col>
@@ -212,7 +212,7 @@ export default function FollowYourJourney() {
                     <Col lg={12}>
                         <a href='https://www.instagram.com/lml_homes/' target='_blank' rel='noopener noreferrer'> <h1>@LMLhomes</h1></a>
                     </Col>
-                </Row>
+                </Row> */}
             </Container>
         </section>
     )

@@ -52,26 +52,26 @@ export default function OtpFormNew({ closeForm, onFormSubmit }) {
             setUser(userCredential);
     
             // Prepare lead data for Sell.do
-            const leadData = {
-                srid: "6747fc5b5d8def91cacec673", // Campaign ID from Sell.do
-                api_key: "46996f24a4ce88a72127a43311967190", // API Key
-                lead: {
-                    // name: "Anonymous", // Update this if you have a name input
-                    mobile: phoneNumber,
-                    country_code: "+91", // Adjust based on the phone number input
-                    // email: "", // Optional, if available
-                    source: "OTP Form", // Optional, for tracking
-                },
-            };
-            console.log(leadData);
-            // Send lead data to Sell.do
-            const response = await fetch("https://api.sell.do/v2/leads", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(leadData),
-            });
+            // const leadData = {
+            //     srid: "6747fc5b5d8def91cacec673", // Campaign ID from Sell.do
+            //     api_key: "46996f24a4ce88a72127a43311967190", // API Key
+            //     lead: {
+            //         // name: "Anonymous", // Update this if you have a name input
+            //         mobile: phoneNumber,
+            //         country_code: "+91", // Adjust based on the phone number input
+            //         // email: "", // Optional, if available
+            //         source: "OTP Form", // Optional, for tracking
+            //     },
+            // };
+            // console.log(leadData);
+            // // Send lead data to Sell.do
+            // const response = await fetch("https://api.sell.do/v2/leads", {
+            //     method: "POST",
+            //     headers: {
+            //         "Content-Type": "application/json",
+            //     },
+            //     body: JSON.stringify(leadData),
+            // });
     
             const result = await response.json();
     
