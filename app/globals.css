@@ -1254,7 +1254,6 @@ input[type="number"] {
   color: #757575;
 }
 
-/*.projectPageGallery .swiper-button-next img,
 .projectPageGallery .swiper-button-prev img {
   width: 35px;
 }
@@ -1268,24 +1267,12 @@ input[type="number"] {
   right: 4rem;
   left: unset;
 } */
-
 .highlighted {
   opacity: 0.5;
   /* Example: Reduce opacity to indicate hover */
   outline: 2px solid red;
 }
 
-.otpForm-section {
-  z-index: 1000;
-  position: fixed;
-  top: 50%;
-  right: 50%;
-  transform: translate(170px, -80px);
-  padding: 2rem;
-  border-radius: 30px;
-  background: #167f81;
-  box-shadow: inset 5px 5px 10px #ffffff61, inset -5px -5px 10px #23cbce;
-}
 
 .OtpHandleBTn {
   background-color: #ade4eb;
@@ -1558,4 +1545,10 @@ input[type="number"] {
     padding: 2em 3em;
     background: #ebfdff;
   }
+}
+
+.db-form{
+  margin-top: 40%;
+  z-index: 1000;
+
 }
