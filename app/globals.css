@@ -1266,7 +1266,7 @@ input[type="number"] {
 .projectPageGallery .swiper-button-prev {
   right: 4rem;
   left: unset;
-} */
+} 
 .highlighted {
   opacity: 0.5;
   /* Example: Reduce opacity to indicate hover */
