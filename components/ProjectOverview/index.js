@@ -1,8 +1,6 @@
-
 import React, { useState, useEffect } from "react";
 import styles from "./projectOverview.module.css";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import OtpFormNew from "@/components/OtpFormNew";
 import LandingPageForm from "@/components/lpforms";
 import { usePathname } from "next/navigation";
 
@@ -104,13 +102,16 @@ export default function ProjectOverview({ projectDetailPages }) {
             </div>
 
             {isActive ? (
-            <div className="db-form">  <LandingPageForm
-                phoneNumber={phoneNumber}
-                setPhoneNumber={setPhoneNumber}
-                closeForm={handleClose}
-                onFormSubmit={handleOtpFormSubmit}
-                loading={loading}
-              /></div>
+              <div className="db-form">
+                {" "}
+                <LandingPageForm
+                  phoneNumber={phoneNumber}
+                  setPhoneNumber={setPhoneNumber}
+                  closeForm={handleClose}
+                  onFormSubmit={handleOtpFormSubmit}
+                  loading={loading}
+                />
+              </div>
             ) : (
               <a className={styles.content_button} onClick={handleClick}>
                 Download Brochure

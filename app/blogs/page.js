@@ -29,46 +29,7 @@ export default function Blogs() {
             </div>
 
 
-            {/* <div className={styles.popularArticle}>
-                <Container>
-
-                    <h3 className='beba'>Popular articles</h3>
-
-                    <Row>
-                        <Col lg={4}>
-                            <Image src={blog5} alt='' />
-                            <div className='BlogGridBox'>
-                                <p className='mb-0'>June 06,2021</p>
-                                <h2 className='py-2'>Keep these essential things ready for your first apartment</h2>
-                                <p>Your first home is always special. For first-timers, there is a list of things to be kept in mind, and this will make things easy, and you can settle into the new home easily,..</p>
-                                <a href='/blogs/keep-these-essential-things-ready-for-your-first-apartment'>READ MORE <HiOutlineArrowLongRight /></a>
-                            </div>
-                        </Col>
-
-                        <Col lg={4}>
-                            <Image src={blog6} alt='' />
-                            <div className='BlogGridBox'>
-                                <p className='mb-0'>May 24,2022</p>
-                                <h2 className='py-2'>Tips for buying your dream apartment/villa</h2>
-                                <p>Be it an apartment in Tambaram, a flat in Kattupakkam, or a villa in Neelankarai, do not compromise on the credibility of the builder and the amenities you are looking for...</p>
-                                <a href='/blogs/tips-for-buying-your-dream-apartment-or-villa'>READ MORE <HiOutlineArrowLongRight /></a>
-                            </div>
-                        </Col>
-
-                        <Col lg={4}>
-                            <Image src={blog3} alt='' />
-                            <div className='BlogGridBox'>
-                                <p className='mb-0'>May 11,2023</p>
-                                <h2 className='py-2'>The Dos and Don'ts while living in an Apartment</h2>
-                                <p>Living in an apartment is fun and takes care of many worries that one would otherwise face when residing in an individual house or any other type of residential setup. While it looks quite good,..</p>
-                                <a href='/blogs/dos-and-donts-while-living-in-apartment'>READ MORE <HiOutlineArrowLongRight /></a>
-                            </div>
-                        </Col>
-                    </Row>
-
-                </Container>
-
-            </div> */}
+        
 
             <div className={styles.recentArticle}>
                 <Container>

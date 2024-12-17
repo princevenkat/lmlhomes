@@ -142,11 +142,6 @@ Nadu, 600079</p>
                                             </p>
                                         </div>
 
-                                        {/* <div className={styles.contacTxtDiv + ' ' + styles.contactDiv2}>
-                                        <p>Phone No:</p>
-                                        <a href='tel:04442083999'>044 420 83 999</a>
-                                    </div> */}
-
                                         <div className={styles.contacTxtDiv + ' ' + styles.contacTxtDivMbl}>
                                             <p>Mobile No:</p>
                                             <a href='tel:+918760088999'>+91 87600 88999</a>

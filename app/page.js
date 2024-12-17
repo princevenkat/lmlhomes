@@ -1,11 +1,10 @@
 'use client'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Link from 'next/link'
 import styles from '@/app/page.module.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import { BsArrowRight } from 'react-icons/bs'
 import { HiOutlineArrowLongRight } from 'react-icons/hi2'
 import Image from 'next/image'
 import homeAbtBnr from '@/public/assets/images/home-about-banner.png'
@@ -16,17 +15,13 @@ import Testimonial from '@/components/Testimonial'
 import Promise from '@/components/Promise'
 import BlogsGrid from '@/components/BlogsGrid'
 import FollowYourJourney from '@/components/FollowYourJourney'
-import { motion } from 'framer-motion'
-// import HeroSlider from '@/components/HeroSlider/page'
 import HeroSliderNew from '@/components/HeroSliderNew/page'
 import ArrowAnimate from '@/components/ArrowAnimate'
 import ArrowAnimateDown from '@/components/ArrowAnimateDown'
 import { PageWrapper } from '@/components/PageWrapper'
-import MobileHeroSlider from '@/components/MobileHeroSlider/page'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Autoplay } from 'swiper/modules'
 import HomeSeo from './HomeSeo'
-import Script from 'next/script'
 export default function Home() {
 
   useEffect(() => {
@@ -44,17 +39,11 @@ export default function Home() {
       divElement2.appendChild(imgElement2)
     }
   }, [])
-
-
-
-
-
   return (
     <PageWrapper>
       
       <HomeSeo />
       <section className={styles.homeSection}>
-        {/* <HeroSlider /> */}
         <HeroSliderNew />
 
         <div className={styles.home2}>

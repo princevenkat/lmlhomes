@@ -1,9 +1,7 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { projectData } from '@/utils/projectData'
-import Image from 'next/image'
 import styles from '@/components/OngoingProjects/style.module.css'
 import { IoLocationSharp } from 'react-icons/io5';
 import { useRouter } from 'next/navigation';
