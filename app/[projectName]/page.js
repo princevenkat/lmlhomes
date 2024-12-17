@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import styles from "./projects.module.css";
 import useWindowResize from "@/hooks/useWindowResize";
 import HomeSections from "./HomeSections";
-import LandingPageForm from "@/components/lpforms";
 import { usePathname } from "next/navigation";
 import { overAllData } from "@/utils/constants";
 import { Swiper, SwiperSlide } from "swiper/react";

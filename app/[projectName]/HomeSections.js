@@ -119,15 +119,6 @@ export default function HomeSections() {
         >
           OVERVIEW
         </div>
-
-        {/* <div
-          className={`${styles.navLinkItem} ${activeComp == "projOverview" && styles.active
-            }`}
-          onClick={() => handleRedirection(projOverviewRef)}
-        >
-          Project OVERVIEW
-        </div> */}
-
         <div
           className={`${styles.navLinkItem} ${activeComp == "walkThroughVideo" && styles.active
             }`}
