@@ -5,6 +5,9 @@ import { projectData } from '@/utils/projectData'
 import styles from '@/components/OngoingProjects/style.module.css'
 import { IoLocationSharp } from 'react-icons/io5';
 import Link from "next/link";
+import axios from "axios";
+
+axios.defaults.headers.common['Access-Control-Allow-Origin']='*';
 
 export default function OngoingProjects() {
     let ongoingData = projectData?.onGoingProjects

@@ -7,6 +7,9 @@ import Image from "next/image";
 import styles from "@/components/NewlyLaunchedProjects/style.module.css";
 import { IoLocationSharp } from "react-icons/io5";
 import Link from "next/link";
+import axios from "axios";
+
+axios.defaults.headers.common['Access-Control-Allow-Origin']='*';
 
 export default function NewlyLaunchedProjects() {
   let newlylaunchedData = projectData?.newlylaunchedProjects;
