@@ -132,7 +132,7 @@
   font-size: 3em;
   line-height: 0.8em;
   margin-top: 0.5rem;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
 }
 
 .offerSection_content {
