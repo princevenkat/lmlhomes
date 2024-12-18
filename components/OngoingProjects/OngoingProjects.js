@@ -4,28 +4,17 @@ import Col from 'react-bootstrap/Col';
 import { projectData } from '@/utils/projectData'
 import styles from '@/components/OngoingProjects/style.module.css'
 import { IoLocationSharp } from 'react-icons/io5';
-import { useRouter } from 'next/navigation';
-
-
+import Link from "next/link";
 
 export default function OngoingProjects() {
-    const router = useRouter();
-
-    const handleNavigate = (slug) => {
-        router.push(`/${slug}`);
-    };
-
     let ongoingData = projectData?.onGoingProjects
-    // console.log(ongoingData, '...');
-
-
-
 
     return (
         <Row>
             {ongoingData.map((item) => {
                 return (
-                    <Col lg={4} className={styles.projectBox} key={item.name} onClick={() => handleNavigate(item.slug)}>
+                    <Col lg={4} className={styles.projectBox} key={item.name}>
+                        <Link href={`/${item.slug}`} >
 
                         <div className={styles.projectImage}>
 
@@ -53,11 +42,10 @@ export default function OngoingProjects() {
                                 <IoLocationSharp /> <p>{item.location}</p>
                             </div>
                         </div>
-
+                        </Link>
                     </Col>
                 )
             })}
-
 
         </Row>
     )
