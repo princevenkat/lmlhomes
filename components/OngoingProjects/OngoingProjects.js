@@ -14,7 +14,7 @@ export default function OngoingProjects() {
             {ongoingData.map((item) => {
                 return (
                     <Col lg={4} className={styles.projectBox} key={item.name}>
-                        <Link href={`/${item.slug}`} >
+                        <Link href={`./${item.slug}`} >
 
                         <div className={styles.projectImage}>
 
