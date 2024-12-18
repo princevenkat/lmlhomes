@@ -113,7 +113,7 @@ export default function Projects() {
                   >
                     <SwiperSlide>
                       <div className="position-relative">
-                        <img
+                        {/* <img
                           src="/assets/images/league-one-promo-banner.jpg"
                           alt="s"
                           className="league-one-desk-banr"
@@ -124,7 +124,7 @@ export default function Projects() {
                           alt="s"
                           className="league-one-mob-banr"
                           style={{ width: "100%", height: "80vh", objectFit: "cover" }}
-                        />
+                        /> */}
                         <div
                           style={{ backgroundColor: "#00000038" }}
                           className="position-absolute top-0 w-100 h-100"
