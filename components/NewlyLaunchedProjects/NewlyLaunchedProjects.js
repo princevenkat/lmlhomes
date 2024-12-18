@@ -11,6 +11,19 @@ import Link from "next/link";
 export default function NewlyLaunchedProjects() {
   let newlylaunchedData = projectData?.newlylaunchedProjects;
 
+  if (!newlylaunchedData) {
+    return (
+      <Row>
+        <Col lg={12} className={styles.projectBox}>
+          <div className={styles.projectContent}>
+            <h3>Error Occurred</h3>
+            <p>A client-side exception has occurred.</p>
+          </div>
+        </Col>
+      </Row>
+    );
+  }
+
   return (
     <Row>
       {newlylaunchedData.map((item) => {
