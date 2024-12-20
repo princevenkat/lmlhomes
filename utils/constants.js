@@ -881,7 +881,7 @@ const overAllData = {
         detailDescription:
           "The Iconia is LML Homes 'dedication to the living icons of the city. Unique, magnificent, and exclusive, the Iconia is truly one-of-its-kind. Comprising just 82 luxury condos spread across 3 floors in 6 towers, the Iconia is not just another lifestyle apartment. It is a premium lifestyle statement of passionately planned eco-friendly homes in a contemporary setting. Coming up in 1.08 acres of pristine land in the serene locality just behind Aravind Eye Hospital, your home at Iconia will keep your lives peacefully tucked away in the midst of all that is essential to you. Making the ideal space for you and your family to live in complete joy is what the Iconia is designed to be. Facilitating this are the features and amenities packed into the project ",
         offer: {
-          price: "60 Lakhs",
+          price: "66 Lakhs",
           info: "2BHK",
           subContent: "Excluding Reg & Gst",
         },
@@ -1564,7 +1564,7 @@ const overAllData = {
         detailDescription:
           "LML Homes proudly presents Arshiya, a prestigious residential community at Kattupakkam in Chennai. Covering a generous expanse of 14.5 Grounds, LML Arshiya communicates a spirit of life and zest by accommodating 74 comfort-packed apartments.",
         offer: {
-          price: "67 Lakhs",
+          price: "69 Lakhs",
           info: "2&3 BHK",
           subContent: "Excluding Reg & Gst",
         },
