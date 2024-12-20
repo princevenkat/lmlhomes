@@ -866,7 +866,7 @@ const overAllData = {
       name: "ICONIA",
       image: "assets/images/lml-map-img.jpg",
       location: "Iconia",
-      price: "60 Lakhs",
+      price: "66 Lakhs",
       floor: "2BHK",
       description: "Prakriti is a luxurious residential complex featuring four thoughtfully designed",
       locationInfo: {
@@ -1551,7 +1551,7 @@ const overAllData = {
       image: "assets/images/lml-map-img.jpg",
       location: "Kattupakkam",
       floor: "2BHK | 3BHK",
-      price: "67 Lakhs",
+      price: "69 Lakhs",
       locationInfo: {
         lat: 12.9249,
         lng: 80.1,
