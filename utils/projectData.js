@@ -1098,8 +1098,8 @@ const projectData = {
         detailDescription:
           "Prakriti' in Sanskrit means 'Nature'. It is also what is found in nature in its unaltered form and everything that you can sense. Prakriti is in your thoughts, memories, desires, and even in your aspirations. Bringing Prakriti into your life is LML HOMES, which is an embodiment of one of the finest",
         offer: {
-          price: "60 Lakhs",
-          info: "2&3 BHK",
+          price: "66 Lakhs",
+          info: "2 BHK",
         },
         pdf: "assets/pdfs/lml-prakriti-magazine.pdf",
         enquire: {
@@ -1530,7 +1530,7 @@ const projectData = {
         detailDescription:
           "Prakriti' in Sanskrit means 'Nature'. It is also what is found in nature in its unaltered form and everything that you can sense. Prakriti is in your thoughts, memories, desires, and even in your aspirations. Bringing Prakriti into your life is LML HOMES, which is an embodiment of one of the finest",
         offer: {
-          price: "67 Lakhs",
+          price: "69 Lakhs",
           info: "2&3 BHK",
         },
         pdf: "assets/pdfs/lml-prakriti-magazine.pdf",
