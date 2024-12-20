@@ -1083,7 +1083,7 @@ const projectData = {
       name: "LML ICONIA",
       image: "assets/images/iconia-bnr.png",
       location: "Kattupakkam",
-      price: "60 Lakhs",
+      price: "66 Lakhs",
       floor: "2BHK ",
       status: "Nearing Completion",
       description: "Prakriti is a luxurious residential complex featuring four thoughtfully designed",
@@ -1517,7 +1517,7 @@ const projectData = {
       image: "assets/images/arshiya-bnr.png",
       location: "Kattupakkam",
       floor: "2BHK | 3BHK",
-      price: "67 Lakhs",
+      price: "69 Lakhs",
       status: "Nearing Completion",
       locationInfo: {
         lat: 12.9249,
