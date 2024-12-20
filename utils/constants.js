@@ -66,7 +66,7 @@ const overAllData = {
           },
           {
             icon: "proj-high-3.svg",
-            label: "Area 600 - 2019 sq.ft",
+            label: "Area 1024 - 1395 sq.ft",
           },
           {
             icon: "proj-high-6.svg",
@@ -883,7 +883,7 @@ const overAllData = {
         offer: {
           price: "66 Lakhs",
           info: "2BHK",
-          subContent: "Excluding Reg & Gst",
+          subContent: "Excluding Registration (Ready to Occupy)",
         },
         pdf: "assets/pdfs/iconia-brochure.pdf",
         enquire: {
@@ -923,7 +923,7 @@ const overAllData = {
           },
           {
             icon: "proj-high-3.svg",
-            label: "Area 822 - 1063 sq.ft",
+            label: "Area 942 - 957 sq.ft",
           },
           {
             icon: "proj-high-6.svg",
@@ -1377,27 +1377,11 @@ const overAllData = {
                   label: "Exterior View",
                 },
                 {
-                  image: "/iconia/exterior/exterior-6.jpeg",
-                  label: "Exterior View",
-                },
-                {
                   image: "/iconia/exterior/exterior-7.jpeg",
                   label: "Exterior View",
                 },
                 {
-                  image: "/iconia/exterior/exterior-8.jpeg",
-                  label: "Exterior View",
-                },
-                {
-                  image: "/iconia/exterior/exterior-9.jpeg",
-                  label: "Exterior View",
-                },
-                {
                   image: "/iconia/exterior/exterior-10.jpeg",
-                  label: "Exterior View",
-                },
-                {
-                  image: "/iconia/exterior/exterior-11.jpeg",
                   label: "Exterior View",
                 },
                 {
@@ -1562,11 +1546,11 @@ const overAllData = {
         heading: "LML ARSHIYA, KATTUPAKKAM",
         keyLocation: "",
         detailDescription:
-          "LML Homes proudly presents Arshiya, a prestigious residential community at Kattupakkam in Chennai. Covering a generous expanse of 14.5 Grounds, LML Arshiya communicates a spirit of life and zest by accommodating 74 comfort-packed apartments.",
+          "LML Homes proudly presents Arshiya, a prestigious residential community at Kattupakkam in Chennai. Covering a generous expanse of 84.5 cents, LML Arshiya communicates a spirit of life and zest by accommodating 74 comfort-packed apartments.",
         offer: {
           price: "69 Lakhs",
           info: "2&3 BHK",
-          subContent: "Excluding Reg & Gst",
+          subContent: "Excluding Reg & Gst (Ready to Fitout)",
         },
         pdf: "assets/pdfs/arshiya-brochure.pdf",
         enquire: {
@@ -1606,7 +1590,7 @@ const overAllData = {
           },
           {
             icon: "proj-high-3.svg",
-            label: "Area 836-1115 sq.ft(2BHK), 1243-1411 sq.ft(3BHK)",
+            label: "992 - 1399 sq.ft",
           },
           {
             icon: "proj-high-6.svg",
@@ -2081,47 +2065,7 @@ const overAllData = {
                 {
                   image: "/arshiya/gallery/gallery-5.png",
                   label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-1.jpeg",
-                  label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-2.jpeg",
-                  label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-3.jpeg",
-                  label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-4.jpeg",
-                  label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-5.jpeg",
-                  label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-6.jpeg",
-                  label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-8.jpeg",
-                  label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-9.jpeg",
-                  label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-10.jpeg",
-                  label: "Project Image",
-                },
-                {
-                  image: "/arshiya/gallery/gallery-exterior-11.jpeg",
-                  label: "Project Image",
-                },
+                },             
               ],
             },
           ],
@@ -2320,7 +2264,7 @@ const overAllData = {
           },
           {
             icon: "proj-high-3.svg",
-            label: "9000+ sq.ft",
+            label: "993 - 1426 sq.ft",
           },
           {
             icon: "proj-high-6.svg",
@@ -2332,7 +2276,7 @@ const overAllData = {
           },
           {
             icon: "clubhouse.png",
-            label: "Club House",
+            label: "9000+ sq.ft Club House",
           },
         ],
         walkthrough: {
