@@ -579,7 +579,7 @@ const overAllData = {
             },
           ],
         },
-        subBannerImage: "/prakriti/prakriti-sub-banner.png",
+        subBannerImage: "/prakriti/arshiya-sub-banner.png",
         gallery: {
           heading: "Glimpses of life at prakarthi",
           //subHeading:
