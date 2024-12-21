@@ -282,7 +282,7 @@ export default function Home() {
                             </li>
                             <li>
                               {' '}
-                              <span>Saleable Area :</span>  600 - 2019 sq. ft
+                              <span>Saleable Area :</span>  1024 - 1395 sq. ft
                             </li>
                             <li>
                               {' '}
@@ -353,8 +353,7 @@ export default function Home() {
                             </li>
                             <li>
                               {' '}
-                              <span>Saleable Area :</span> 836 sqft to 1115 sqft,
-                              1243 sqft - 1411 sqft
+                              <span>Saleable Area :</span> 992 - 1399 sqft
                             </li>
                             <li>
                               {' '}
@@ -362,7 +361,7 @@ export default function Home() {
                             </li>
                             <li>
                               {' '}
-                              <span>Possession :</span> Nearing Completion.
+                              <span>Possession :</span> Ready to Fitout.
                             </li>
                           </ul>
                           <ArrowAnimateDown />
@@ -419,7 +418,7 @@ export default function Home() {
                             </li>
                             <li>
                               {' '}
-                              <span>Saleable Area :</span> 822 - 1063 sq. ft
+                              <span>Saleable Area :</span> 942 - 957 sq. ft
                             </li>
                             <li>
                               {' '}
@@ -427,7 +426,7 @@ export default function Home() {
                             </li>
                             <li>
                               {' '}
-                              <span>Possession :</span> Nearing Completion.
+                              <span>Possession :</span> Ready to movie in.
                             </li>
                           </ul>
                           <ArrowAnimateDown />
