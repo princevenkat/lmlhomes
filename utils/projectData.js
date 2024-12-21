@@ -1085,7 +1085,7 @@ const projectData = {
       location: "Kattupakkam",
       price: "66 Lakhs",
       floor: "2BHK ",
-      status: "Ready to Occupy",
+      status: "Ready to occupy",
       description: "Prakriti is a luxurious residential complex featuring four thoughtfully designed",
       locationInfo: {
         lat: 13.9249,

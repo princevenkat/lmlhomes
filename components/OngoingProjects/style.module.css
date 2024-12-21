@@ -151,6 +151,14 @@
     color: #222 !important;
     border-radius: 2px;
 }
+.readyToFitout{
+    font-size: .7rem !important;
+    background-color: #c9c61b75;
+    padding: 2px 3px;
+    color: #222 !important;
+    border-radius: 2px;
+
+}
 .notReady{
     font-size: .7rem !important;
     background-color: #e04f4575;

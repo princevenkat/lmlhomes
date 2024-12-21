@@ -32,7 +32,8 @@ export default function OngoingProjects() {
                                 <div>
                                     <h3>{item.name}</h3>
                                     <p>{item.floor}</p>
-                                    <span className={item.status == 'Ready to occupy' ? styles.readyToOcuupy : styles.notReady}>{item.status}</span>
+                                    <span className={item.status == 'Ready to occupy' ? styles.readyToOcuupy : item.status === 'Ready to Fitout'
+      ? styles.readyToFitout : styles.notReady}>{item.status}</span>
                                 </div>
 
                                 <div>
