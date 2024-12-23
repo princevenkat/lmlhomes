@@ -141,7 +141,7 @@ export default function ProjectOverview({ projectDetailPages }) {
                 <div className={styles.offerSection_price}>
                   {projectDetailPages?.offer?.price}
                 </div>
-                <div className={styles.offerSection_price_2}>No Pre-EMI for 21 months</div>
+                <div className={styles.offerSection_price_2}>No Pre-EMI</div>
               </>
             ) : (
               <div className={styles.offerSection_price}>
