@@ -2224,7 +2224,7 @@ const overAllData = {
         offer: {
           price: "66 Lakhs",
           info: "2&3 BHK",
-          subContent: "Other charges applicable",
+          subContent: "",
         },
         pdf: "assets/pdfs/theleagueone.pdf",
         enquire: {
