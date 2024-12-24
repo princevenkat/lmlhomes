@@ -156,7 +156,6 @@ export default function ProjectOverview({ projectDetailPages }) {
                 Onwards
                 </>
             )}
-                )}
               <span className={styles.offerSection_subContent}>
                 {projectDetailPages?.offer?.subContent}
               </span>
