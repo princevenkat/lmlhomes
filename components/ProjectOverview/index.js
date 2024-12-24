@@ -151,8 +151,11 @@ export default function ProjectOverview({ projectDetailPages }) {
             )}
 
             <div className={styles.offerSection_content}>
-              {pathname !== "/league-one" && (
+              {pathname !== "/league-one" ? (
+              <>
                 Onwards
+                </>
+            )}
                 )}
               <span className={styles.offerSection_subContent}>
                 {projectDetailPages?.offer?.subContent}
