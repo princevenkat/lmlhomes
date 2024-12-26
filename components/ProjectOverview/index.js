@@ -141,6 +141,7 @@ export default function ProjectOverview({ projectDetailPages }) {
                 <div className={styles.offerSection_price}>
                   {projectDetailPages?.offer?.price}
                 </div>
+                Onwards
                 <div className={styles.offerSection_price_2}>No Pre-EMI</div>
               </>
             ) : (
@@ -150,7 +151,7 @@ export default function ProjectOverview({ projectDetailPages }) {
             )}
 
             <div className={styles.offerSection_content}>
-                Onwards
+    
               <span className={styles.offerSection_subContent}>
                 {projectDetailPages?.offer?.subContent}
               </span>
