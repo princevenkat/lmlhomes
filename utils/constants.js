@@ -868,7 +868,7 @@ const overAllData = {
       location: "Iconia",
       price: "66 Lakhs",
       floor: "2BHK",
-      description: "Prakriti is a luxurious residential complex featuring four thoughtfully designed",
+      description: "Iconia is a luxurious residential complex featuring four thoughtfully designed",
       locationInfo: {
         lat: 13.9249,
         lng: 81.1,
