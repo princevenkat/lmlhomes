@@ -21,7 +21,7 @@ const overAllData = {
         offer: {
           price: "72 Lakhs",
           info: "2,3 & 4 BHK",
-          subContent: "Excluding Registration",
+          subContent: "Registration Extra",
           subContentNxtLine: " (Ready To Occupy)",
         },
         pdf: "assets/pdfs/lml-prakriti-magazine.pdf",
@@ -883,7 +883,8 @@ const overAllData = {
         offer: {
           price: "66 Lakhs",
           info: "2BHK",
-          subContent: "Excluding Registration (Ready to Occupy)",
+          subContent: "Registration Extra",
+          subContentNxtLine: " (Ready To Occupy)"
         },
         pdf: "assets/pdfs/iconia-brochure.pdf",
         enquire: {
@@ -1550,7 +1551,8 @@ const overAllData = {
         offer: {
           price: "69 Lakhs",
           info: "2&3 BHK",
-          subContent: "Excluding Reg & Gst (Ready to Fitout)",
+          subContent: "Registration and GST Extra",
+          subContentNxtLine: " (Ready To Fitout)"
         },
         pdf: "assets/pdfs/arshiya-brochure.pdf",
         enquire: {

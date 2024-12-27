@@ -146,12 +146,14 @@ export default function ProjectOverview({ projectDetailPages }) {
               </>
             ) : (
               <div className={styles.offerSection_price}>
-                {projectDetailPages?.offer?.price}
+                {projectDetailPages?.offer?.price}                 
               </div>
-            )}
 
+            )}
+            Onwards
+            <br/>
+<br/>
             <div className={styles.offerSection_content}>
-    
               <span className={styles.offerSection_subContent}>
                 {projectDetailPages?.offer?.subContent}
               </span>
