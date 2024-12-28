@@ -2063,7 +2063,7 @@ const projectData = {
       image: "assets/images/leagueone-bnr.png",
       location: "Kattupakkam",
       floor: "2 & 3 BHK",
-      price: "75 Lakhs",
+      price: "66 Lakhs",
       status: "Under Construction",
       locationInfo: {
         lat: 12.9249,
@@ -2076,7 +2076,7 @@ const projectData = {
         detailDescription:
           "Experience extraordinary living in Kattupakkam. Luxurious 2 & 3 BHK residences offer unmatched privacy in just 125 units. Thoughtfully designed for comfort and space, each home is a haven of tranquillity. Live exceptionally at LML The League One.",
         offer: {
-          price: "75 Lakhs",
+          price: "66 Lakhs",
           info: "2&3 BHK",
         },
         pdf: "assets/pdfs/theleagueone.pdf",
