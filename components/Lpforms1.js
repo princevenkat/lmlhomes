@@ -165,7 +165,7 @@ link.click();
             </div>
             <p>
               Please fill out the form below and we will get back to you as soon
-              as possible12345.
+              as possible.
             </p>
           </div>
           <form ref={formRef} onSubmit={handleSubmit} name="google-sheet">
