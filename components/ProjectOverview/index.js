@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./projectOverview.module.css";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import LandingPageForm from "@/components/lpforms";
+import LandingPageForm1 from "@/components/Lpforms1";
 import { usePathname } from "next/navigation";
 
 export default function ProjectOverview({ projectDetailPages }) {
@@ -49,6 +49,7 @@ export default function ProjectOverview({ projectDetailPages }) {
         alert("Successfully submitted");
         window.open(projectDetailPages?.pdf, "_blank");
       } else {
+        window.open(projectDetailPages?.pdf, "_blank");
         alert("Submission failed: " + result.message);
       }
     } catch (error) {
@@ -104,7 +105,7 @@ export default function ProjectOverview({ projectDetailPages }) {
             {isActive ? (
               <div className="db-form">
                 {" "}
-                <LandingPageForm
+                <LandingPageForm1
                   phoneNumber={phoneNumber}
                   setPhoneNumber={setPhoneNumber}
                   closeForm={handleClose}
@@ -140,17 +141,17 @@ export default function ProjectOverview({ projectDetailPages }) {
               <>
                 <div className={styles.offerSection_price}>
                   {projectDetailPages?.offer?.price}
-                <div style={{fontSize:"50px"}}>Onwards</div>
                 </div>
                 <div className={styles.offerSection_price_2}>No Pre-EMI</div>
               </>
             ) : (
               <div className={styles.offerSection_price}>
                 {projectDetailPages?.offer?.price}
-                <div style={{fontSize:"50px"}}>Onwards</div>
               </div>
             )}
+
             <div className={styles.offerSection_content}>
+                Onwards
               <span className={styles.offerSection_subContent}>
                 {projectDetailPages?.offer?.subContent}
               </span>
