@@ -1785,7 +1785,8 @@ input[type="number"] {
   }
 }
 
-.db-form {
+.db-form{
   margin-top: 40%;
   z-index: 1000;
+
 }
