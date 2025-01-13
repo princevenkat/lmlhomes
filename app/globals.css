@@ -294,6 +294,7 @@ input[type="number"] {
   background-image: url(/assets/images/iconia-batch.jpg);
 }
 
+
 .projectCarouselImg h2 {
   color: #fff;
   font-family: "Bebas Neue";
@@ -725,47 +726,45 @@ input[type="number"] {
   height: 100%;
 }
 
-.demo-blog-cointainer{
+.demo-blog-cointainer {
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: center;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-.left-container{
+.left-container {
   text-align: start;
-    width: 50%;
-  
+  width: 54%;
 }
+
+
 @media (max-width: 800px) {
   .demo-blog-cointainer {
     flex-direction: column;
     justify-content: center;
-
   }
-  .left-container{
-    text-align:start;
-      width: 100%; 
-      padding: 30px;
+  .left-container {
+    text-align: start;
+    width: 100%;
+    padding: 30px;
   }
-
-
 }
 @media (max-width: 820px) {
   .demo-blog-cointainer {
     flex-direction: column;
     justify-content: center;
-
   }
-  .left-container{
-    text-align:start;
-      width: 100%; 
-      padding: 30px;
+  .left-container {
+    text-align: start;
+    width: 100%;
+    padding: 30px;
   }
-
 }
-.paraDiv{
+.paraDiv {
   width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .blogcontainer {
@@ -783,7 +782,161 @@ input[type="number"] {
   position: absolute;
   text-align: center;
 }
+.bottom-cont2-point {
+  /* padding: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 178px;
+  background-color: #b1c5c7bb;
+}
+.top-display {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 92%;
+  height: 50%;
+  padding: 50px;
+  margin-left: 4%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  background-color: #008089;
+  background-image: url(/assets/images/blogbannerimage.png);
+  background-size: cover;
+  background-position: center;
+}
+.middle-display {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40%;
+  height: 40%;
+  /* padding: 50px; */
+  margin-left: 30%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  /* background-color: #008089; */
+  background-image: url(/assets/images/blogbannerimage.png);
+  background-size: cover;
+  background-position: center;
+}
 
+
+.cont3-middle-display{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 25%;
+  width: 50%;
+  height: 30%;
+  background-color: #008089;
+  background-image: url(/assets/images/blogbannerimage.png);
+  background-size: cover;
+  background-position: center;
+}
+.recent-post-display-one {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  height: 80%;
+  /* padding: 20px; */
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  /* background-color: #008089; */
+  background-image: url(/assets/images/Tips-for-buying-our-dream-apartment.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.recent-post-display-two {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  height: 80%;
+  /* padding: 20px; */
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  /* background-color: #008089; */
+  background-image: url(/assets/images/The-Dos-and-Donts-while-living-in-an-Apartment.png);
+  background-size: cover;
+  background-position: center;
+}
+.recent-post-display-three {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  height: 80%;
+  /* padding: 20px; */
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  /* background-color: #008089; */
+  background-image: url(/assets/images/Keep-these-essential-things-ready-for-your-first-apartment.png);
+  background-size: cover;
+  background-position: center;
+}
+.recent-post-display-four {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  height: 80%;
+  /* padding: 20px; */
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  /* background-color: #008089; */
+  background-image: url(/assets/images/Major-benefits-of-buying-under-construction-properties.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.recent-post-display-five {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  height: 80%;
+  /* padding: 20px; */
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  /* background-color: #008089; */
+  background-image: url(/assets/images/7-reasons-why-you-should-buy-your-apartment-from-a-reputed-builder.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.recent-post-display-six {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  height: 80%;
+  /* padding: 20px; */
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  /* background-color: #008089; */
+  background-image: url(/assets/images/The-importance-of-choosing-the-right-colors-for-your-home.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.recent-post-content {
+  width: 50%;
+  font-weight: 800;
+}
+.blogfooter {
+  margin-top: 50px;
+}
 .blogImgDiv {
   height: 70vh;
   width: 100%;
@@ -815,28 +968,33 @@ input[type="number"] {
 .bottom-cont2-head {
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 50px;
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #a73e02dc;
+  background-color: #af5c2bdc;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   margin-bottom: -10px;
   color: #ffff;
+  font-weight: 900;
+}
+.bottom-cont2-pic {
+  background-image: url(/assets/images/blogbannerimage.png);
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .bottom-cont2-head {
     width: 100%;
   }
-  .bottom-cont2{
+  .bottom-cont2 {
     text-align: center;
   }
 }
 .bottom-cont2 {
   text-align: center;
-  background-color:#008089;
+  background-color: #086168;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 50px;
@@ -845,15 +1003,15 @@ input[type="number"] {
   border-bottom-right-radius: 20px;
 }
 
-
 .bottom-cont2-point {
   margin-bottom: 10px;
   color: #ffffff;
-  font-weight:bolder;
-  font-size:medium;
+  font-weight: bolder;
+  font-size: medium;
   text-align: left;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-radius: 10px;
 }
 .bottom-cont2-point:hover {
   transform: scale(1.05);
@@ -931,9 +1089,90 @@ input[type="number"] {
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url(/assets/blogs/why-kattupakkam-perfect.webp);
+    url(/assets/blogs/ponnamalle-bridge.jpg);
 }
-
+.blogImgDiv.click-to-view {
+  background-image: url(/assets/images/click-to-view.png);
+  cursor: pointer;
+}
+.blogImgDiv.kattupakkam-map {
+  background-image: url(/assets/images/kattupakkam-map.png);
+  cursor: pointer;
+  /* width: 75%;
+  height: 70%; */
+}
+.blogImgDiv.peaceful-environment-with-green-spaces {
+  background-image: url(/assets/images/Peaceful-Environment-with-Green-Spaces.jpg);
+  width: 100%;
+  height: 350px;
+}
+.blogImgDiv.Kattupakkam_growth {
+  background-image: url(/assets/images/Kattupakkam_growth.jpg);
+  width: 100%;
+  /* height: 350px; */
+}
+:hover.click-to-view {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  transform: scale(1.02);
+  box-shadow: 0px 8px 16px #008089;
+}
+.click-to-know {
+  font-size: x-large;
+  color: "#000000";
+  font-weight: 800;
+  animation: popEffect 1.5s infinite ease-in-out;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.click-to-know-Kattupakkam-growth{font-size: 20px;
+  color: "#000000";
+  font-weight: 700;
+  cursor: pointer;}
+@keyframes popEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-content {
+  position: relative;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.fullImage {
+  max-width: 60%;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: left;
+}
 .blogImgDiv.undrCnstrtProp {
   background-image: linear-gradient(
       180deg,
@@ -1266,13 +1505,12 @@ input[type="number"] {
 .projectPageGallery .swiper-button-prev {
   right: 4rem;
   left: unset;
-} 
+}
 .highlighted {
   opacity: 0.5;
   /* Example: Reduce opacity to indicate hover */
   outline: 2px solid red;
 }
-
 
 .OtpHandleBTn {
   background-color: #ade4eb;
@@ -1547,8 +1785,7 @@ input[type="number"] {
   }
 }
 
-.db-form{
+.db-form {
   margin-top: 40%;
   z-index: 1000;
-
 }

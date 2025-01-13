@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import Testimonial from "@/components/Testimonial";
 import Promise from "@/components/Promise";
 import FollowYourJourney from "@/components/FollowYourJourney";
