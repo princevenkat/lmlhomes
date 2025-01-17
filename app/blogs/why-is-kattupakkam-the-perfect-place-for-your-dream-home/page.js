@@ -3,7 +3,7 @@ import React from "react";
 import Testimonial from "@/components/Testimonial";
 import Promise from "@/components/Promise";
 import FollowYourJourney from "@/components/FollowYourJourney";
-import ReactImageMagnify from "react-image-magnify";
+// import ReactImageMagnify from "react-image-magnify";
 
 export default function Blog() {
   // const mapImage = './assets/images/kattupakkam-map.png'
@@ -138,7 +138,7 @@ export default function Blog() {
             
               {/* <div className="modal-overlay"> */}
                 
-                  <ReactImageMagnify
+                  {/* <ReactImageMagnify
                     {...{
                       smallImage: {
                         alt: "Wristwatch by Ted Baker London",
@@ -152,7 +152,7 @@ export default function Blog() {
                         height: 1500,
                       },
                     }}
-                  />
+                  /> */}
                 
               {/* </div> */}
           
@@ -204,7 +204,7 @@ export default function Blog() {
                   window.open("https://www.lmlhomes.in/league-one", "_blank");
                 }}
               >
-                Click to know about the best apartment in Kattupakkam!!
+                Click to know about the best apartment in Kattupakkam!!!
               </div>
             </p>
           </div>
