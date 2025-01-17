@@ -204,7 +204,7 @@ export default function Blog() {
                   window.open("https://www.lmlhomes.in/league-one", "_blank");
                 }}
               >
-                Click to know about the best apartment in Kattupakkam!
+                Click to know about the best apartment in Kattupakkam!!
               </div>
             </p>
           </div>
