@@ -1,66 +1,20 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Testimonial from "@/components/Testimonial";
 import Promise from "@/components/Promise";
 import FollowYourJourney from "@/components/FollowYourJourney";
-// import ReactImageMagnify from "react-image-magnify";
+import Image from 'next/image';
 
 export default function Blog() {
-  // const mapImage = './assets/images/kattupakkam-map.png'
-  //   const rightContentRef = useRef(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  //   const containerRef = useRef(null);
-  //   const leftContentRef = useRef(null);
-  //   useEffect(() => {
-  //     const handleScroll = () => {
-  //       const container = containerRef.current;
-  //       const rightContent = rightContentRef.current;
-  //       const leftContent = leftContentRef.current;
+  const handleImageClick = () => {
+    setIsModalOpen(true); // Open modal when image is clicked
+  };
 
-  //       if (!container || !rightContent || !leftContent) return;
-
-  //       const containerRect = container.getBoundingClientRect();
-  //       const leftContentRect = leftContent.getBoundingClientRect();
-  //       const containerTop = containerRect.top;
-  //       const containerBottom = containerRect.bottom;
-  //       const rightContentHeight = rightContent.offsetHeight;
-
-  //       // Stop sticky behavior at the end of left content
-  //       const stopScrollHeight =
-  //         leftContent.offsetHeight + containerRect.top - window.innerHeight;
-
-  //       // Adjust rightContent's position
-  //       if (
-  //         containerTop < 0 &&
-  //         containerBottom > rightContentHeight &&
-  //         window.scrollY < stopScrollHeight
-  //       ) {
-  //         rightContent.style.position = "fixed";
-  //         rightContent.style.top = "0";
-  //       } else if (window.scrollY >= stopScrollHeight) {
-  //         rightContent.style.position = "absolute";
-  //         rightContent.style.top = `${
-  //           leftContent.offsetHeight - rightContentHeight
-  //         }px`;
-  //       } else {
-  //         rightContent.style.position = "absolute";
-  //         rightContent.style.top = "0";
-  //       }
-  //     };
-
-  //     window.addEventListener("scroll", handleScroll);
-
-  //     return () => {
-  //       window.removeEventListener("scroll", handleScroll);
-  //     };
-  //   }, []);
-  // const [ismodalOpen, setModelOpen] = useState(false);
-  // const handleImageClick = () => {
-  //   setModelOpen(true);
-  // };
-  // const closeModal = () => {
-  //   setModelOpen(false);
-  // };
+  const closeModal = () => {
+    setIsModalOpen(false); // Close modal when clicking outside or on close button
+  };
   return (
     <div>
       <div className="top-display" />
@@ -134,32 +88,25 @@ export default function Blog() {
             </strong>
             <br />
             <br />
-            
-            
-              {/* <div className="modal-overlay"> */}
-                
-                  {/* <ReactImageMagnify
-                    {...{
-                      smallImage: {
-                        alt: "Wristwatch by Ted Baker London",
-                        isFluidWidth: true,
-                        src: "/assets/images/kattupakkam-map.png",
-                      },
-                      largeImage: {
-                        alt: "",
-                        src: "/assets/images/kattupakkam-map.png",
-                        width: 1900,
-                        height: 1500,
-                      },
-                    }}
-                  /> */}
-                
-              {/* </div> */}
-          
-              
-                
-          
-            
+
+            {/* <div className="modal-overlay"></div> */}
+            <div
+              className="blogImgDiv click-to-view"
+              onClick={handleImageClick}
+            />
+            {isModalOpen && (
+              <div className="imageModal" onClick={closeModal}>
+                <div className="modalContent">
+                  <Image
+                    src="/assets/images/kattupakkam-map.png"
+                    alt="Full-size image"
+                    width={1000}
+                    height={720}
+                  />
+                </div>
+              </div>
+            )}
+
             <p>
               <br />
               When it comes to lifestyle amenities, residents of Kattupakkam
