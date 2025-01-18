@@ -102,6 +102,7 @@ export default function Blog() {
                     alt="Full-size image"
                     width={1000}
                     height={720}
+                    
                   />
                 </div>
               </div>
@@ -177,7 +178,7 @@ export default function Blog() {
           <br />
           <br />
           <div className="paraDiv">
-            <h2>4. Peaceful Environment with Green Spaces</h2>
+            <h2>3. Peaceful Environment with Green Spaces</h2>
             <div className="blogImgDiv peaceful-environment-with-green-spaces"></div>
             <br />
             <p>
@@ -196,7 +197,7 @@ export default function Blog() {
           <br />
 
           <div className="paraDiv">
-            <h2>5. Growing Real Estate Market with High ROI Potential</h2>
+            <h2>4. Growing Real Estate Market with High ROI Potential</h2>
             <p>
               <strong style={{ fontSize: "1.2em", color: "#005358" }}>
                 Kattupakkam is a fast-growing locality
@@ -223,7 +224,7 @@ export default function Blog() {
           <br />
 
           <div className="paraDiv">
-            <h2>6. Community Living and Safety</h2>
+            <h2>5. Community Living and Safety</h2>
             <p>
               Kattupakkam is known for its friendly and welcoming community.
               Most residential complexes promote a sense of togetherness with
@@ -260,7 +261,7 @@ export default function Blog() {
           <div className="cont3-middle-display" />
           {/* <div className="middle-display" /> */}
 
-          <div>
+          <div className="bottom-cont2-and-head">
             <h2 className="bottom-cont2-head">Recent Post</h2>
             <div className="bottom-cont2">
               <h6
@@ -272,7 +273,7 @@ export default function Blog() {
                   );
                 }}
               >
-                <img className="recent-post-display-one " />
+                <img className="recent-post-display-one" />
                 1. Tips for buying your dream apartment/villa
               </h6>
               <br />
@@ -286,7 +287,7 @@ export default function Blog() {
                 }}
               >
                 <img className="recent-post-display-two " />
-                2. The Dos and Don'ts while living in an Apartment
+                <span className="blog-titles">2. The Dos and Don'ts while living in an Apartment</span>
               </h6>
               <br />
               <h6
@@ -299,7 +300,7 @@ export default function Blog() {
                 }}
               >
                 <img className="recent-post-display-three " />
-                3. Keep these essential things ready for your first apartment
+                <span className="blog-titles">3. Keep these essential things ready for your first apartment</span>
               </h6>
               <br />
               <h6
@@ -312,7 +313,7 @@ export default function Blog() {
                 }}
               >
                 <img className="recent-post-display-four " />
-                4. Major benefits of buying under-construction properties
+                <span className="blog-titles">4. Major benefits of buying under-construction properties</span>
               </h6>
               <br />
               <h6
@@ -324,9 +325,9 @@ export default function Blog() {
                   );
                 }}
               >
-                <img className="recent-post-display-five " />
-                5. 7 reasons why you should buy your apartment <br />
-                from a reputed builder
+                <img className="recent-post-display-five" />
+                <span className="blog-titles">5. 7 reasons why you should buy your apartment <br />
+                from a reputed builder</span>
               </h6>
               <br />
               <h6
@@ -339,7 +340,7 @@ export default function Blog() {
                 }}
               >
                 <img className="recent-post-display-six " />
-                6. The importance of choosing the right colors for your home
+                <span className="blog-titles">6. The importance of choosing the right colors for your home</span>
               </h6>
               <br />
             </div>

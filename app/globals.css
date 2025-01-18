@@ -790,6 +790,7 @@ input[type="number"] {
   height: 178px;
   background-color: #b1c5c7bb;
 }
+
 .top-display {
   display: flex;
   justify-content: center;
@@ -850,6 +851,17 @@ input[type="number"] {
   background-size: cover;
   background-position: center;
 }
+@media (max-width: 768px) {
+  .recent-post-display-one {
+  width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .blog-titles {
+  width: 60%;
+  }
+}
+
 .recent-post-display-two {
   display: flex;
   justify-content: center;
@@ -964,6 +976,9 @@ input[type="number"] {
   border-radius: 20px;
   text-align: center;
 }
+@media (max-width: 768px) {.bottom-cont{
+  margin: 20px}
+  }
 
 .bottom-cont2-head {
   text-align: center;
@@ -1013,6 +1028,7 @@ input[type="number"] {
   transition: all 0.3s ease;
   border-radius: 10px;
 }
+
 .bottom-cont2-point:hover {
   transform: scale(1.05);
 }
@@ -1041,6 +1057,17 @@ input[type="number"] {
   transition: all 0.3s ease;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {.right-b-cont-button {
+  width: 60vw;
+  }
+  }
+
+  @media (max-width: 768px) {.bottom-cont2-and-head {
+    margin: 15px;
+    }
+    }
+
 .right-b-cont-button:hover {
   background-color: white;
   color: #008088;
@@ -1091,10 +1118,28 @@ input[type="number"] {
     ),
     url(/assets/blogs/ponnamalle-bridge.jpg);
 }
+@media (max-width: 768px) {.blogImgDiv.whykatpakamprft{
+height: 300px;
+background-image: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.8) 0%,
+  rgba(0, 0, 0, 0) 100%
+),
+url(/assets/blogs/ponnamalle-bridge.jpg); /* Mobile-specific image */
+}
+}
+
 .blogImgDiv.click-to-view {
   background-image: url(/assets/images/click-to-view.png);
   cursor: pointer;
 }
+@media (max-width: 768px) {.blogImgDiv.click-to-view{
+  height: 300px;
+  background-image:url(/assets/images/click-to-view.png); /* Mobile-specific image */
+  }
+  }
+
+
 .blogImgDiv.kattupakkam-map {
   background-image: url(/assets/images/kattupakkam-map.png);
   cursor: pointer;
@@ -1111,6 +1156,13 @@ input[type="number"] {
   width: 100%;
   /* height: 350px; */
 }
+
+@media (max-width: 768px) {.blogImgDiv.Kattupakkam_growth{
+  height: 300px;
+  background-image:
+  url(/assets/images/Kattupakkam_growth.jpg); /* Mobile-specific image */
+  }
+  }
 :hover.click-to-view {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 100%;
@@ -1129,6 +1181,7 @@ input[type="number"] {
   color: "#000000";
   font-weight: 700;
   cursor: pointer;}
+  
 @keyframes popEffect {
   0% {
     transform: scale(1);
@@ -1152,6 +1205,15 @@ input[type="number"] {
   align-items: center;
   z-index: 1000;
   cursor: pointer;
+}
+
+@media (max-width: 768px) { /* Mobile view */
+  .modalContent {
+    width: 100%; /* Set relative size for smaller screens */
+    height: 50%;
+    margin-left: 10px;
+    margin-right: -30px;
+  }
 }
 
 .modalContent img {
