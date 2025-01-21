@@ -61,9 +61,9 @@ export default function ProjectTestimonial({ projectDetailPages }) {
               {projectDetailPages?.testimonial.map((item) => {
                 return (
                   <SwiperSlide key={item.name}>
-                    { pathname === "/league-one" ? ( 
-                    <div className="testimonialBox projectTestimonial" key={item.name}>
-                      <iframe
+                    {pathname === "/league-one" || pathname === "/sky-living" ? (
+                      <div className="testimonialBox projectTestimonial" key={item.name}>
+                        <iframe
                           width="100%"
                           height="100%"
                           src={item.video}
@@ -72,33 +72,33 @@ export default function ProjectTestimonial({ projectDetailPages }) {
                           allowFullScreen
                         />
                         <div className="testimonialTxtCntr">
-                        <div>
-                          <h6>{item.name}</h6>
-                          <h4>
-                            <span className="fw600">Property</span> - {item.property}
-                          </h4>
+                          <div>
+                            <h6>{item.name}</h6>
+                            <h4>
+                              <span className="fw600">Property</span> - {item.property}
+                            </h4>
+                          </div>
                         </div>
                       </div>
-                    </div>
                     ) : (
-                     
-                    <div className="testimonialBox projectTestimonial" key={item.name}>
-                      <p>{item.description}</p>
-                      <div className="testimonialTxtCntr">
-                        <div>
-                          <h6>{item.name}</h6>
-                          <h5>{item.location}</h5>
-                          <h4>
-                            <span className="fw600">Property</span> - {item.property}
-                          </h4>
-                        </div>
 
-                        <div>
-                          <img src={item.image} />
+                      <div className="testimonialBox projectTestimonial" key={item.name}>
+                        <p>{item.description}</p>
+                        <div className="testimonialTxtCntr">
+                          <div>
+                            <h6>{item.name}</h6>
+                            <h5>{item.location}</h5>
+                            <h4>
+                              <span className="fw600">Property</span> - {item.property}
+                            </h4>
+                          </div>
+
+                          <div>
+                            <img src={item.image} />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                     )}
+                    )}
                   </SwiperSlide>
                 );
               })}

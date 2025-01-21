@@ -745,7 +745,7 @@ const overAllData = {
             description:
               "We would like to thank and appreciate the entire LML Homes team for the wonderful work and architecture of the LML Prakriti premises. We would like to thank Ilairaja for all the corporation and for working on our feedback effectively. We would also like to thank Rajesh and Dimple for their documentation support. Additionally, we would like to thank Vignesh and MD Mr. Mahesh Kothari for the explanation of the project very clear. Thanks to the entire LML Team. You guys are the best",
             image: "/assets/images/testimonial-2.png",
-        alt: "Mehar Nisha's review highlighting LML Homes' top-notch quality",
+            alt: "Mehar Nisha's review highlighting LML Homes' top-notch quality",
           },
           {
             name: "Mrs. Vanitha",
@@ -754,8 +754,8 @@ const overAllData = {
             description:
               "I am so glad to buy a house with LML Raga. I am an Architect who takes a lot of time in minute details before finalizing a house. But, the decision to buy this house with LML Raga was finalized just 2 days after seeing the property. I must appreciate the efficiency of your staff too. Thank you for making this transition seamless. I highly recommend LML Raga.",
             image: "/assets/images/testimonial-1.png",
-        alt: "Feedback from Vanitha on her new home at LML Homes",
-            
+            alt: "Feedback from Vanitha on her new home at LML Homes",
+
           },
           {
             name: "Mr. Suman,",
@@ -764,7 +764,7 @@ const overAllData = {
             description:
               "Thanks much to LML Homes for helping me out to get a nice flat with expected Vaastu. I got this information from 99acres and the sales team shared the details and clarified my doubts very patiently. Thanks again to LML Homes for getting me nice flat near to my office MEPZ.",
             image: "/assets/images/testimonial-3.png",
-        alt: "Review by Suman praising LML Homes' exceptional customer support",            
+            alt: "Review by Suman praising LML Homes' exceptional customer support",
           },
           {
             name: "Ms. K. Preethi",
@@ -773,7 +773,7 @@ const overAllData = {
             description:
               'I would like to express my thanks for good communication and coordination for the registration. The site is pretty awesome and good and I am happy to have a sweet home from "LML Homes". The location of property is the very plus point, have ease of access to all the routes in Chennai. I recommend "LML Homes" based on kind attitude, communication and coordination from LML Team.',
             image: "/assets/images/testimonial-5.png",
-        alt: "Feedback from K. Preethi about the seamless home-buying experience with LML Homes",
+            alt: "Feedback from K. Preethi about the seamless home-buying experience with LML Homes",
           },
         ],
         specifications: [
@@ -2067,7 +2067,7 @@ const overAllData = {
                 {
                   image: "/arshiya/gallery/gallery-5.png",
                   label: "Project Image",
-                },             
+                },
               ],
             },
           ],
@@ -2090,7 +2090,7 @@ const overAllData = {
             description:
               "We would like to thank and appreciate the entire LML Homes team for the wonderful work and architecture of the LML Prakriti premises. We would like to thank Ilairaja for all the corporation and for working on our feedback effectively. We would also like to thank Rajesh and Dimple for their documentation support. Additionally, we would like to thank Vignesh and MD Mr. Mahesh Kothari for the explanation of the project very clear. Thanks to the entire LML Team. You guys are the best",
             image: "/assets/images/testimonial-2.png",
-             alt: "Mehar Nisha's review highlighting LML Homes' top-notch quality",
+            alt: "Mehar Nisha's review highlighting LML Homes' top-notch quality",
           },
           {
             name: "Mrs. Vanitha",
@@ -3038,32 +3038,32 @@ const overAllData = {
         },
 
         testimonial: [
-            {
-              name: 'Mr. Srinivasan',
-              location: '',
-              property: 'LML League One',
-              description: '',
-              image: '',
-              alt: 'Mr. Srinivasan testimony',
-              video: 'https://www.youtube.com/embed/v5jSn23WuUk?si=4Fcv4lklhuDW97ZB'
+          {
+            name: 'Mr. Srinivasan',
+            location: '',
+            property: 'LML League One',
+            description: '',
+            image: '',
+            alt: 'Mr. Srinivasan testimony',
+            video: 'https://www.youtube.com/embed/v5jSn23WuUk?si=4Fcv4lklhuDW97ZB'
           },
           {
-              name: 'Mr. Jagadeesh',
-              location: '',
-              property: 'LML League One',
-              description: '',
-              image: '',
-              alt: 'Mr. Jagadeesh testimony',
-              video: 'https://www.youtube.com/embed/us2IfHMZxNE?si=W7sFnD6GWXdhJIF9'
+            name: 'Mr. Jagadeesh',
+            location: '',
+            property: 'LML League One',
+            description: '',
+            image: '',
+            alt: 'Mr. Jagadeesh testimony',
+            video: 'https://www.youtube.com/embed/us2IfHMZxNE?si=W7sFnD6GWXdhJIF9'
           },
           {
-              name: 'Mr. Arun',
-              location: '',
-              property: 'LML League One',
-              description: '',
-              image: '',
-              alt: 'Mr. Arun testimony',
-              video: 'https://www.youtube.com/embed/SeAS5bI1vII?si=xE4HH2fHDsbJkPT7'
+            name: 'Mr. Arun',
+            location: '',
+            property: 'LML League One',
+            description: '',
+            image: '',
+            alt: 'Mr. Arun testimony',
+            video: 'https://www.youtube.com/embed/SeAS5bI1vII?si=xE4HH2fHDsbJkPT7'
           }
         ],
         specifications: [
@@ -3074,8 +3074,8 @@ const overAllData = {
               {
                 pointOne:
                   "RCC framed structure with pile foundation designed to withstand seismic loads as per structural design, conforming to BIS.",
-                 pointTwo: "Walls constructed using solid blocks/AAC blocks in cement mortar/adhesive with adequate reinforcement at required levels.",
-                 pointThree: "Anti termite treatments wherever applicable during construction stage",
+                pointTwo: "Walls constructed using solid blocks/AAC blocks in cement mortar/adhesive with adequate reinforcement at required levels.",
+                pointThree: "Anti termite treatments wherever applicable during construction stage",
               },
             ],
           },
@@ -3086,7 +3086,7 @@ const overAllData = {
               {
                 pointOne:
                   "Living, dining, and bedroom areas finished with high-quality 2x2 vitrified tiles of the builder's choice, including necessary skirting.",
-                 pointTwo: "Toilets, Balcony’s, And utility Area – antiskid ceramic tiles with spacers.",
+                pointTwo: "Toilets, Balcony’s, And utility Area – antiskid ceramic tiles with spacers.",
               },
             ],
           },
@@ -3112,8 +3112,8 @@ const overAllData = {
               {
                 pointOne:
                   "Main Door – (3’6” x 8’0”) 8 Feet Height, frame made of engineered wood with both side veneered flush door (38mm) with necessary SS finished door fittings along with Godrej digital lock / equivalent.",
-                 pointTwo: "Bedroom Doors – (3” x 7’0”) 7 Feet Height, frame made of engineered wood with both sides laminated flush door (32mm) with necessary hardware of Godrej / equivalent.",
-                 pointThree: "Toilet Doors – (2’6” x 7’0”) 7 Feet Height, frame made of engineered wood with both sides laminated flush door (30mm) with necessary hardware of Godrej / equivalent.",
+                pointTwo: "Bedroom Doors – (3” x 7’0”) 7 Feet Height, frame made of engineered wood with both sides laminated flush door (32mm) with necessary hardware of Godrej / equivalent.",
+                pointThree: "Toilet Doors – (2’6” x 7’0”) 7 Feet Height, frame made of engineered wood with both sides laminated flush door (30mm) with necessary hardware of Godrej / equivalent.",
               },
             ],
           },
@@ -3210,6 +3210,1371 @@ const overAllData = {
               },
             ],
           },
+        ],
+      },
+    },
+    {
+      slug: "sky-living",
+      name: "SKY LIVING",
+      image: "assets/images/lml-map-img.jpg",
+      location: "Tambaram",
+      floor: "2&3 BHK",
+      price: "66 Lakhs",
+      locationInfo: {
+        lat: 12.9249,
+        lng: 80.1,
+      },
+      detail: {
+        bannerImage: "sky-living-banner.webp",
+        logo: "sky-living-logo-colored.webp",
+        heading: "LML Sky Living, Tambaram",
+        keyLocation: "",
+        detailDescription:
+          "Discover Elevated Living at LML Sky Living, Tambaram – A premium residential project designed to redefine modern living for discerning families. Sprawling across 1.2 acres, Sky Living features 175 exclusive apartments ranging from 1095 sq. ft. to 1495 sq. ft., offering the perfect blend of space, comfort, and sophistication. With two elegantly designed blocks comprising Basement + Stilt + 13 floors, the community boasts a stunning 13,000 sq. ft. 5-star clubhouse with world-class amenities. Priced at ₹5,555/sq. Ft., Sky Living provides exceptional value for a luxurious lifestyle in Tambaram. Indulge in a living experience where elegance meets modernity, tailored for families seeking an upscale and serene environment.",
+        offer: {
+          price: "5,555 / Sq. ft",
+          info: "2&3 BHK",
+          subContent: "",
+        },
+        pdf: "assets/pdfs/theleagueone.pdf",
+        enquire: {
+          whatsApp: "+918898989898",
+          phone: "+918898989898",
+        },
+        bannerHighlights: [
+          {
+            icon: "",
+            label: "2&3 BHK",
+          },
+          {
+            icon: "",
+            label: "GATED COMMUNITY WITH 175 UNITS",
+          },
+          {
+            icon: "",
+            label: "Rera num - nill(yet to get)",
+          },
+          {
+            icon: "credaui-white.png",
+            label: "",
+          },
+        ],
+        descriptionHighlights: [
+          {
+            icon: "proj-high-2.svg",
+            label: "2 & 3 BHK",
+          },
+          {
+            icon: "proj-high-5.svg",
+            label: "Gated Community",
+          },
+          {
+            icon: "proj-high-4.svg",
+            label: "2 Blocks",
+          },
+          {
+            icon: "proj-high-3.svg",
+            label: "1095 - 1495 sq. ft",
+          },
+          {
+            icon: "proj-high-6.svg",
+            label: "RERA num - nill(yet to get)",
+          },
+          {
+            icon: "proj-high-2.svg",
+            label: "1.2 Acers",
+          },
+          {
+            icon: "clubhouse.png",
+            label: "13,000 sq.ft Grand 5-star Clubhouse",
+          },
+          {
+            icon: "clubhouse.png",
+            label: "Basement + Still + 13 floors",
+          },
+        ],
+        walkthrough: {
+          video: "https://www.youtube.com/embed/s5L1p_4k6s0?si=wc3IPZKGf5ZctQrM",
+          // video: "",
+          description:
+            "At LML Sky Living, every day offers a new opportunity to immerse yourself in an extravagant lifestyle.",
+          question: "WHY LML Sky Living?",
+          answer: [
+            "<p><strong>175 Signature Units:</strong> Thoughtfully designed 2 & 3 BHK residences spread across  13 floors with basement + Still.</p><p><strong>Prime Location:</strong> Located in the vibrant neighbourhood of Tambaram, Chennai.</p><p><strong>Expansive Clubhouse:</strong> 13,000 Sq.Ft of the Grand 5-star Clubhouse with world-class amenities for leisure and ultimate relaxation.</p><p><strong>Access to IT hubs:</strong> Proximity to key IT Hubs including ITC Cloud, MEPZ, HTC Global.</p><p><strong>Seamless Connectivity:</strong> Only 15 minutes to major schools, colleges, hospitals, theatres and supermarkets.</p><p><strong>Premium Specifications:</strong> Designed with superior materials and finishes to offer a luxurious living experience.</p>",
+          ]
+        },
+        amenities: {
+          description:
+            "At Sky Living, Tambaram, step into a world of modern amenities and luxurious facilities thoughtfully crafted to elevate your everyday living experience and redefine a premium lifestyle.",
+          amenityList: [
+            {
+              image: "assets/sky-living/gym.jpg",
+              label: "Gym and Fitness centre",
+            },
+            {
+              image: "assets/sky-living/pool.jpg",
+              label: "Swimming Pool",
+            },
+            {
+              image: "assets/sky-living/multipurp_zone.jpg",
+              label: "Multipurpose Hall with AC",
+            },
+            {
+              image: "assets/sky-living/Kids-Play-Area.png",
+              label: "Kids Play Area",
+            },
+            {
+              image: "assets/sky-living/Walking-Path-way.png",
+              label: "Wellness Zone",
+            },
+            {
+              image: "assets/prakriti/cctv.png",
+              label: "24/7 CCTV",
+            },
+            {
+              image: "assets/sky-living/power-backup.jpg",
+              label: "Power backup for individual units (upto 400 W for 2 BHK & 500 W for 3 BHK unit)",
+            },
+            {
+              image: "assets/sky-living/play_zone.jpg",
+              label: "Table Tennis",
+            },
+            {
+              image: "assets/sky-living/badminton_court.jpg",
+              label: "Indoor Multipurpose Court",
+            },
+            {
+              image: "assets/sky-living/amenities11.jpg",
+              label: "Furnished Guest Bedrooms with AC",
+            },
+            // {
+            //   image: "assets/sky-living/club_house.jpg",
+            //   label: "Clubhouse",
+            // },
+            // {
+            //   image: "assets/sky-living/amenities12.jpg",
+            //   label: "Play Zone",
+            // },
+            // {
+            //   image: "assets/sky-living/gym_zone.jpg",
+            //   label: "Gym Zone",
+            // },
+            // {
+            //   image: "assets/sky-living/club_house_rooftop.jpg",
+            //   label: "Clubhouse Roof Top",
+            // },
+
+
+            // {
+            //   image: "assets/prakriti/lift.png",
+            //   label: "Automated Passenger Lift",
+            // },
+            // {
+            //   image: "assets/prakriti/Mini-Hall.png",
+            //   label: "Multi-Purpose Hall",
+            // },
+            // {
+            //   image: "assets/league-one/grand_entrance.jpg",
+            //   label: "Grand Entrance Arch",
+            // },
+            // {
+            //   image: "assets/prakriti/Parking.png",
+            //   label: "EV Charging Point",
+            // },
+            // {
+            //   image: "assets/prakriti/Sewage-Treatment-Plant.png",
+            //   label: "Sewage Treatment Plant",
+            // },
+            // {
+            //   image: "assets/prakriti/security.png",
+            //   label: "Paved Driveway",
+            // },
+
+
+          ],
+        },
+        locationInfo: {
+          heading: "Location - 'TAMBARAM' ",
+          description:
+            "This gated community apartment is the perfect place to find a home that's conveniently close to all the key infrastructures you need. Now, reach educational institutes, hospitals, supermarkets, schools, IT hubs like Hyperlink, Accenture, Zoho that are just a 5-minute drive away.",
+          CenterLocation: {
+            // lat: 13.050571663166105,
+            lat: 12.9362349,
+            // lng: 80.12730457888271,
+            lng: 80.097287,
+          },
+          centerLocationMarker: "sky-living-logo.png",
+          centerLocationLink: "https://maps.app.goo.gl/mWzXsGNBUJUbbPPZ8",
+          locations: [
+            // {
+            //   name: "Connectivity",
+            //   icon: "commute.svg",
+            //   locationList: [
+            //     {
+            //       name: "Proposed metro - 2 mins",
+            //       location: {
+            //         lat: 13.038111906199216,
+            //         lng: 80.15685989716447,
+            //         markerIcon: "commute-fill.svg",
+            //       },
+            //     },
+            //     {
+            //       name: "Porur - 5 mins",
+            //       location: {
+            //         lat: 13.047435601226757,
+            //         lng: 80.14046585321519,
+            //         markerIcon: "commute-fill.svg",
+            //       },
+            //     },
+            //     {
+            //       name: "Iyyappanthangal Junction – 3mins",
+            //       location: {
+            //         lat: 13.040776035973392,
+            //         lng: 80.10989828906754,
+            //         markerIcon: "commute-fill.svg",
+            //       },
+            //     },
+            //     {
+            //       name: "Vanagaram Junction – 5mins",
+            //       location: {
+            //         lat: 13.040776035973392,
+            //         lng: 80.10989828906754,
+            //         markerIcon: "commute-fill.svg",
+            //       },
+            //     },
+            //     {
+            //       name: "Airport – 20 mins",
+            //       location: {
+            //         lat: 13.040776035973392,
+            //         lng: 80.10989828906754,
+            //         markerIcon: "commute-fill.svg",
+            //       },
+            //     },
+            //     {
+            //       name: "Poonamallee bus Terminus – 5mins",
+            //       location: {
+            //         lat: 13.040776035973392,
+            //         lng: 80.10989828906754,
+            //         markerIcon: "commute-fill.svg",
+            //       },
+            //     },
+            //     {
+            //       name: "Thiruverkadu Junction – 5mins",
+            //       location: {
+            //         lat: 13.050571663166105,
+            //         lng: 80.12730457888271,
+            //         markerIcon: "sky-living-logo.png",
+            //       },
+            //     },
+            //     {
+            //       name: "Guindy railway Station – 15mins",
+            //       location: {
+            //         lat: 13.050571663166105,
+            //         lng: 80.12730457888271,
+            //         markerIcon: "sky-living-logo.png",
+            //       },
+            //     },
+            //     {
+            //       name: "Koyambedu – 10mins",
+            //       location: {
+            //         lat: 13.050571663166105,
+            //         lng: 80.12730457888271,
+            //         markerIcon: "sky-living-logo.png",
+            //       },
+            //     },
+            //     {
+            //       name: "15 mins to IT corridor, DLF, L&T, RMZ, CommerZone",
+            //       location: {
+            //         lat: 13.050571663166105,
+            //         lng: 80.12730457888271,
+            //         markerIcon: "sky-living-logo.png",
+            //       },
+            //     },
+            //   ],
+            // },
+            {
+              name: "Schools",
+              icon: "education.svg",
+              locationList: [
+                {
+                  "name": "San Academy - 0.2 km - 2 mins",
+                  "location": {
+                    "lat": 12.9363153,
+                    "lng": 80.0612372,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "M.Venkatesubba rao mat hr sec school - 2 mins",
+                  "location": {
+                    "lat": 12.9363023,
+                    "lng": 80.0895622,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Kidzee - 2 mins",
+                  "location": {
+                    "lat": 12.9363023,
+                    "lng": 80.0895622,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Vels Global School - 5 mins",
+                  "location": {
+                    "lat": 12.9155672,
+                    "lng": 80.0679813,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "ST Johns Matric Hig Sec School - 5 mins",
+                  "location": {
+                    "lat": 12.9362811,
+                    "lng": 80.0792623,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Christ King Matriculation Hr. Sec School - 5 mins",
+                  "location": {
+                    "lat": 12.9224251,
+                    "lng": 80.1112921,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Sri Chaitanya Techno School - 5 mins",
+                  "location": {
+                    "lat": 12.9363205,
+                    "lng": 80.0563663,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Sri Ramakrishna Matriculation - 5 mins",
+                  "location": {
+                    "lat": 12.9366839,
+                    "lng": 79.9327565,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "CSI Corely Hr. Sec School - 2 mins",
+                  "location": {
+                    "lat": 12.9211918,
+                    "lng": 80.1115118,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Sri Krishna Public School - CBSE - 5 mins",
+                  "location": {
+                    "lat": 12.9766817,
+                    "lng": 80.07382,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Sri Sankara Vidhyalaya Mat Hig Sec School - 5 mins",
+                  "location": {
+                    "lat": 12.9651227,
+                    "lng": 80.1073627,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Sairam mat hr sec school - 10 mins",
+                  "location": {
+                    "lat": 12.9624726,
+                    "lng": 80.0552699,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "NSN Memorial School - 10 mins",
+                  "location": {
+                    "lat": 12.9312377,
+                    "lng": 80.1382777,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Olive Public School - 10 mins",
+                  "location": {
+                    "lat": 12.9322949,
+                    "lng": 80.1482356,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Jain Public School - 10 mins",
+                  "location": {
+                    "lat": 12.9676362,
+                    "lng": 80.095126,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Orchids Internantinal School - 15 mins",
+                  "location": {
+                    "lat": 12.9363205,
+                    "lng": 80.0563663,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Narayana E Techno School - 15 mins",
+                  "location": {
+                    "lat": 12.9364814,
+                    "lng": 80.0563662,
+                    "markerIcon": "education-fill.svg"
+                  }
+                }
+              ]
+              ,
+            },
+            {
+              name: "Colleges",
+              icon: "healthcare.svg",
+              locationList: [
+                {
+                  "name": "Apollo Group of Colleges - 2 mins",
+                  "location": {
+                    "lat": 13.0080195,
+                    "lng": 80.0911241,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "MCC Community College - 2 mins",
+                  "location": {
+                    "lat": 12.921229,
+                    "lng": 80.119543,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Alagappa University - 2 mins",
+                  "location": {
+                    "lat": 12.9212753,
+                    "lng": 80.1015183,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Hindu Mission College of Allied Health Science - 2 mins",
+                  "location": {
+                    "lat": 12.9313702,
+                    "lng": 80.1195449,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "National Institute of Siddha - 5 mins",
+                  "location": {
+                    "lat": 12.9389756,
+                    "lng": 80.125728,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Madras Christian College - 5 mins",
+                  "location": {
+                    "lat": 12.9211303,
+                    "lng": 80.1194867,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Tagore College of Arts and Science - 5 mins",
+                  "location": {
+                    "lat": 12.9552394,
+                    "lng": 80.1328866,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Sri Sai Ram Siddha Medical College - 5 mins",
+                  "location": {
+                    "lat": 12.9583224,
+                    "lng": 80.0563163,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Madras Institute of Technology - 5 mins",
+                  "location": {
+                    "lat": 12.9484783,
+                    "lng": 80.1371017,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Sri Sairam Engineering College - 5 mins",
+                  "location": {
+                    "lat": 13.0052205,
+                    "lng": 80.0626394,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Sri Sairam Institute of Technology - 5 mins",
+                  "location": {
+                    "lat": 12.9606471,
+                    "lng": 79.9770148,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "TMG College of Arts and Science - 10 mins",
+                  "location": {
+                    "lat": 12.9606523,
+                    "lng": 80.0506576,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Bhaarath Institute of Higher Education and Research - 10 mins",
+                  "location": {
+                    "lat": 13.050571663166105,
+                    "lng": 80.12730457888271,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "SIVET College - 10 mins",
+                  "location": {
+                    "lat": 13.001400000000000,
+                    "lng": 80.101400000000000,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Peri Institute - 10 mins",
+                  "location": {
+                    "lat": 13.001400000000000,
+                    "lng": 80.101400000000000,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Bharath Institute of Arts and Science - 15 mins",
+                  "location": {
+                    "lat": 13.001400000000000,
+                    "lng": 80.101400000000000,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Dhanalakshmi College of Engineering - 15 mins",
+                  "location": {
+                    "lat": 13.001400000000000,
+                    "lng": 80.101400000000000,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Madha Medical College - 15 mins",
+                  "location": {
+                    "lat": 13.001400000000000,
+                    "lng": 80.101400000000000,
+                    "markerIcon": "education-fill.svg"
+                  }
+                },
+                {
+                  "name": "Jerusalam College of Engineering - 15 mins",
+                  "location": {
+                    "lat": 13.001400000000000,
+                    "lng": 80.101400000000000,
+                    "markerIcon": "education-fill.svg"
+                  }
+                }
+              ],
+            },
+            {
+              name: "Hospitals",
+              icon: "retail.svg",
+              locationList:
+                [
+                  {
+                    "name": "Sri Kumaran Hospital - 2 mins",
+                    "location": {
+                      "lat": 12.9368447,
+                      "lng": 79.9327564,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Sri Jayam Hospital - 2 mins",
+                    "location": {
+                      "lat": 13.025398,
+                      "lng": 80.0384254,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Sri Gokulam Multi Speciality Hospital - 2 mins",
+                    "location": {
+                      "lat": 12.2996697,
+                      "lng": 78.4584789,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Dr. Balaji Dental Hospital - 2 mins",
+                    "location": {
+                      "lat": 13.1535866,
+                      "lng": 80.0068284,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Deepam Hospital - 5 mins",
+                    "location": {
+                      "lat": 13.1541503,
+                      "lng": 80.0068278,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Dr Agarwals Eye Hospital - 5 mins",
+                    "location": {
+                      "lat": 13.1547139,
+                      "lng": 80.0068272,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Hindu Mission Hospital - 5 mins",
+                    "location": {
+                      "lat": 12.9293483,
+                      "lng": 80.1147807,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Annai Arul Hospital - 5 mins",
+                    "location": {
+                      "lat": 12.9207394,
+                      "lng": 80.0854883,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Apollo Clinic Tambaram - 5 mins",
+                    "location": {
+                      "lat": 12.9236082,
+                      "lng": 80.1233395,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Siddha Out Patient. Govt Hospital - 5 mins",
+                    "location": {
+                      "lat": 12.9390421,
+                      "lng": 80.1257171,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Tambaram Medical Center - 10 mins",
+                    "location": {
+                      "lat": 12.9252671,
+                      "lng": 80.1238228,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Government Hospital Tambaram - 10 mins",
+                    "location": {
+                      "lat": 12.9455587,
+                      "lng": 80.1295863,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Parvathy Hospital - 10 mins",
+                    "location": {
+                      "lat": 12.9153676,
+                      "lng": 80.0659986,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "BE WELL Hospital - 10 mins",
+                    "location": {
+                      "lat": 12.9218694,
+                      "lng": 80.1391551,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Rela Multicpeciality Hospital - 15 mins",
+                    "location": {
+                      "lat": 12.9548913,
+                      "lng": 80.1352981,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "New Life Hospital - 15 mins",
+                    "location": {
+                      "lat": 12.9226225,
+                      "lng": 80.1496626,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Sugam Hospital - 15 mins",
+                    "location": {
+                      "lat": 12.9226484,
+                      "lng": 80.1419378,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  },
+                  {
+                    "name": "Kauvery Hospital - 15 mins",
+                    "location": {
+                      "lat": 12.9227496,
+                      "lng": 80.1110379,
+                      "markerIcon": "hospital-fill.svg"
+                    }
+                  }
+                ],
+            },
+            {
+              name: "Movie Theaters",
+              icon: "movie-theater-icon.svg",
+              locationList: [
+                {
+                  "name": "National Theater - 2 mins",
+                  "location": {
+                    "lat": 12.9290977,
+                    "lng": 80.1122704,
+                    "markerIcon": "movie-theater-icon.svg"
+                  }
+                },
+                {
+                  "name": "Vidya Theater - 5 mins",
+                  "location": {
+                    "lat": 12.9260846,
+                    "lng": 80.1090787,
+                    "markerIcon": "movie-theater-icon.svg"
+                  }
+                },
+                {
+                  "name": "MR Theater - 5 mins",
+                  "location": {
+                    "lat": 12.9250459,
+                    "lng": 80.1127614,
+                    "markerIcon": "movie-theater-icon.svg"
+                  }
+                },
+                {
+                  "name": "Varadharaja Cinemas - 10 mins",
+                  "location": {
+                    "lat": 12.9375874,
+                    "lng": 80.1362776,
+                    "markerIcon": "movie-theater-icon.svg"
+                  }
+                },
+                {
+                  "name": "Rakesh Theater - 10 mins",
+                  "location": {
+                    "lat": 12.9545613,
+                    "lng": 80.1392659,
+                    "markerIcon": "movie-theater-icon.svg"
+                  }
+                },
+                {
+                  "name": "Velco Cinemas - 10 mins",
+                  "location": {
+                    "lat": 12.9834112,
+                    "lng": 80.1226612,
+                    "markerIcon": "movie-theater-icon.svg"
+                  }
+                },
+                {
+                  "name": "PVR Grand Galada Chennai - 15 mins",
+                  "location": {
+                    "lat": 12.9787038,
+                    "lng": 80.1590908,
+                    "markerIcon": "movie-theater-icon.svg"
+                  }
+                },
+                {
+                  "name": "Ganesh Cinemas - 15 mins",
+                  "location": {
+                    "lat": 12.9848292,
+                    "lng": 80.1263467,
+                    "markerIcon": "movie-theater-icon.svg"
+                  }
+                },
+                {
+                  "name": "Janatha Theater - 15 mins",
+                  "location": {
+                    "lat": 12.9697624,
+                    "lng": 80.1467514,
+                    "markerIcon": "movie-theater-icon.svg"
+                  }
+                }
+              ]
+              ,
+            },
+            {
+              name: "IT Hubs",
+              icon: "IT_Hub.svg",
+              locationList: [
+                {
+                  "name": "ITC Cloud Tech - 5 mins",
+                  "location": {
+                    "lat": 12.9254795,
+                    "lng": 80.1080507,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "MEPZ - 5 mins",
+                  "location": {
+                    "lat": 12.9437173,
+                    "lng": 80.1168962,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "HTC Global Services - 5 mins",
+                  "location": {
+                    "lat": 12.9437277,
+                    "lng": 80.1168962,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "Gislen Software - 5 mins",
+                  "location": {
+                    "lat": 12.9434737,
+                    "lng": 80.1141848,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "Cognizant Technologies Pvt Ltd - 10 mins",
+                  "location": {
+                    "lat": 12.9451581,
+                    "lng": 80.119029,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "HyperLink Technologies - 10 mins",
+                  "location": {
+                    "lat": 12.9123646,
+                    "lng": 80.1014594,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "Sutherland Global Services - 10 mins",
+                  "location": {
+                    "lat": 12.9124109,
+                    "lng": 80.0834347,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "Sriram Gateway - 10 mins",
+                  "location": {
+                    "lat": 12.8996282,
+                    "lng": 80.0890651,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "Accenture Services Pvt Ltd - 10 mins",
+                  "location": {
+                    "lat": 12.9033042,
+                    "lng": 80.0906869,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "CSS Corp Pvt Ltd - 10 mins",
+                  "location": {
+                    "lat": 12.913701,
+                    "lng": 80.0857102,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "Zoho - 15 mins",
+                  "location": {
+                    "lat": 12.9404928,
+                    "lng": 80.0708767,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                },
+                {
+                  "name": "Mahendra World City - 15 mins",
+                  "location": {
+                    "lat": 12.731933,
+                    "lng": 80.0011778,
+                    "markerIcon": "IT_Hub.svg"
+                  }
+                }
+              ]
+              ,
+            },
+            {
+              name: "Super Market and Hyper Mart",
+              icon: "commercial-hub.svg",
+              locationList: [
+                {
+                  "name": "A Thangam Store - 2 mins",
+                  "location": {
+                    "lat": 12.9315759,
+                    "lng": 80.1000993,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "Green Fresh SuperMarket - 2 mins",
+                  "location": {
+                    "lat": 12.9257127,
+                    "lng": 80.0988518,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "Nilgiri's - 5 mins",
+                  "location": {
+                    "lat": 12.9257386,
+                    "lng": 80.091127,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "More SuperMarket - 5 mins",
+                  "location": {
+                    "lat": 12.9257801,
+                    "lng": 80.091127,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "Tambaram Market - 5 mins",
+                  "location": {
+                    "lat": 12.9256112,
+                    "lng": 80.1132391,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "Poorvika Super Market - 10 mins",
+                  "location": {
+                    "lat": 12.9153676,
+                    "lng": 80.0637026,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "Reliance Fresh - 10 mins",
+                  "location": {
+                    "lat": 12.9296031,
+                    "lng": 80.1168527,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "Smartfresh Departmental Store - 10 mins",
+                  "location": {
+                    "lat": 12.9488577,
+                    "lng": 80.123381,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "Super Saravana Store - 15 mins",
+                  "location": {
+                    "lat": 12.9489039,
+                    "lng": 80.1053563,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "Grace World Super market - 15 mins",
+                  "location": {
+                    "lat": 12.9155075,
+                    "lng": 80.1412616,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                },
+                {
+                  "name": "Saravana Selvarathinam Store - 15 mins",
+                  "location": {
+                    "lat": 12.9406115,
+                    "lng": 80.1256721,
+                    "markerIcon": "commercial-hub-fill.svg"
+                  }
+                }
+              ]
+              ,
+            },
+          ],
+          address: "Dharkast Rd, Kannadapalayam, Tambaram, Chennai, Tamil Nadu 600045",
+        },
+        layout: {
+          heading: "SITE PLAN",
+          // description:
+          //   "Browse through our various floor-plan configurations. Each category of room provides an array of facilities, meticulously designed to cater to your requirements.",
+          layoutPlan: [
+            {
+              name: "Block A",
+              image: "/assets/league-one/Block_A.png",
+            },
+            {
+              name: "Block B",
+              image: "/assets/league-one/Block_B.png",
+            },
+            {
+              name: "Block C",
+              image: "/assets/league-one/Block_C.png",
+            },
+            {
+              name: "Block D",
+              image: "/assets/league-one/Block_D.png",
+            },
+            {
+              name: "Floor Plans",
+              image: "/assets/league-one/Floor Plans.png",
+            },
+          ],
+        },
+        unitPlan: {
+          heading: "Unit Plans",
+          // description:
+          //   "Browse through our various floor-plan configurations. Each category of room provides an array of facilities, meticulously designed to cater to your requirements.",
+          layoutPlan: [
+            {
+              name: "2BHK",
+              sizeList: [
+                {
+                  name: "1013 SQFT",
+                  image: "/assets/prakriti/B_403.jpg",
+                },
+                {
+                  name: "1014 SQFT",
+                  image: "/assets/prakriti/B_405.jpg",
+                },
+                {
+                  name: "1004 SQFT",
+                  image: "/assets/prakriti/B_406.jpg",
+                },
+                {
+                  name: "1019 SQFT",
+                  image: "/assets/prakriti/B_410.jpg",
+                },
+                {
+                  name: "1024 SQFT",
+                  image: "/assets/prakriti/C_304.jpg",
+                },
+                {
+                  name: "1023 SQFT",
+                  image: "/assets/prakriti/C_309.jpg",
+                },
+                {
+                  name: "1044 SQFT",
+                  image: "/assets/prakriti/C_402.jpg",
+                },
+                {
+                  name: "1024 SQFT",
+                  image: "/assets/prakriti/C_404.jpg",
+                },
+              ],
+            },
+            {
+              name: "3BHK",
+              sizeList: [
+                {
+                  name: "1395 SQFT",
+                  image: "/assets/prakriti/B_413.jpg",
+                },
+                {
+                  name: "1362 SQFT",
+                  image: "/assets/prakriti/B_409.jpg",
+                },
+                {
+                  name: "1310 SQFT",
+                  image: "/assets/prakriti/C_411.jpg",
+                },
+                {
+                  name: "1362 SQFT",
+                  image: "/assets/prakriti/B_409.jpg",
+                },
+                {
+                  name: "1027 SQFT",
+                  image: "/assets/prakriti/C_405.jpg",
+                },
+                {
+                  name: "1272 SQFT",
+                  image: "/assets/prakriti/C_406.jpg",
+                },
+                {
+                  name: "1008 SQFT",
+                  image: "/assets/prakriti/C_408.jpg",
+                },
+                {
+                  name: "1023 SQFT",
+                  image: "/assets/prakriti/C_409.jpg",
+                },
+                {
+                  name: "598 SQFT",
+                  image: "/assets/prakriti/E_408a.jpg",
+                },
+              ],
+            },
+          ],
+        },
+        subBannerImage: "/league-one/strip-image-the-league-one.webp",
+        gallery: {
+          heading: "Glimpses of life at prakarthi",
+          // subHeading:
+          // "With beautiful and thoughtfully-designed homes at kattupakkam, you can experience the sunny side of life.",
+          list: [
+            {
+              name: "Actual Image",
+              images: [
+                {
+                  image: "/sky-living/gallery/01.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/sky-living/gallery/02.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/sky-living/gallery/Aerial-View-01a.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/sky-living/gallery/Aerial-View-01b.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/sky-living/gallery/Aerial-View-01c.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/sky-living/gallery/Aerial-View-02a.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/sky-living/gallery/Aerial-View-02b.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/sky-living/gallery/Aerial-View-02c.jpg",
+                  label: "Project Image",
+                },
+
+              ],
+            },
+            {
+              name: "Project Image",
+              images: [
+                {
+                  image: "/league-one/gallery/view 01.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/league-one/gallery/view 02.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/league-one/gallery/view 03.jpg",
+                  label: "Project Image",
+                },
+                {
+                  image: "/league-one/gallery/view 04.jpg",
+                  label: "Project Image",
+                },
+              ],
+            },
+          ],
+        },
+        testimonial: [
+          {
+            name: 'Mr. Jagadeesh',
+            location: '',
+            property: 'LML Sky Living',
+            description: '',
+            image: '',
+            alt: 'Mr. Jagadeesh testimony',
+            video: 'https://www.youtube.com/embed/v5jSn23WuUk?si=4Fcv4lklhuDW97ZB'
+          },
+          {
+            name: 'Mr.Arun Kumar',
+            location: '',
+            property: 'LML Sky Living',
+            description: '',
+            image: '',
+            alt: 'Mr.Arun Kumar testimony',
+            video: 'https://www.youtube.com/embed/us2IfHMZxNE?si=W7sFnD6GWXdhJIF9'
+          },
+          {
+            name: 'Mr. Elangovan and Mrs. Krishna Kumari',
+            location: '',
+            property: 'LML Sky Living',
+            description: '',
+            image: '',
+            alt: 'Mr. Elangovan and Mrs. Krishna Kumari testimony',
+            video: 'https://www.youtube.com/embed/SeAS5bI1vII?si=xE4HH2fHDsbJkPT7'
+          }
+        ],
+        specifications: [
+          {
+            name: "structure",
+            image: "structure.jpg",
+            specifications: [
+              {
+                pointOne:
+                  "RCC framed structure with pile foundation designed to withstand seismic loads as per structural design, conforming to BIS.",
+                pointTwo: "Walls constructed using solid blocks/AAC blocks in cement mortar/adhesive with adequate reinforcement at required levels.",
+                pointThree: "Anti termite treatments wherever applicable during construction stage",
+              },
+            ],
+          },
+          {
+            name: "Flooring",
+            image: "Floor.jpg",
+            specifications: [
+              {
+                pointOne:
+                  "Living, dining, and bedroom areas finished with high-quality 2x2 vitrified tiles of the builder's choice, including necessary skirting.",
+                pointTwo: "Toilets, Balcony’s, And utility Area – antiskid ceramic tiles with spacers.",
+              },
+            ],
+          },
+          {
+            name: "Plumbing & Sanitary",
+            image: "Pluming-l1.jpg",
+            specifications: [
+              {
+                pointOne: "Concealed/open plumbing line from UG sump provided.",
+                pointTwo: "All closets and washbasins will be white by Jaguar/equivalent or as per the builder's choice, with concealed flush tanks.",
+                pointThree: "Provision in plumbing for connecting one geyser in each toilet.",
+                pointFour: "Single lever HI – FLOW concealed diverter of by Jaguar / equivalent makes of Hot and cold mixer with overhead shower will be provided in the toilets.",
+                pointFive: "Hand shower - provided in all bathrooms.",
+                pointSix: "All C.P fittings will be of by Jaguar/equivalent or as per the builder's choice",
+                pointSeven: "Toilet closets will be EWC floor/wall mount by Jaguar/equivalent with high quality concealed flush tank cistern of Jaguar/equivalent as per the builder's choice.",
+              },
+            ],
+          },
+          {
+            name: "Doors",
+            image: "Door.jpg",
+            specifications: [
+              {
+                pointOne:
+                  "Main Door – (3’6” x 8’0”) 8 Feet Height, frame made of engineered wood with both side veneered flush door (38mm) with necessary SS finished door fittings along with Godrej digital lock / equivalent.",
+                pointTwo: "Bedroom Doors – (3” x 7’0”) 7 Feet Height, frame made of engineered wood with both sides laminated flush door (32mm) with necessary hardware of Godrej / equivalent.",
+                pointThree: "Toilet Doors – (2’6” x 7’0”) 7 Feet Height, frame made of engineered wood with both sides laminated flush door (30mm) with necessary hardware of Godrej / equivalent.",
+              },
+            ],
+          },
+          {
+            name: "Windows & Ventilators",
+            image: "Window_.jpg",
+            specifications: [
+              {
+                pointOne: "Windows and ventilators made of UPVC/aluminium with clear glass panes.",
+                pointTwo: "Window Grills will not be provided",
+              },
+            ],
+          },
+          {
+            name: "Kitchen",
+            image: "Kitchen.jpg",
+            specifications: [
+              {
+                pointOne:
+                  "Kitchen platform finished with polished granite and fitted with a single bowl stainless steel sink.",
+                pointTwo: "Glazed tile dado of 2 feet above the kitchen platform and 3 feet dado in the utility area (if provided).",
+                pointThree: "One side Loft will be provided.",
+                pointFour: "Piped Gas will be provided",
+              },
+            ],
+          },
+          {
+            name: "Wall Finish",
+            image: "Painting.jpg",
+            specifications: [
+              {
+                pointOne: "Living, dining, and bedroom walls finished with two coats of putty and one coat of primer.",
+                pointTwo: "Ceiling – 2 coats of smooth putty and 1 coat of primer",
+                pointThree: "Bathroom walls covered with ceramic tiles up to ceiling height, as per the builder's choice.",
+                pointFour: "Toilet ceiling – Grid type False ceiling",
+              },
+            ],
+          },
+          {
+            name: "Electrical",
+            image: "Electricity.jpg",
+            specifications: [
+              {
+                pointOne: "Concealed copper wiring suitable for three-phase supply, ISI quality.",
+                pointTwo: "Switches and sockets with adequate points for lights, fans, and power supply",
+                pointThree: "USB charging port in switch boards will be provide in living and in bedrooms.",
+                pointFour: "Television points provision in Living room & in master bedroom.",
+                pointFive: "Telephone point provision in living room & master bedroom",
+                pointSix: "Data point provision in living room & all bedrooms.",
+                pointSeven: "Provision for split air conditioner in living room and in all bedrooms.",
+                pointEight: "Geyser point will be provided in all the bathrooms.",
+                pointNine: "Exhaust fan point will be provided in all bathrooms.",
+                pointTen: "Electrical Point for chimney and water purifier.",
+                pointEleven: "One calling bell point provided",
+                pointTwelve: "Separate meter for common area lighting and pumps.",
+                pointThirteen: "Three-phase supply with auto phase changer and trip switch for each flat/apartment.",
+                pointFourteen: "Power backup - up to 400w for 2 BHK and 500w for 3 BHK unit.",
+              },
+            ],
+          },
+          {
+            name: "Common Features",
+            image: "Common-features.jpg",
+            specifications: [
+              {
+                pointOne: "Lift Fascia – Grantie/equivalent cladding at all levels.",
+                pointTwo: "Lobby – Granite flooring on Ground floor and tile flooring on other levels.",
+                pointThree: "Corridor – vitrified tile floorings at all levels.",
+                pointFour: "Staircase floor – Granite Floorings at all levels.",
+                pointFive: "Staircase hand rail – SS hand rail at all levels.",
+                pointSix: "Terrace Floor – Press Tile flooring / cool roof tile.",
+                pointSeven: "Terrace Door – Good quality door frame with FRP shutter painted on both sides.",
+                pointEight: "Car Parking - Grano / tile floorings and driveway(external) - premium quality interlocking pavers / title flooring as per architect design.",
+                pointNine: "Exterior Wall - Exterior walls of the building finished with coat of primer & 2 coat of exterior textured paint with colour as per architect design",
+              },
+            ],
+          },
+          // {
+          //   name: "Outdoor Features",
+          //   image: "Car-parking.jpg",
+          //   specifications: [
+          //     {
+          //       pointOne: "Borewell and RCC common sump of adequate capacity.",
+          //       pointTwo: "Overhead tank provided for water supply for each block.",
+          //       pointThree: "Rain Water Harvest – Rain water Harvesting site as per site condition.",
+          //       pointFour: "Sewage treatment plant.",
+          //       pointFive: "Water treatment plant.",
+          //       pointSix: "CCTV surveillance across the community.",
+          //       pointSeven: "Car Parking – Grano / tile floorings and driveway(external) – premium quality interlocking pavers / tile flooring as per architect design",
+          //       pointEight: "Security - Security booth will be provided at the entrance gate only with MYGATE App.",
+          //       pointNine: "Exterior Wall – Exterior walls of the building finished with 1 coat of primer & 2 coat of exterior emulsion paint with colour as per architect design.",
+          //       pointTen: "Compound wall on all sides of the property as per architect design",
+          //     },
+          //   ],
+          // },
         ],
       },
     },

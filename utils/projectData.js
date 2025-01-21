@@ -530,6 +530,536 @@ const projectData = {
         },
       },
     },
+    {
+      slug: "sky-living",
+      name: "SKY LIVING",
+      image: "assets/sky-living/featured-img.webp",
+      location: "Tambaram",
+      floor: "2 & 3 BHK",
+      price: "5,555 / Sq. ft",
+      status: "Under Construction",
+      locationInfo: {
+        lat: 12.9249,
+        lng: 80.1,
+      },
+      detail: {
+        bannerImage: "bg-home-1.jpeg",
+        logo: "logo-1.svg",
+        heading: "LML Sky Living, Tambaram",
+        detailDescription:
+          "Discover Elevated Living at LML Sky Living, Tambaram – A premium residential project designed to redefine modern living for discerning families. Sprawling across 1.2 acres, Sky Living features 175 exclusive apartments ranging from 1095 sq. ft. to 1495 sq. ft., offering the perfect blend of space, comfort, and sophistication. With two elegantly designed blocks comprising Basement + Stilt + 13 floors, the community boasts a stunning 13,000 sq. ft. 5-star clubhouse with world-class amenities. Priced at ₹5,555/sq. Ft., Sky Living provides exceptional value for a luxurious lifestyle in Tambaram. Indulge in a living experience where elegance meets modernity, tailored for families seeking an upscale and serene environment.",
+        offer: {
+          price: "5,555 / Sq. ft",
+          info: "2&3 BHK",
+        },
+        pdf: "assets/pdfs/theleagueone.pdf",
+        enquire: {
+          whatsApp: "+918898989898",
+          phone: "+918898989898",
+        },
+        bannerHighlights: [
+          {
+            icon: "",
+            label: "2 & 3 BHK",
+          },
+          {
+            icon: "",
+            label: "Gated Community",
+          },
+          {
+            icon: "amenities.png",
+            label: "40+ Amenities",
+          },
+          {
+            icon: "",
+            label: "RERA TN/2/BUILDING/0405/2024",
+          },
+          {
+            icon: "credaui-white-new.png",
+            label: "",
+          },
+        ],
+        descriptionHighlights: [
+          {
+            icon: "proj-high-2.svg",
+            label: "2&3 BHK",
+          },
+          {
+            icon: "proj-high-3.svg",
+            label: "GATED COMMUNITY",
+          },
+          {
+            icon: "proj-high-4.svg",
+            label: "2&3 BHK",
+          },
+          {
+            icon: "proj-high-5.svg",
+            label: "2&3 BHK",
+          },
+          {
+            icon: "proj-high-6.svg",
+            label: "2&3 BHK",
+          },
+          {
+            icon: "proj-high-2.svg",
+            label: "2&3 BHK",
+          },
+          {
+            icon: "proj-high-3.svg",
+            label: "2&3 BHK",
+          },
+        ],
+        walkthrough: {
+          video: "https://www.youtube.com/watch?v=s5L1p_4k6s0",
+          description:
+            "At LML The League One, every day offers a new opportunity to immerse yourself in an extravagant lifestyle.",
+          question: "WHY LML PRARITI?",
+          answer:
+            "Naturally set in an enchanting destination and advantageously located at just 2 kms to the Tambaram Railway Station and the Tambaram Main Bus Terminus. Travelling to different parts of the city from Prakriti gets easier and faster thanks to the double connectivity by rail and by road too.",
+        },
+        amenities: {
+          description:
+            "At LML The League One, we welcome you to a world of state-of-the-art amenities and facilities that help you savour a premium lifestyle.",
+          amenityList: [
+            {
+              image: "assets/prakriti/gym.png",
+              label: "24/7 Surveillance Cabin",
+            },
+            {
+              image: "assets/prakriti/cctv.png",
+              label: "Automated Passenger Lift",
+            },
+            {
+              image: "assets/prakriti/Department-Store.png",
+              label: "Grand Entrance Arch",
+            },
+            {
+              image: "assets/prakriti/Kids-Play-Area.png",
+              label: "EV Charging Point",
+            },
+            {
+              image: "assets/prakriti/lift.png",
+              label: "Sewage Treatment Plant",
+            },
+            {
+              image: "assets/prakriti/Mini-Hall.png",
+              label: "Paved Driveway",
+            },
+            {
+              image: "assets/prakriti/Mini-Theatre.png",
+              label: "Clubhouse",
+            },
+            {
+              image: "assets/prakriti/Parking.png",
+              label: "Wellness Zone",
+            },
+          ],
+        },
+        locationInfo: {
+          heading: "Location Tambaram",
+          description:
+            "This gated community apartments is the perfect place to find a home that's conveniently close to all the key infrastructures you need. With just a 5-minute drive, you can reach college, office, hospitals, malls and more.",
+          locations: [
+            {
+              name: "Commute",
+              icon: "commute.svg",
+              locationList: [
+                {
+                  name: "Laxmipuram bus stop - 0.5km",
+                  location: {
+                    lat: 12.923530127810208,
+                    lng: 80.09982833863425,
+                    markerIcon: "commute-fill.svg",
+                  },
+                },
+                {
+                  name: "Tambaram bus terminus - 2.25km",
+                  location: {
+                    lat: 12.93755685765274,
+                    lng: 80.12783534572243,
+                    markerIcon: "commute-fill.svg",
+                  },
+                },
+                {
+                  name: "Irumbuliyur Junction - 2.25km",
+                  location: {
+                    lat: 12.916360460350832,
+                    lng: 80.10246283668842,
+                    markerIcon: "commute-fill.svg",
+                  },
+                },
+                {
+                  name: "Perungalathur bus stop - 3km",
+                  location: {
+                    lat: 12.907708224311769,
+                    lng: 80.09600113213342,
+                    markerIcon: "commute-fill.svg",
+                  },
+                },
+                {
+                  name: "Camp road Junction - 6km",
+                  location: {
+                    lat: 12.923500653471326,
+                    lng: 80.14269379686989,
+                    markerIcon: "commute-fill.svg",
+                  },
+                },
+              ],
+            },
+            {
+              name: "Education",
+              icon: "education.svg",
+              locationList: [
+                {
+                  name: "Corley Higher Secondary School - 2.5km",
+                  location: {
+                    lat: 12.921332346616703,
+                    lng: 80.11691151707835,
+                    markerIcon: "education-fill.svg",
+                  },
+                },
+                {
+                  name: "Seventh day Adventist High School - 2.7km",
+                  location: {
+                    lat: 12.910565407723862,
+                    lng: 80.10075043701059,
+                    markerIcon: "education-fill.svg",
+                  },
+                },
+                {
+                  name: "Sri Ramakrishna Matriculation Higher Secondary School - 0.5km",
+                  location: {
+                    lat: 12.92444276299563,
+                    lng: 80.10183249502863,
+                    markerIcon: "education-fill.svg",
+                  },
+                },
+
+                {
+                  name: "Sri Ramana Vidyalaya Matriculation School - 0.7km",
+                  location: {
+                    lat: 12.926293947622323,
+                    lng: 80.10877231850334,
+                    markerIcon: "education-fill.svg",
+                  },
+                },
+                {
+                  name: "San Academy - 0.5km",
+                  location: {
+                    lat: 12.93669876846475,
+                    lng: 80.09686675484583,
+                    markerIcon: "education-fill.svg",
+                  },
+                },
+                {
+                  name: "Lords international school - 2km",
+                  location: {
+                    lat: 12.945575039894583,
+                    lng: 80.09726731231423,
+                    markerIcon: "education-fill.svg",
+                  },
+                },
+                {
+                  name: "SKB Vidhyashram school - 3.2km",
+                  location: {
+                    lat: 12.925728312057148,
+                    lng: 80.07923477893885,
+                    markerIcon: "education-fill.svg",
+                  },
+                },
+              ],
+            },
+            {
+              name: "HealthCare",
+              icon: "healthcare.svg",
+              locationList: [
+                {
+                  name: "AG Hospital - 1.5km",
+                  location: {
+                    lat: 12.92561101472616,
+                    lng: 80.11343047547665,
+                    markerIcon: "healthcare-fill.svg",
+                  },
+                },
+                {
+                  name: "Hindu Mission Hospital - 1.5km",
+                  location: {
+                    lat: 12.923872416997238,
+                    lng: 80.11406425717608,
+                    markerIcon: "healthcare-fill.svg",
+                  },
+                },
+                {
+                  name: "Kumaran Hospital - 1.5km",
+                  location: {
+                    lat: 12.928072179486508,
+                    lng: 80.11226713034051,
+                    markerIcon: "healthcare-fill.svg",
+                  },
+                },
+                {
+                  name: "Dr.Agarwal Eye Hospital - 1.5km",
+                  location: {
+                    lat: 12.929943017865357,
+                    lng: 80.12042956271776,
+                    markerIcon: "healthcare-fill.svg",
+                  },
+                },
+                {
+                  name: "Deepam Hospital - 2.7km",
+                  location: {
+                    lat: 12.929584795087326,
+                    lng: 80.11774828246507,
+                    markerIcon: "healthcare-fill.svg",
+                  },
+                },
+                {
+                  name: "Annai Arul Hospital - 2.8km",
+                  location: {
+                    lat: 12.922239311591559,
+                    lng: 80.09231232689889,
+                    markerIcon: "healthcare-fill.svg",
+                  },
+                },
+                {
+                  name: "Cosh Hospital - 3.6km",
+                  location: {
+                    lat: 12.921621586384552,
+                    lng: 80.12797386900657,
+                    markerIcon: "healthcare-fill.svg",
+                  },
+                },
+                {
+                  name: "Parvathy Hospital - 6km",
+                  location: {
+                    lat: 12.951255276113413,
+                    lng: 80.1440796166696,
+                    markerIcon: "healthcare-fill.svg",
+                  },
+                },
+                {
+                  name: "Shree Balaji Hospital - 6.5km",
+                  location: {
+                    lat: 12.953759917118951,
+                    lng: 80.13881270691608,
+                    markerIcon: "healthcare-fill.svg",
+                  },
+                },
+              ],
+            },
+            {
+              name: "Retail",
+              icon: "retail.svg",
+              locationList: [
+                {
+                  name: "Supermarket - 2.6km",
+                  location: {
+                    lat: 12.951332878176972,
+                    lng: 80.13919729819503,
+                    markerIcon: "retail-fill.svg",
+                  },
+                },
+                {
+                  name: "Tambaram main market - 2.4km",
+                  location: {
+                    lat: 12.922401897367735,
+                    lng: 80.10942122508587,
+                    markerIcon: "retail-fill.svg",
+                  },
+                },
+              ],
+            },
+            {
+              name: "Commercial Hubs",
+              icon: "commercial-hub.svg",
+              locationList: [
+                {
+                  name: "Vidhya Theatre - 1.8km",
+                  location: {
+                    lat: 12.926298971551374,
+                    lng: 80.11164287294518,
+                    markerIcon: "commercial-hub-fill.svg",
+                  },
+                },
+                {
+                  name: "MR Theatre - 2.2km",
+                  location: {
+                    lat: 12.925031627823394,
+                    lng: 80.1163336677995,
+                    markerIcon: "commercial-hub-fill.svg",
+                  },
+                },
+                {
+                  name: "National Theatre - 2.3km",
+                  location: {
+                    lat: 12.929353892464878,
+                    lng: 80.11522081483487,
+                    markerIcon: "commercial-hub-fill.svg",
+                  },
+                },
+                {
+                  name: "Varadharaja Theatre - 5km",
+                  location: {
+                    lat: 12.937784092595129,
+                    lng: 80.13901830812283,
+                    markerIcon: "commercial-hub-fill.svg",
+                  },
+                },
+                {
+                  name: "Vettri Theatre - 6.5km",
+                  location: {
+                    lat: 12.954793622119125,
+                    lng: 80.14213757027292,
+                    markerIcon: "commercial-hub-fill.svg",
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        layout: {
+          heading: "LAYOUTS $ PLANS",
+          description:
+            "Browse through our various floor-plan configurations. Each category of room provides an array of facilities, meticulously designed to cater to your requirements.",
+          layoutPlan: [
+            {
+              name: "Block A",
+              image: "/assets/prakriti/Block-A.jpg",
+            },
+            {
+              name: "Block B",
+              image: "/assets/prakriti/Block-B.jpg",
+            },
+            {
+              name: "Block C",
+              image: "/assets/prakriti/Block-C.jpg",
+            },
+            {
+              name: "Block D",
+              image: "/assets/prakriti/Block-D.jpg",
+            },
+            {
+              name: "Block E",
+              image: "/assets/prakriti/Block-E.jpg",
+            },
+            {
+              name: "Block F",
+              image: "/assets/prakriti/Block-F.jpg",
+            },
+          ],
+        },
+        unitPlan: {
+          heading: "Unit Plans",
+          description:
+            "Browse through our various floor-plan configurations. Each category of room provides an array of facilities, meticulously designed to cater to your requirements.",
+          layoutPlan: [
+            {
+              name: "2BHK",
+              sizeList: [
+                {
+                  name: "1013 SQFT",
+                  image: "/assets/prakriti/B_403.jpg",
+                },
+                {
+                  name: "1014 SQFT",
+                  image: "/assets/prakriti/B_405.jpg",
+                },
+                {
+                  name: "1004 SQFT",
+                  image: "/assets/prakriti/B_406.jpg",
+                },
+                {
+                  name: "1019 SQFT",
+                  image: "/assets/prakriti/B_410.jpg",
+                },
+                {
+                  name: "1024 SQFT",
+                  image: "/assets/prakriti/C_304.jpg",
+                },
+                {
+                  name: "1023 SQFT",
+                  image: "/assets/prakriti/C_309.jpg",
+                },
+                {
+                  name: "1044 SQFT",
+                  image: "/assets/prakriti/C_402.jpg",
+                },
+                {
+                  name: "1024 SQFT",
+                  image: "/assets/prakriti/C_404.jpg",
+                },
+              ],
+            },
+            {
+              name: "3BHK",
+              sizeList: [
+                {
+                  name: "1395 SQFT",
+                  image: "/assets/prakriti/B_413.jpg",
+                },
+                {
+                  name: "1362 SQFT",
+                  image: "/assets/prakriti/B_409.jpg",
+                },
+                {
+                  name: "1310 SQFT",
+                  image: "/assets/prakriti/C_411.jpg",
+                },
+                {
+                  name: "1362 SQFT",
+                  image: "/assets/prakriti/B_409.jpg",
+                },
+                {
+                  name: "1027 SQFT",
+                  image: "/assets/prakriti/C_405.jpg",
+                },
+                {
+                  name: "1272 SQFT",
+                  image: "/assets/prakriti/C_406.jpg",
+                },
+                {
+                  name: "1008 SQFT",
+                  image: "/assets/prakriti/C_408.jpg",
+                },
+                {
+                  name: "1023 SQFT",
+                  image: "/assets/prakriti/C_409.jpg",
+                },
+                {
+                  name: "598 SQFT",
+                  image: "/assets/prakriti/E_408a.jpg",
+                },
+              ],
+            },
+          ],
+        },
+        subBannerImage: "adobe-of-nature.png",
+        gallery: {
+          heading: "Glimpses of life at prakarthi",
+          subHeading:
+            "With beautiful and thoughtfully-designed homes at Tambaram, you can experience the sunny side of life.",
+          list: [
+            {
+              name: "Project Size",
+              images: [
+                {
+                  image: "project-carousel-img.png",
+                  label: "ACTUAL FRONT ELEVATION VIEW",
+                },
+                {
+                  image: "project-carousel-img.png",
+                  label: "ACTUAL FRONT ELEVATION VIEW",
+                },
+                {
+                  image: "project-carousel-img.png",
+                  label: "ACTUAL FRONT ELEVATION VIEW",
+                },
+              ],
+            },
+          ],
+        },
+      },
+    },
   ],
   onGoingProjects: [
     {

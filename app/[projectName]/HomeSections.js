@@ -15,6 +15,7 @@ import { usePathname } from 'next/navigation'
 import { overAllData } from "@/utils/constants";
 import PrakritiSeo from './PrakritiSeo';
 import TheleagueoneSeo from './TheleagueoneSeo';
+import SkyLivingSeo from './SkyLivingSeo';
 import ArshiyaSeo from './ArshiyaSeo';
 import IconicSeo from './IconicSeo';
 
@@ -103,9 +104,10 @@ export default function HomeSections() {
 
 
       {currPathname == '/prakriti' ? <PrakritiSeo /> : ''}
-      {currPathname == '/league-one' ? <TheleagueoneSeo/> : ''}
-      {currPathname == '/arshiya' ? <ArshiyaSeo/> : ''}
-      {currPathname == '/iconia' ? <IconicSeo/> : ''}
+      {currPathname == '/league-one' ? <TheleagueoneSeo /> : ''}
+      {currPathname == '/sky-living' ? <SkyLivingSeo /> : ''}
+      {currPathname == '/arshiya' ? <ArshiyaSeo /> : ''}
+      {currPathname == '/iconia' ? <IconicSeo /> : ''}
 
 
 

@@ -41,7 +41,7 @@ export default function Home() {
   }, [])
   return (
     <PageWrapper>
-      
+
       <HomeSeo />
       <section className={styles.homeSection}>
         <HeroSliderNew />
@@ -167,6 +167,78 @@ export default function Home() {
                   },
                 }}
               >
+                <SwiperSlide>
+                  <a href='/sky-living'>
+                    <div className={`${styles.projectCarouselContainer} projectCarouselContainer`}>
+                      <div className='projectCarouselImg skyliving'>
+                        <h2>LML Sky Living</h2>
+
+                        <div className='d-flex align-items-center projectCarouseTxtCtr'>
+                          <Image src={locationIcon} alt='' className='' />
+                          <p className='fw600'>Location -</p>
+                          <p>Tambaram</p>
+                        </div>
+
+                        <div className='d-flex align-items-center projectCarouseTxtCtr'>
+                          <Image src={homeIcon} alt='' className='' />
+                          <p className='fw600'>2 & 3 BHK </p>
+                        </div>
+
+                        <ArrowAnimate />
+
+                      </div>
+
+                      <div className='Prjctaccordion'>
+                        <h3>Project Highlights</h3>
+                        <p>Premium, Spacious 2 & 3 BHK Apartments for sale in Tambaram.</p>
+
+                        <div className='position-relative'>
+
+                          <ul>
+                            <li>
+                              {' '}
+                              <span>Project Name :</span> LML Sky Living
+                            </li>
+                            <li>
+                              {' '}
+                              <span>Approval :</span> CMDA & RERA
+                            </li>
+                            <li>
+                              {' '}
+                              <span>Structure :</span> Stilt + 5 Floors
+                            </li>
+                            <li>
+                              {' '}
+                              <span>Saleable Area :</span>  1095 - 1495 sq. ft
+                            </li>
+                            <li>
+                              {' '}
+                              <span>Total Units :</span> 175 Units
+                            </li>
+                            <li>
+                              {' '}
+                              <span>Possession :</span> Under Construction.
+                            </li>
+                          </ul>
+
+                          <ArrowAnimateDown />
+
+
+                        </div>
+
+                      </div>
+
+                      <Link href='/league-one' aria-label="Explore League One Property">
+                        <div className={styles.explorePrptyBtn}>
+                          EXPLORE PROPERTY
+                          <HiOutlineArrowLongRight />
+                        </div>
+                      </Link>
+
+                    </div>
+                  </a>
+                </SwiperSlide>
+
 
                 <SwiperSlide>
                   <a href='/league-one'>
@@ -239,7 +311,7 @@ export default function Home() {
                     </div>
                   </a>
                 </SwiperSlide>
-                
+
                 <SwiperSlide>
                   <a href='/prakriti'>
                     <div className={`${styles.projectCarouselContainer} projectCarouselContainer`}>
@@ -368,7 +440,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <Link href='/arshiya'aria-label="Explore Arshiya Property">
+                      <Link href='/arshiya' aria-label="Explore Arshiya Property">
                         <div className={styles.explorePrptyBtn}>
                           EXPLORE PROPERTY
                           <HiOutlineArrowLongRight />

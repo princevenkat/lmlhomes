@@ -195,7 +195,11 @@ export default function WalkThroughVideo({ projectDetailPages }) {
                   </li>
                 </ul>
               ) : (
-                <div className={styles.WalkThroughVideo_ques_ans}>{projectDetailPages?.walkthrough?.answer}</div>
+                <div className={styles.WalkThroughVideo_ques_ans}>
+                  {/* {projectDetailPages?.walkthrough?.answer} */}
+                  <div dangerouslySetInnerHTML={{ __html: projectDetailPages?.walkthrough?.answer }} />
+
+                </div>
               )}
             </div>
 

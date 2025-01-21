@@ -66,7 +66,7 @@ const Gallery = ({ projectDetailPages }) => {
                     className={`${styles.ImageItem} shadow col-md-3 p-0 position-relative`}
                     onClick={() => openLightbox(i)}
                   >
-                    <img src={`/assets/${item.image}`} alt="Floor plans" className="w-100" />
+                    <img src={`/assets/${item.image}`} alt="Floor plans" className="w-100 h-100 object-fit-cover object-center" />
                     <div className={styles.ImageOverlay}></div>
                   </div>
                 );

@@ -48,14 +48,16 @@ export default function Header() {
           pathname === "/"
             ? "HeaderTransparent Header"
             : pathname === "/prakriti"
-            ? "HeaderTransparent Header"
-            : pathname === "/arshiya"
-            ? "HeaderTransparent Header"
-            : pathname === "/iconia"
-            ? "HeaderTransparent Header"
-            : pathname === "/league-one"
-            ? "HeaderTransparent Header"
-            : "Header headerWhite"
+              ? "HeaderTransparent Header"
+              : pathname === "/arshiya"
+                ? "HeaderTransparent Header"
+                : pathname === "/iconia"
+                  ? "HeaderTransparent Header"
+                  : pathname === "/league-one"
+                    ? "HeaderTransparent Header"
+                    : pathname === "/sky-living"
+                      ? "HeaderTransparent Header"
+                      : "Header headerWhite"
         }
       >
         <Container>
@@ -68,6 +70,8 @@ export default function Header() {
               <Image src={logoLight} alt="LML Logo" className="" priority />
             ) : pathname === "/iconia" ? (
               <Image src={logoLight} alt="LML Logo" className="" priority />
+            ) : pathname === "/sky-living" ? (
+              <Image src={logoLight} alt="Sky Living" className="" priority />
             ) : (
               <Image src={logo} alt="LML Logo" className="" priority />
             )}

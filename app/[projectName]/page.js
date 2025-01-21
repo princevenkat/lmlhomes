@@ -28,6 +28,9 @@ export default function Projects() {
         if (pathname == "/league-one") {
           home1Elem.style.background =
             "linear-gradient(180deg, rgba(0,0,0,0.9024203431372549) 0%, rgba(0,0,0,0.08729429271708689) 0%, rgba(0,0,0,0.4038209033613446) 72%, rgba(0,0,0,1) 100%),url(/assets/images/banners/leagueone-mbl.png)";
+        } else if (pathname == "/sky-living") {
+          home1Elem.style.background =
+            "linear-gradient(180deg, rgba(0,0,0,0.9024203431372549) 0%, rgba(0,0,0,0.08729429271708689) 0%, rgba(0,0,0,0.4038209033613446) 72%, rgba(0,0,0,1) 100%),url(/assets/images/banners/leagueone-mbl.png)";
         } else if (pathname == "/prakriti") {
           home1Elem.style.background =
             "linear-gradient(180deg, rgba(0,0,0,0.9024203431372549) 0%, rgba(0,0,0,0.08729429271708689) 0%, rgba(0,0,0,0.4038209033613446) 72%, rgba(0,0,0,1) 100%),url(/assets/images/banners/prakriti-mbl.png)";
@@ -158,7 +161,7 @@ export default function Projects() {
           </div>
           {/* hello */}
           <HomeSections projectDetailPages={projectDetailPages} />
-          
+
         </>
       ) : (
         <div className={styles.noProject}>
